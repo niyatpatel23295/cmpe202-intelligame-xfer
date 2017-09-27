@@ -12,6 +12,13 @@ IntelliGame is a web-based fun and interactive game that is currently under deve
 
 
 
+## Project Deliverables
+
+
+
+## Link to Project Website
+
+
 
 ## Copyright and Licence
 

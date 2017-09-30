@@ -17,3 +17,5 @@ Week #2:
 2.  What is the team going to do next week?
 3.  What are the current blockers/challenges the team is facing?
 4.  What are the learning done by the team in this week?
+
+Ans2: The team has decided on one feature each to be implemented in the next week. The team is ready to start working on this issue.

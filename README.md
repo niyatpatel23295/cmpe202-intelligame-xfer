@@ -2,7 +2,7 @@
 
 ## About
 
-Welcome to the cmpe202-intelligame wiki!
+Welcome to the cmpe202-intelligame Home Page!
 
 Take a look at IntelliGame's [CFD/burndown chart](https://docs.google.com/a/sjsu.edu/spreadsheets/d/1dHsh0lqHa1oSwWzEw4BaylPXvOu0yQg38ygP4IT3L7g/edit?usp=sharing) and [Task Board](https://github.com/nguyensjsu/cmpe202-intelligame/projects/1).
 

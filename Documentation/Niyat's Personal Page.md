@@ -28,3 +28,9 @@ In traditional development, Change in need regarded as an expense and thus avoid
 **Unreal Documentation:** [https://docs.unrealengine.com/latest/INT/](https://docs.unrealengine.com/latest/INT/)
 
 **Forum:** [https://forums.unrealengine.com/](https://forums.unrealengine.com/)
+
+***
+
+# Week #2: decide a game, understand the base-line code and implement state design pattern
+
+## Game Decided: Monkey adventure

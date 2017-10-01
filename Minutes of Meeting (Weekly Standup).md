@@ -24,6 +24,6 @@ Answers:
 
 1. In the past week, after researching our different options for the game engine, the team decided to implement a game using Greenfoot game engine. We studied several open source games implemented with greenfoot, and agreed on using the Mr.Monkey game as the baseline code, considering its potentials for adding variety of modules, that would allow us implement several design patterns in our project. Also each of us took a different design pattern, evaluated and understood it by implementing an example. 
 
-2. The team has decided on one feature each to be implemented in the next week. The team is ready to start working on this issue.
+2. The Team will agree on the features that are going to be implemented in the game. After that every team member will study one or two of those feature(s), and decide using which design pattern that option should be implemented with. We are also going to discuss the design and architechture of the project, but the more detailed discussion and decision will take place in Week#3.
 
 3. 

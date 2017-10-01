@@ -34,3 +34,13 @@ In traditional development, Change in need regarded as an expense and thus avoid
 # Week #2: decide a game, understand the base-line code and implement state design pattern
 
 ## Game Decided: Monkey adventure
+
+## Design Pattern: State
+
+# Introduction
+
+State design patern allows object to alter its behaviour when its internal state changes. The object will appear to change its class. State design pattern is concerned with behaviour of object and can be implemented as a [strategy pattern](https://en.wikipedia.org/wiki/Strategy_pattern).
+
+The [state pattern](https://en.wikipedia.org/wiki/State_pattern) is a behavioral software design pattern that implements a state machine in an object-oriented way. With the state pattern, a state machine is implemented by implementing each individual state as a derived class of the state pattern interface, and implementing state transitions by invoking methods defined by the pattern's superclass.
+
+![State in UML](https://upload.wikimedia.org/wikipedia/commons/e/e8/State_Design_Pattern_UML_Class_Diagram.svg "Fig 1. State Design Pattern UML")

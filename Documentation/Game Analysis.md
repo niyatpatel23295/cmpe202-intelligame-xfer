@@ -1,11 +1,16 @@
 ## About the game:
 
 ## Existing features:
+
 1. Monkey can walk and jump forward.
-2. If monkey touches dustbin, then game is over.
+2. If monkey touches dustbin or cactus, then game is over.
 3. Monkey can collect banana and each banana is a score point.
 4. Score board is available on top right.
 5. There is only one level.
+
+## Existing bugs:
+
+1. Not a smooth finish of the game.
 
 ## New features planned to be implemented:
 

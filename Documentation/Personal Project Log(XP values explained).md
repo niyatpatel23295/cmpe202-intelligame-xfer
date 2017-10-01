@@ -21,6 +21,8 @@ In week #2, Every team member came up with different ideas on game based on gree
 (Niyat)
 
 In week #1, We learned about many game engines and tried to implement simple example games. We came to know that each game engine have its pros and cons. We implemented many simple example games to understand the architecture and working of different engines but we were not afraid to discard the effort and code as many game engines didn't provide what we were looking for. 
+
+In week #2, We implemented many design patterns and tried to solve some example problems with them. We also searched for many existing games to work upon. As being in reasearch phase, We invested much of our time and effort in these. But as its required, We kept doing it and finally decided which game to develop and which design patterns to use in developmet.
  
 **# Respect**
 (Masi)

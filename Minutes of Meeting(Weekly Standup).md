@@ -19,15 +19,11 @@ Questions:
 1.  What did the team do the past week?
 2.  What is the team going to do next week?
 3.  What are the current blockers/challenges the team is facing?
-4.  What is the learning done by the team the past week?
 
 Answers:
 
-1. 
+1. In the past week, after researching our different options for the game engine, the team decided to implement a game using Greenfoot game engine. We studied several open source games implemented with greenfoot, and agreed on using the Mr.Monkey game as the baseline code, considering its potentials for adding variety of modules, that would allow us implement several design patterns in our project. Also each of us took a different design pattern, evaluated and understood it by implementing an example. 
 
 2. The team has decided on one feature each to be implemented in the next week. The team is ready to start working on this issue.
 
 3. 
-
-4. In the past week, each of us took a different design pattern, evaluated and understood it by implementing an example. 
-

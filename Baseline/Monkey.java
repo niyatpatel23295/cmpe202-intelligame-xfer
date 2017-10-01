@@ -6,8 +6,7 @@ import greenfoot.GreenfootSound;
 import greenfoot.World;
 import java.util.List;
 
-public class Monkey
-  extends Actor
+public class Monkey extends Actor
 {
   private int imagemMovimento = 3;
   private int imagemParado = 1;

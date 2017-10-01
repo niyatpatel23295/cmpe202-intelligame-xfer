@@ -3,6 +3,8 @@
 
 In Week #1, our team had discussed on what the requirements are and divided the tasks individually. Each of us had planned to explore different game engines and to come up with ideas that could be integrated later. At the end of the week, we've evaluated different game engines based on their complexity, technology stack used and supported platforms. Finally, we've shared our ideas and views about each game engine. We're working together on creating the best solution possible.
 
+In Week #2, our team had finalized the game engine(Greenfoot) and the game to be implemented. We've brainstormed the features/modules to be added into the game. We have taken the baseline code and tried to understand the same by testing it. Each of us have analyzed one design pattern by implementing an example. We've discussed on how to fit a particular design pattern into a specific module. We're working together on creating the best solution possible.
+
 **# Simplicity**
 (Dhanashree)
 

@@ -1,6 +1,4 @@
-Week #1: "melonJS" Game Engine Evaluation.
-
-# melonJS 
+# Week #1: "melonJS" Game Engine Evaluation.
 
 [Official Website](http://melonjs.org/)
 
@@ -41,6 +39,18 @@ https://github.com/radmars/ld35
 
 
 
-Week #2: 
+# Week #2: Finalizing a game, understanding the base-line code and practising one design pattern.
 
-Finalizing a game, practising one design pattern.
+## Game Finalized: Monkey Adventure
+
+## Factory Pattern Evaluation:
+
+Factory pattern is a creational pattern and it provides one of the best ways to create an object. In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
+Please find the link to the sample program I've implemeted for understanding factory patterns in java:
+
+https://github.com/lkandukuri/Factory-Pattern
+
+
+
+

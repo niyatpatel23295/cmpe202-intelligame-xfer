@@ -44,3 +44,6 @@ State design patern allows object to alter its behaviour when its internal state
 The [state pattern](https://en.wikipedia.org/wiki/State_pattern) is a behavioral software design pattern that implements a state machine in an object-oriented way. With the state pattern, a state machine is implemented by implementing each individual state as a derived class of the state pattern interface, and implementing state transitions by invoking methods defined by the pattern's superclass.
 
 ![State in UML](https://upload.wikimedia.org/wikipedia/commons/e/e8/State_Design_Pattern_UML_Class_Diagram.svg "Fig 1. State Design Pattern UML")
+
+
+Sample Code in JAVA: [Design Pattern State Java](https://github.com/niyatpatel23295/Design_pattern_State_Java)

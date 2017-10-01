@@ -24,3 +24,12 @@
 2. http://www.greenfoot.org/scenarios/19901
 
 # Week 2: Testing the baseline code on the game-engine and evaluating one design pattern(Chain of Responsibilty).
+
+The Chain of Responsibility is known as a behavioural pattern,as it's used to manage algorithms, relationships and responsibilities between objects. Thedefinition of Chain of Responsibility provided in the original Gang of Four book on DesignPatterns states: 
+
+Gives more than one object an opportunity to handle a request by linking receiving objects together. 
+
+Chain of Responsibility allows a number of classes to attempt to handle a request, independently of any other object along the chain. Once the request is handled, it completes it's journey through the chain.
+
+Let's take a look at the diagram definition before we go into more detail.
+

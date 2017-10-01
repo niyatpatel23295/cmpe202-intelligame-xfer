@@ -12,5 +12,9 @@
 6. Adding payment option to purchase energy points or unlock a new level.
 7. Adding option to player to pick from a pool of fruit / snack options with variety of energy contents and hence various levels of difficulty in grasping them.
 8. Adding the option for user to share his/her scores on social media.
+9. Change the background and props to make it visually attracting.
+10. Improve score board for displaying life and score both.
+11. Show monkey's health status in a different bar.
+
 
 

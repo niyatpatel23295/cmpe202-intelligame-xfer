@@ -1,4 +1,4 @@
-Week #1:
+## Week #1:
 
 Questions:
 1.  What did the team do the past week?
@@ -13,7 +13,7 @@ Answers:
 
 3. We found it challenging to zero in on one game engine as we liked several game engines like unity and greenfoot.
 
-Week #2:
+## Week #2:
 
 Questions:
 1.  What did the team do the past week?

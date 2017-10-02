@@ -5,8 +5,7 @@ import greenfoot.World;
 import java.util.List;
 
 
-public class Banana
-  extends Actor
+public class Banana extends Actor
 {
   GreenfootSound sound = new GreenfootSound("banana.wav");
   

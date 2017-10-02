@@ -3,7 +3,7 @@
 ## Existing features:
 
 1. Monkey can walk and jump forward.
-2. If monkey touches dustbin or cactus, then game is over.
+2. If monkey touches barrel or cactus, then game is over.
 3. Monkey can collect banana and each banana is a score point.
 4. Score board is available on top right.
 5. There is only one level.

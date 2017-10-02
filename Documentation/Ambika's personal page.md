@@ -46,3 +46,7 @@ Finalized game : Monkey adventure
 5. For example, you can define a listener for a button in a user interface. If the button is selected, the listener is notified and performs a certain action.
 
 
+Example: Assume there is a blog, users are registered to updates on the blog. When a new article is posted in the blog (state change). Registered user will be notified. Here blog is the subject and user is the observer.
+
+Take a look at this[Observer Pattern Example](https://github.com/ambikabohra/Design-Pattern-Example).
+

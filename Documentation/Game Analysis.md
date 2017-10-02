@@ -27,6 +27,7 @@
 9. Change the background and props to make it visually attractive.
 10. Improve score board for displaying life and score both.
 11. Show monkey's health status in a different bar.
+12. Add a help screen to display the arrow key operations of the game.
 
 
 

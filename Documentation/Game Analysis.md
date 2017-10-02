@@ -11,6 +11,8 @@
 ## Existing bugs:
 
 1. Not a smooth finish of the game.
+2. No option to "Play game" or starting a game.
+3. Once game is over, it should redirect to "Try again" or "Quit".
 
 ## New features planned to be implemented:
 
@@ -25,6 +27,7 @@
 9. Change the background and props to make it visually attractive.
 10. Improve score board for displaying life and score both.
 11. Show monkey's health status in a different bar.
+
 
 
 

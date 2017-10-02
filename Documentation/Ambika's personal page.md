@@ -50,3 +50,12 @@ Example: Assume there is a blog, users are registered to updates on the blog. Wh
 
 Take a look at [Observer Pattern Example](https://github.com/ambikabohra/Design-Pattern-Example).
 
+Week #3
+--------------------------------------------------------------------------------------------------------------------
+1. Finalize game name
+2. Find out bugs in existing game
+3. Decide new features for the game
+4. Make a use case spec diagram
+
+3. 
+

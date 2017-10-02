@@ -7,8 +7,7 @@ import java.util.List;
 
 
 
-public class MyWorld
-  extends World
+public class MyWorld extends World
 {
   private static final int WIDTH_SCREEN = 800;
   private static final int HEIGHT_SCREEN = 600;

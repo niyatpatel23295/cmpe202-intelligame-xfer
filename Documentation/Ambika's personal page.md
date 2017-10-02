@@ -39,10 +39,10 @@ Finalized game : Monkey adventure
 
 # Observer design Pattern
 
-1. One-to-many dependency between objects.
+1. It known as a behavioural pattern, as it's used to form relationships between objects at runtime.
+2. One-to-many dependency between objects.
 2. One object changes state, all of its dependents are notified and updated automatically.
 3. Subject is an object which is being watched and observers or listeners are the objects which are watching the state changes.
-4. It known as a behavioural pattern, as it's used to form relationships between objects at runtime.
 5. For example, you can define a listener for a button in a user interface. If the button is selected, the listener is notified and performs a certain action.
 
 

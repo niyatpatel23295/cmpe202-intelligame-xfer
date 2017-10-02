@@ -7,8 +7,7 @@ import greenfoot.World;
 import java.util.List;
 
 
-public class Trash
-  extends Actor
+public class Trash extends Actor
 {
   public Trash() {}
   

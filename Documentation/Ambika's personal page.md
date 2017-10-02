@@ -1,4 +1,5 @@
-
+Week #1
+----------------------------------------------------------------------------------------------------------
 # UNITY
 
 [Official Website](https://unity3d.com/)
@@ -29,3 +30,16 @@
 --------------------------------------------------------------------------------------------------------------
 
 Take a look on my sample game(Roll-A-Ball) built on unity game engine [here](https://github.com/ambikabohra/Roll-A-Ball-Unity).
+
+Week #2
+------------------------------------------------------------------------------------------------------------
+# Finalizing a game, understanding the base-line code and practising one design pattern
+
+Finalized game : Monkey adventure
+
+# Observer design Pattern
+
+1. One-to-many dependency between objects.
+2. One object changes state, all of its dependents are notified and updated automatically.
+3. Subject is an object which is being watched and observers or listeners are the objects which are watching the state changes.
+

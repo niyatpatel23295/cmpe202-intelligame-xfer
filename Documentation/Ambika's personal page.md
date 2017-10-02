@@ -48,5 +48,5 @@ Finalized game : Monkey adventure
 
 Example: Assume there is a blog, users are registered to updates on the blog. When a new article is posted in the blog (state change). Registered user will be notified. Here blog is the subject and user is the observer.
 
-Take a look at this[Observer Pattern Example](https://github.com/ambikabohra/Design-Pattern-Example).
+Take a look at [Observer Pattern Example](https://github.com/ambikabohra/Design-Pattern-Example).
 

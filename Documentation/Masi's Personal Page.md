@@ -1,5 +1,5 @@
 
-# Week #1: Gmae Engine Evaluations
+# Week #1: Game Engine Evaluations
 
 ## Phaser Game Engine Evaluation
 

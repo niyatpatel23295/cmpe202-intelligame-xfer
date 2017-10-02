@@ -15,7 +15,7 @@ In week #1, each team member did a PoC to test out the functionalties of the Gam
 
 In week #1, Our team has worked on finding suitable game as our project. We have evaluated scope of several game engines, with the mutual feedback on gathered ideas considering design and implementation, we came up with one game engine on which we will develop our game. Through constant feedback, we are continuously planning to improve, revise our practices and adjust our project going forward.
 
-In week #2, Every team member came up with different ideas on game based on greenfoot. After gathering their individual ideas, we finalized one game Mr. Monkey. We are also making very short feedback loops to show the development continuously. We continuosly improved our project by mutual feedback. 
+In week #2, Every team member came up with different ideas on game based on greenfoot. After gathering their individual ideas, we finalized one game Monkey Adventure. We are also making very short feedback loops to show the development continuously. We are improving our practices, this week we have improved collaboration among team memebers.
 
 **# Courage**
 (Niyat)

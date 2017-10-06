@@ -23,7 +23,11 @@
 
 2. http://www.greenfoot.org/scenarios/19901
 
-# Week 2: Testing the baseline code on the game-engine and evaluating one design pattern(Chain of Responsibilty).
+# Week #2: Finalizing a game, understanding the base-line code and practising one design pattern.
+
+## Game Finalized: Monkey Adventure
+
+## Chain of Responsibilty:
 
 The Chain of Responsibility is known as a behavioural pattern,as it's used to manage algorithms, relationships and responsibilities between objects. Thedefinition of Chain of Responsibility provided in the original Gang of Four book on DesignPatterns states: 
 

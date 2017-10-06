@@ -53,9 +53,14 @@ Take a look at [Observer Pattern Example](https://github.com/ambikabohra/Design-
 Week #3
 --------------------------------------------------------------------------------------------------------------------
 1. Finalize game name
-2. Find out bugs in existing game
-3. Decide new features for the game
-4. Make a use case spec diagram
 
-3. 
+2. Find out bugs in existing game :
+   Worked on finding existing bugs and how to remove those bugs for smooth operation. All the bugs found has been listed in      "game analysis" page. 
+   
+3. Decide new features for the game :
+   I have suggested several features for the game and made a list of those in "game analysis" page. I have done analysis to      add different design patterns for new features.
+   
+4. Make a use case spec diagram :
+   I have made a use case spec diagram, including new features finalized by team. I will update this diagram if the team adds    additional features in the game in upcoming weeks.
+
 

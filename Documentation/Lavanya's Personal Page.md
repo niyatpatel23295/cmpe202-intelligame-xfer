@@ -51,6 +51,10 @@ Please find the link to the sample program I've implemeted for understanding fac
 
 https://github.com/lkandukuri/Factory-Pattern
 
+# Week #3: Implementing a design pattern to suit features of the game, designing activity diagram for the game.
+
+
+
 
 
 

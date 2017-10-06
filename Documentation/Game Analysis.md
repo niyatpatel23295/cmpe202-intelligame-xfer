@@ -15,12 +15,13 @@
 4. Background music is running continuously, even after game is finished or games has not started.
 5. Props and monkey size should be small compared to background.
 6. Change the background and props to make it visually attractive. ( Make background scrolling)
+7. Monkey should not be killed, once he touches prop. His health status should be decreased by 50%/ 25%.
 
 
 ## New features planned to be implemented:
 
 1. Adding health status and show monkey's health status in a different bar.
-2. Making the actor immune for sometime after eating a special fruit.
+2. Making the actor immune for sometime/power up after collecting a heart.
 3. Adding more levels into the game.
 4. Actor meeting a princess or defining the end of the game.
 5. Giving more lifes and improve score board for displaying life and score both..

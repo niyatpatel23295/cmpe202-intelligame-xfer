@@ -32,6 +32,8 @@
 8. Adding the option for user to share his/her scores on social media.
 9. Add a help screen to display the arrow key operations of the game.
 10. Add a timer to the game.
+11. Sharing score with friends on social media.
+12. Invite friends to play the game( share the link).
 
 
 

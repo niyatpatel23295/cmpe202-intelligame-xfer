@@ -15,9 +15,9 @@
 4. Background music is running continuously. Music should stop if the game is paused/ finished/ not started for easy identification.
 5. Props and monkey size should be small compared to background.
 6. Change the background and props to make it visually attractive. ( Make background scrolling)
-7. Monkey should not be killed, once he touches prop. His health status should be decreased by 50%/ 25%.
+7. Monkey should not be killed, once he touches prop. His health status should be decreased by X%.
 8. Even after the game is over, monkey moves till it reaches ground if the run button is pressed without reset.
-
+9. Left button is not working, monkey should go back when left button is pressed.
 
 ## New features planned to be implemented:
 

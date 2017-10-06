@@ -12,12 +12,11 @@
 1. Not a smooth finish of the game.
 2. No option to "Play game" or starting a game.
 3. Once game is over, it should redirect to "Try again" or "Quit".
-4. Background music is running continuously, even after game is finished or games has not started.
+4. Background music is running continuously. Music should stop if the game is paused/ finished/ not started for easy identification.
 5. Props and monkey size should be small compared to background.
 6. Change the background and props to make it visually attractive. ( Make background scrolling)
 7. Monkey should not be killed, once he touches prop. His health status should be decreased by 50%/ 25%.
 8. Even after the game is over, monkey moves till it reaches ground if the run button is pressed without reset.
-9. Music should stop if the game is paused for easy identification.
 
 
 ## New features planned to be implemented:

@@ -16,6 +16,8 @@
 5. Props and monkey size should be small compared to background.
 6. Change the background and props to make it visually attractive. ( Make background scrolling)
 7. Monkey should not be killed, once he touches prop. His health status should be decreased by 50%/ 25%.
+8. Even after the game is over, monkey moves till it reaches ground if the run button is pressed without reset.
+9. Music should stop if the game is paused for easy identification.
 
 
 ## New features planned to be implemented:
@@ -24,12 +26,12 @@
 2. Making the actor immune for sometime/power up after collecting a heart.
 3. Adding more levels into the game.
 4. Actor meeting a princess or defining the end of the game.
-5. Giving more lifes and improve score board for displaying life and score both..
+5. Giving more lifes and improve score board for displaying life and score both.
 6. Adding payment option to purchase energy points or unlock a new level.
 7. Adding option to player to pick from a pool of fruit / snack options with variety of energy contents and hence various levels of difficulty in grasping them.
 8. Adding the option for user to share his/her scores on social media.
 9. Add a help screen to display the arrow key operations of the game.
-
+10. Add a timer to the game.
 
 
 

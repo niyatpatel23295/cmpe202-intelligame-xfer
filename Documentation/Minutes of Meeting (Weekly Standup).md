@@ -27,3 +27,25 @@ Answers:
 2. The Team will agree on the features that are going to be implemented in the game. After that every team member will study one or two of those feature(s), and decide using which design pattern that option should be implemented with. We are also going to discuss the design and architechture of the project, but the more detailed discussion and decision will take place in Week#3.
 
 3. As we are in inceptive phase of game development, We are not stuck with any challenging task at this stage. At start of week, we found it challenging to select game that suits our requirement but after we implemented many and many sample games we got better clear idea and finally zeroed on single game.
+
+## Week #3:
+
+Questions:
+1.  What did the team do the past week?
+2.  What is the team going to do next week?
+3.  What are the current blockers/challenges the team is facing?
+
+Answers:
+
+1. In the past week, our team had brainstormed and proposed many new features to be added into the game. We discussed about design patterns that will fit into different game modules. We divided the task of implementing different design patterns for different features. The outline of our discussion is as follows:
+* Menu bar feature uses Composite Pattern.
+* Fruits/Rewars and Immunity can be designed by using Abstract Factory pattern.
+* Health Status feature can be implemented by using Observer pattern.
+* State of the game(Start/Finish/Game Over) can be implented by using State Pattern.
+* Backgroung for different levels can be implented by using Decorator pattern.
+ 
+  We analyzed the above mentioned design patterns(one each). Apart from this, we identified several bugs in the existing         game which will be corrected in the coming weeks.
+
+2. The team will complete implementing UI wireframe(Dhanashree), use case diagram(Ambika), sequence diagram(Niyat), activity diagram(Lavanya) and user stories(Masi) for the game. We shall brainstorm on any other features/modules to be added and the design patterns that can match those features. We shall finalize the design and architecture of the game after final discussion.
+
+3. We found it challenging to match different design patterns to different modules of the game. It was a very good learning experience.

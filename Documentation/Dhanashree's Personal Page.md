@@ -37,6 +37,6 @@
 
 4.One of the great example of Chain of Responsibility pattern is ATM Dispense machine. 
 
-Please find the link to the sample program I've implemeted for understanding chain of responsibilty design pattern in java. [source](https://www.journaldev.com/1617/chain-of-responsibility-design-pattern-in-java) :
+Find below the link to the sample program I've implemented in java. [source](https://www.journaldev.com/1617/chain-of-responsibility-design-pattern-in-java) :
 https://github.com/dgaonkar17/cmpe202/tree/master/DesignPatterns/Chain%20of%20Responsibility
 

@@ -19,6 +19,7 @@
 8. Even after the game is over, monkey moves till it reaches ground if the run button is pressed without reset.
 9. Left button is not working, monkey should go back when left button is pressed.
 10. There are a total of 41 bananas in the game. Even if we miss collecting one banana, the final score is still 41. Score should be adjusted depending on the number of bananas collected.
+11. Decrease the jump width (x parameter).
 
 ## New features planned to be implemented:
 

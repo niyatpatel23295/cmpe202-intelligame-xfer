@@ -47,3 +47,18 @@ The [state pattern](https://en.wikipedia.org/wiki/State_pattern) is a behavioral
 
 
 Sample Code in JAVA: [Design Pattern State Java](https://github.com/niyatpatel23295/Design_pattern_State_Java)
+
+
+Week #3
+--------------------------------------------------------------------------------------------------------------------
+1. Finalize game name
+
+2. Find out bugs in existing game :
+   Worked on finding existing bugs and how to remove those bugs for smooth operation. All the bugs found has been listed in      "game analysis" page. 
+   
+3. Decide new features for the game :
+   I have suggested several features for the game and made a list of those in "game analysis" page. I have done analysis to      add different design patterns for new features.
+   
+4. Make a use case spec diagram :
+   I have made a sequence diagram. Diagram will have to be to accomodate future changes.
+

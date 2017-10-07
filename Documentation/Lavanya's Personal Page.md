@@ -53,7 +53,16 @@ https://github.com/lkandukuri/Factory-Pattern
 
 # Week #3: Implementing a design pattern to suit features of the game, designing activity diagram for the game.
 
+1. Evaluated the Decorator design pattern for implementing a new feature in our game. 
 
+    Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This type       of design pattern comes under structural pattern as this pattern acts as a wrapper to existing class.
+
+    Please find an example [here](https://www.journaldev.com/1540/decorator-design-pattern-in-java-example)
+    
+2. Suggested few new game names. We have to finalize appropriate name.
+3. Found out bugs in the exisitng game which are updated in the GameAnalysis page.
+4. Suggested some new features to be added into the game. Updated them in the GameAnalysis page.
+5. Made an activity diagram based on the features we discussed(ActivityDiagram.asta file is added in Documentation). This will be modified when new features or modules are proposed and approved by the team.
 
 
 

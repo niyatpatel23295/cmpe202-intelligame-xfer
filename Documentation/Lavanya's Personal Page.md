@@ -51,9 +51,9 @@ Please find the link to the sample program I've implemeted for understanding fac
 
 https://github.com/lkandukuri/Factory-Pattern
 
-# Week #3: Implementing a design pattern to suit features of the game, designing activity diagram for the game.
+# Week #3: Evaluating a new design pattern, designing activity diagram for the game.
 
-1. Evaluated the Decorator design pattern for implementing a new feature in our game. 
+1. Evaluated the Decorator design pattern which is useful for implementing a new game feature. 
 
     Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This type       of design pattern comes under structural pattern as this pattern acts as a wrapper to existing class.
 

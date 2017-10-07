@@ -1,5 +1,5 @@
 # Week 1: Greenfoot Game Engine Evaluation.
-========================================================================================================================================
+
 # Greenfoot.3.1.0
 
 [Official Website](https://www.greenfoot.org/home)
@@ -25,7 +25,6 @@
 2. http://www.greenfoot.org/scenarios/19901
 
 # Week #2: Finalizing a game, understanding the base-line code and practising one design pattern.
-========================================================================================================================================
 
 ## Game Finalized: Monkey Adventure
 
@@ -43,7 +42,7 @@ Find below the link to the sample program I've implemented in java. [source](htt
 https://github.com/dgaonkar17/cmpe202/tree/master/DesignPatterns/Chain%20of%20Responsibility
 
 # Week #3
-========================================================================================================================================
+
 1. Finalize game name
 
 2. Find out bugs in existing game :

@@ -20,6 +20,8 @@ In week #1, Our team has worked on finding suitable game as our project. We have
 In week #2, Every team member came up with different ideas on game based on greenfoot. After gathering their individual ideas, we finalized one game Monkey Adventure. We are improving our practices, this week we have improved collaboration among team memebers. Also, we have discussed improvement needed in game baseline code, which team will implement as the project goes forward. 
 Goal is to make very short feedback loops to show the development continuously. So we demonstrated our game early and will make necessary changes.
 
+In week #3, We are countinuosly improving our software by resolving existing bugs of baseline code. We will implement new features in upcoming weeks though. We gave feedback to each other on suggested design patterns and selected five design patterns for now and have started working on that individually. We are working on making a bug free game by implementing test driven practices.
+
 **# Courage**
 (Niyat)
 

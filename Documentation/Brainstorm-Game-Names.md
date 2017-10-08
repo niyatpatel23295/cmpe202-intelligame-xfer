@@ -10,4 +10,6 @@
 7. Greedy Monkey
 8. FruitHunter
 9. The Jungle Story
-10. Once upon a banana
+10. Once Upon a Banana
+11. Once upon a time in Jungle (inspired by the movie [Once Upon a Time in America](http://www.imdb.com/title/tt0087843/?ref_=ttawd_awd_tt))
+

@@ -37,14 +37,14 @@ Questions:
 
 Answers:
 
-1. In the past week, our team had brainstormed and proposed many new features to be added into the game. We discussed about design patterns that will fit into different game modules. We divided the task of implementing different design patterns for different features. The outline of our discussion is as follows:
+1. In the past week, our team had brainstormed and proposed many new features to be added into the game. We discussed about design patterns that will fit into different game modules. We divided the task of implementing different design patterns(atleast one design pattern per member) for different features. The outline of our discussion is as follows:
 * Menu bar feature uses Composite Pattern.
 * Fruits/Rewars and Immunity can be designed by using Abstract Factory pattern.
 * Health Status feature can be implemented by using Observer pattern.
 * State of the game(Start/Finish/Game Over) can be implented by using State Pattern.
 * Backgroung for different levels can be implented by using Decorator pattern.
  
-  We analyzed the above mentioned design patterns(one each). Apart from this, we identified several bugs in the existing         game which will be corrected in the coming weeks.
+  Apart from this, We decided to remove independent bugs to make the game flow smooth. So, we identified several bugs in the existing game. We have started fixing those bugs from the past week and rest of them will be corrected in upcoming weeks. 
 
 2. The team will complete implementing UI wireframe(Dhanashree), use case diagram(Ambika), sequence diagram(Niyat), activity diagram(Lavanya) and user stories(Masi) for the game. We shall brainstorm on any other features/modules to be added and the design patterns that can match those features. We shall finalize the design and architecture of the game after final discussion.
 

@@ -9,3 +9,4 @@
 6. The Monkey World
 7. Greedy Monkey
 8. FruitHunter
+9. The Jungle Story

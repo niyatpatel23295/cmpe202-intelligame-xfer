@@ -26,7 +26,7 @@
 
 1. Adding health status and showing monkey's health status in a different bar.
 2. Making the actor immune for sometime/power up after collecting a heart.
-3. Adding more levels into the game.
+3. Adding more levels into the game (levels to be called "Saga" in our game i.e. The Adventur Saga, The War Saga, The Power Saga, The Marathon Saga, and so on).
 4. Actor meeting a princess or defining the end of the game.
 5. Giving more lifes and improve score board for displaying life and score both.
 6. Adding payment option to purchase energy points or unlock a new level.

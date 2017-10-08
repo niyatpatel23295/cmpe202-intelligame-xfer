@@ -8,3 +8,4 @@
 5. Monkey Island
 6. The Monkey World
 7. Greedy Monkey
+8. FruitHunter

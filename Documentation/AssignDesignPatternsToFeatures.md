@@ -1,4 +1,4 @@
-## .....Design Pattern...............................Feature....
+## Design Pattern :: Feature
 
 **1. Composite (Masi)** :: Menu bar (options, help, etc.)
 

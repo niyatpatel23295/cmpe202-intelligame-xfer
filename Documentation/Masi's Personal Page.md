@@ -56,10 +56,11 @@ Fig 1. Composite Design Pattern UML Class Diagram
 
 [Sample Code for Composite Design Pattern in Java](https://github.com/Masea/DesignPatterns_Composite)
 
-# Week #3: Evaluating a new design pattern, writing user stories for the game.
+# Week #3: Assigning design patterns to features, evaluating a new design pattern, writing user stories for the game.
 
-1. Evaluated the composite design pattern which is useful for implementing a new game feature (menu). 
+1. Evaluated the composite design pattern which is useful for implementing the menu feature. 
 An example of implementing the menu options using composite design pattern can be found [here](https://github.com/Masea/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns/composite).
-2. Suggested few new game names. We have to finalize appropriate name.
-3. Suggested some new features to be added into the game. Updated them in the GameAnalysis page.
-4. Prepared the user stories based on the agreed-upon features (UserStories.md file is added in Documentation). This will be modified when new features or modules are proposed and approved by the team.
+2. Contributed in determining initial features to be in the game, and their respective design patterns.
+3. Suggested few new game names. We have to finalize appropriate name.
+4. Suggested some new features to be added into the game. Updated them in the GameAnalysis page.
+5. Prepared the user stories based on the agreed-upon features (UserStories.md file is added in Documentation). This will be modified when new features or modules are proposed and approved by the team.

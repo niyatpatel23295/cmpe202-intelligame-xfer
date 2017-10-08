@@ -45,6 +45,7 @@ Answers:
 * Backgroung for different levels can be implented by using Decorator pattern.
  
   Apart from this, We decided to remove independent bugs to make the game flow smooth. So, we identified several bugs in the existing game. We have started fixing those bugs from the past week and rest of them will be corrected in upcoming weeks. 
+  Additionly, each team member took individual responsibilty of making one UML diagram. 
 
 2. The team will complete implementing UI wireframe(Dhanashree), use case diagram(Ambika), sequence diagram(Niyat), activity diagram(Lavanya) and user stories(Masi) for the game. We shall brainstorm on any other features/modules to be added and the design patterns that can match those features. We shall finalize the design and architecture of the game after final discussion.
 

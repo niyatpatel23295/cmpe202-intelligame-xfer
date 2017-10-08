@@ -52,7 +52,7 @@ Take a look at [Observer Pattern Example](https://github.com/ambikabohra/Design-
 
 Week #3
 --------------------------------------------------------------------------------------------------------------------
-1. Finalize game name
+1. Finalize game name : Greedy Monkey
 
 2. Find out bugs in existing game :
    Worked on finding existing bugs and how to remove those bugs for smooth operation. All the bugs found has been listed in      "game analysis" page. 

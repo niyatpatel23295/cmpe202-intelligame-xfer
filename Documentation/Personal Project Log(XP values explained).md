@@ -5,6 +5,8 @@ In Week #1, our team had discussed on what the requirements are and divided the 
 
 In Week #2, our team had finalized the game engine(Greenfoot) and the game(Monkey Adventure) to be implemented. We've brainstormed the features/modules to be added into the game. We have taken the baseline code and tried to understand the same by testing it. Each of us have analyzed one design pattern by implementing an example. We've discussed on how to fit a particular design pattern into a specific module. We're working together on creating the best solution possible.
 
+In Week #3, our team had brainstormed and proposed many new features to be added into the game. We discussed about design patterns that will fit into different game modules. We divided the task of implementing different design patterns for different features. Apart from this, we identified several bugs in the existing game which will be corrected in the coming weeks. We're working together on creating the best solution possible.
+
 **# Simplicity**
 (Dhanashree)
 

@@ -10,3 +10,32 @@
 
 5. As a player, I want to have multiple lives for my monkey, so that I don't have to start a whole new game from scratch in case I lose one of my lives. 
 
+[ ... To Be Continued ... ]
+
+[the following user stories are not complete and will be modified]
+
+7. As a player, I want to have and can monitor the improve score board for displaying life and score both.
+
+8. As a player, I want to add payment option to purchase energy points or unlock a new level.
+
+9. As a player, I want to add option to player to pick from a pool of fruit / snack options with variety of energy contents and hence various levels of difficulty in grasping them.
+
+10. As a player, I want to add the option for user to share his/her scores on social media.
+
+11. As a player, I want to add a help screen to display the arrow key operations of the game.
+
+12. As a player, I want to add a timer to the game.
+
+13. As a player, I want to Sharing score with friends on social media.
+
+14. As a player, I want to Invite friends to play the game (share the link).
+
+15. As a player, I want to experience increase in the difficuly of the game by hitting more dustbins/cactuses as I go to next levels (Sagas), so that I have to watch out and have more fun. 
+
+16. As a player, I want to change the background/ look and feel of every level.
+
+17. As a player, I want to add different fun voices for whenever the monkey eats different kinds of items i.e. banana, other regular fruits, heart (immunity), spark (power), rotten fruits (weakness).
+
+
+
+

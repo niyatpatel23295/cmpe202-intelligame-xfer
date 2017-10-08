@@ -35,9 +35,10 @@
 9. Add a help screen to display the arrow key operations of the game.
 10. Add a timer to the game.
 11. Sharing score with friends on social media.
-12. Invite friends to play the game(share the link).
+12. Invite friends to play the game (share the link).
 13. As the levels progress, increase the difficuly of the game by placing more dustbins/cactus. 
 14. Change the background/ look and feel of every level.
+15. Adding different fun voices for whenever the monkey eats different kinds of items i.e. banana, other regular fruits, heart (immunity), spark (power), rotten fruits (weakness).
 
 
 

@@ -56,4 +56,6 @@ Fig 1. Composite Design Pattern UML Class Diagram
 
 [Sample Code for Composite Design Pattern in Java](https://github.com/Masea/DesignPatterns_Composite)
 
+# Week #3: Evaluating a new design pattern, writing user stories for the game.
+
 

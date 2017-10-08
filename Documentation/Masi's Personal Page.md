@@ -62,4 +62,4 @@ Fig 1. Composite Design Pattern UML Class Diagram
 An example of implementing the menu options using composite design pattern can be found [here](https://github.com/Masea/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns/composite).
 2. Suggested few new game names. We have to finalize appropriate name.
 3. Suggested some new features to be added into the game. Updated them in the GameAnalysis page.
-4. Prepared the user stories based on the agreed-upon features (UserStories.asta file is added in Documentation). This will be modified when new features or modules are proposed and approved by the team.
+4. Prepared the user stories based on the agreed-upon features (UserStories.md file is added in Documentation). This will be modified when new features or modules are proposed and approved by the team.

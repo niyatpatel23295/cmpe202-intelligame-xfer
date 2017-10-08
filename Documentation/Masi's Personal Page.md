@@ -58,4 +58,7 @@ Fig 1. Composite Design Pattern UML Class Diagram
 
 # Week #3: Evaluating a new design pattern, writing user stories for the game.
 
-
+1. Evaluated the composite design pattern which is useful for implementing a new game feature (menu).   
+2. Suggested few new game names. We have to finalize appropriate name.
+3. Suggested some new features to be added into the game. Updated them in the GameAnalysis page.
+4. Prepared the user stories based on the agreed-upon features (UserStories.asta file is added in Documentation). This will be modified when new features or modules are proposed and approved by the team.

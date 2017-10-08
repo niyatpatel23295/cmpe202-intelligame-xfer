@@ -12,4 +12,5 @@
 9. The Jungle Story
 10. Once Upon a Banana
 11. Once upon a time in Jungle (inspired by the movie [Once Upon a Time in America](http://www.imdb.com/title/tt0087843/?ref_=ttawd_awd_tt))
+12. The pursuit of banana (inspired by the movie [The Pursuit of Happiness](http://www.imdb.com/title/tt0454921/))
 

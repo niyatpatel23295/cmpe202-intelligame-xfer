@@ -10,11 +10,13 @@
 
 5. As a player, I want to have multiple lives for my monkey, so that I don't have to start a whole new game from scratch in case I lose one of my lives. 
 
+6. As a player, I want to see remaining life of my monkey and my current score on the score board, so that I can monitor my progress and plan accordingly.
+
 [ ... To Be Continued ... ]
 
 [the following user stories are not complete and will be modified]
 
-7. As a player, I want to have and can monitor the improve score board for displaying life and score both.
+
 
 8. As a player, I want to add payment option to purchase energy points or unlock a new level.
 
@@ -35,7 +37,3 @@
 16. As a player, I want to change the background/ look and feel of every level.
 
 17. As a player, I want to add different fun voices for whenever the monkey eats different kinds of items i.e. banana, other regular fruits, heart (immunity), spark (power), rotten fruits (weakness).
-
-
-
-

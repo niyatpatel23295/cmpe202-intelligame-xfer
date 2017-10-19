@@ -18,11 +18,12 @@
 
 9. As a player, I want to have variety of fruits and snacks available for my monkey to pick up with various levels of difficulty in grasping them and proportional energy contents, so that I can pick my desired fruit based on my monkey's current energy level and situation.
 
+10. As a player, I want to share my scores / missions accomplished on social media, so that I can engage and socialize about that with my friends.
+
+
 [ ... To Be Continued ... ]
 
 [the following user stories are not complete and will be modified]
-
-10. As a player, I want to add the option for user to share his/her scores on social media.
 
 11. As a player, I want to add a help screen to display the arrow key operations of the game.
 

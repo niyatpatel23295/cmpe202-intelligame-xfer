@@ -22,12 +22,12 @@
 
 11. As a player, I want to have an easy access to help screen, so that I can quickly review the arrow key operations of the game.
 
+12. As a player, I want to experience a timed game levels, so that I can enjoy the excitement of accomplishing a level with a compeetive timing, and collect more score.
+
 
 [ ... To Be Continued ... ]
 
 [the following user stories are not complete and will be modified]
-
-12. As a player, I want to add a timer to the game.
 
 13. As a player, I want to Sharing score with friends on social media.
 

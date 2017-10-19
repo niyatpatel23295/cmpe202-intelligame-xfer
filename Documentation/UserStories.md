@@ -20,12 +20,12 @@
 
 10. As a player, I want to share my scores / missions accomplished on social media, so that I can engage and socialize about that with my friends.
 
+11. As a player, I want to have an easy access to help screen, so that I can quickly review the arrow key operations of the game.
+
 
 [ ... To Be Continued ... ]
 
 [the following user stories are not complete and will be modified]
-
-11. As a player, I want to add a help screen to display the arrow key operations of the game.
 
 12. As a player, I want to add a timer to the game.
 

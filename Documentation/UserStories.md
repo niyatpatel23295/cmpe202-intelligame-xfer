@@ -12,13 +12,13 @@
 
 6. As a player, I want to see remaining life of my monkey and my current score on the score board, so that I can monitor my progress and plan accordingly.
 
+7. As a player, I want to be able to purchase energy points, so that I can use that to survive more on the game.
+
+8. As a player, I want to have the option to purchase the lock and unlock a new level, so that I can progress faster through the game levels.
+
 [ ... To Be Continued ... ]
 
 [the following user stories are not complete and will be modified]
-
-
-
-8. As a player, I want to add payment option to purchase energy points or unlock a new level.
 
 9. As a player, I want to add option to player to pick from a pool of fruit / snack options with variety of energy contents and hence various levels of difficulty in grasping them.
 

@@ -16,11 +16,11 @@
 
 8. As a player, I want to have the option to purchase the lock and unlock a new level, so that I can progress faster through the game levels.
 
+9. As a player, I want to have variety of fruits and snacks available for my monkey to pick up with various levels of difficulty in grasping them and proportional energy contents, so that I can pick my desired fruit based on my monkey's current energy level and situation.
+
 [ ... To Be Continued ... ]
 
 [the following user stories are not complete and will be modified]
-
-9. As a player, I want to add option to player to pick from a pool of fruit / snack options with variety of energy contents and hence various levels of difficulty in grasping them.
 
 10. As a player, I want to add the option for user to share his/her scores on social media.
 

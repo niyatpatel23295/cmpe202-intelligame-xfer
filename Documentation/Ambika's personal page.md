@@ -60,7 +60,14 @@ Week #3
 3. Decide new features for the game :
    I have suggested several features for the game and made a list of those in "game analysis" page. I have done analysis to      add different design patterns for new features.
    
-4. Make a use case spec diagram :
-   I have made a use case spec diagram, including new features finalized by team. I will update this diagram if the team adds    additional features in the game in upcoming weeks.
+4. Make a use case diagram :
+   I have made a use case  diagram, including new features finalized by team. I will update this diagram if the team adds    additional features in the game in upcoming weeks.
 
 
+Week #4
+--------------------------------------------------------------------------------------------------------------------
+1. Worked on enhancement of "Left arrow key" should work , so that monkey can move backwards. (In review)
+2. Added Use Case specification document to describe all the features and flow of game.
+3. Enhanced score screen to make it look better visually. (In review)
+4. Added health screen to show power level of monkey. (In review)
+5. Worked on doing analysis of observer pattern to apply in game.

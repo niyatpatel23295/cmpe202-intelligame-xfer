@@ -56,7 +56,7 @@ https://github.com/dgaonkar17/cmpe202/tree/master/DesignPatterns/Chain%20of%20Re
 
 # Week #4
 
- Updated wireframe diagram for new modules/screens.
+1. Updated wireframe diagram for new modules/screens.
 2. Started working on "once game is over, it should redirect 'Try again' or 'Quit'".
 3. Started analyzing UML class design for the selected pattern(Decorator).
 4. Analyzed bug number 39,40 in Game Analysis.

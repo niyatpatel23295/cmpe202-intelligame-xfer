@@ -7,6 +7,18 @@ In Week #2, our team had finalized the game engine(Greenfoot) and the game(Monke
 
 In Week #3, our team had brainstormed and proposed many new features to be added into the game. We discussed about design patterns that will fit into different game modules. We divided the task of implementing different design patterns for different features. Apart from this, we identified several bugs in the existing game which will be corrected in the coming weeks. We're working together on creating the best solution possible.
 
+In Week#4, our team had discussed on different modules/screens to be added into the game. Different screens finalized are:
+* Menu screen
+* Score Board
+* Keyboard shortcuts (Help option)
+* Play game
+* Purchase screen
+* Types of Purchase options
+* Different levels
+* Celebration page
+
+For each of these screens, we've decided to implement appropriate design patterns. We've managed to fix some of the bugs identified previously and should work on the remaining in the coming weeks. We've decided to take up one screen from above and start developing that. We're working together on creating the best solution possible.
+
 **# Simplicity**
 (Dhanashree)
 

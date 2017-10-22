@@ -4,7 +4,7 @@
 
 **2. Abstract Factory / Factory (Dhanashree)** :: Fruits, Rewards, Immunity (Heart), Power (Spark), Weakness (Rotten Fruits)
 
-**3. Observer (Ambika)** :: Health status
+**3. Observer (Ambika)** :: Health status (Update in Health Screen with the change in Cactus/ trash/ Heart Classes)
 
 **4. State (Niyat)** :: State of the game (ReadyToStart, Level1Finished, Level2Finished, Finished, GameOver)
 

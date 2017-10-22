@@ -68,3 +68,5 @@ Answers:
 * Score board - Which user is leading the score and whats the current user's highest score.
 
 We also braistormed on architecture of the game as a system. We decided to implement Pause and resume of game and tracking current level of user. We are going to use SQLite as backend database to keep track of user sessions.
+
+2. The team will implement suggested features in the game and implement design patterns on that. Firstly, We will fix remaining few bugs in the system along with making GUI for menu and connect it to all available screens. Every team member will work on one screen and finally we will integrate our design together. Moreover, team members will update UML diagrams accordingly. 

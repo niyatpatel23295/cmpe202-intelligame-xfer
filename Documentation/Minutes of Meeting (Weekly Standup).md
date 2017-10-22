@@ -39,7 +39,7 @@ Answers:
 
 1. In the past week, our team had brainstormed and proposed many new features to be added into the game. We discussed about design patterns that will fit into different game modules. We divided the task of implementing different design patterns(atleast one design pattern per member) for different features. The outline of our discussion is as follows:
 * Menu bar feature uses Composite Pattern.
-* Fruits/Rewars and Immunity can be designed by using Abstract Factory pattern.
+* Fruits/Rewars and Immunity can be desned by using Abstract Factory pattern.
 * Health Status feature can be implemented by using Observer pattern.
 * State of the game(Start/Finish/Game Over) can be implented by using State Pattern.
 * Backgroung for different levels can be implented by using Decorator pattern.
@@ -50,3 +50,21 @@ Answers:
 2. The team will complete implementing UI wireframe(Dhanashree), use case diagram(Ambika), sequence diagram(Niyat), activity diagram(Lavanya) and user stories(Masi) for the game. We shall brainstorm on any other features/modules to be added and the design patterns that can match those features. We shall finalize the design and architecture of the game after final discussion.
 
 3. We found it challenging to match different design patterns to different modules of the game. It was a very good learning experience.
+
+## Week #4:
+
+Questions: 
+1.  What did the team do the past week?
+2.  What is the team going to do next week?
+3.  What are the current blockers/challenges the team is facing?
+
+Answers:
+
+1. In a past week, We have created different diagrams and Wireframes. We all come up with many more new game features and other purchasing options for improving user engagements.  Major features are as below:
+* Health bar - If monkey touches any obstacle, Its health will be degraded by 20%.
+* Life - If monkey dies, It can restart level using available lives. Monkey can have 3 lives at max.
+* Immunity - When Monkey eats Golden Banana, It can stay immune to any obstacle for 5 seconds.
+* Purchase options - User can unlock next level, buy lives etc
+* Score board - Which user is leading the score and whats the current user's highest score.
+
+We also braistormed on architecture of the game as a system. We decided to implement Pause and resume of game and tracking current level of user. We are going to use SQLite as backend database to keep track of user sessions.

@@ -64,7 +64,7 @@ Answers:
 * Health bar - If monkey touches any obstacle, Its health will be degraded by 20%.
 * Life - If monkey dies, It can restart level using available lives. Monkey can have 3 lives at max.
 * Immunity - When Monkey eats Golden Banana, It can stay immune to any obstacle for 5 seconds.
-* Purchase options - User can unlock next level, buy lives etc
+* Purchase options - User can unlock next level using credit/debit card options or trade his points for the same.
 * Score board - Which user is leading the score and whats the current user's highest score.
 
 We also braistormed on architecture of the game as a system. We decided to implement Pause and resume of game and tracking current level of user. We are going to use SQLite as backend database to keep track of user sessions.

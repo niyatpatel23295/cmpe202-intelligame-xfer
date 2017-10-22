@@ -64,6 +64,13 @@ https://github.com/lkandukuri/Factory-Pattern
 4. Suggested some new features to be added into the game. Updated them in the GameAnalysis page.
 5. Made an activity diagram based on the features we discussed(ActivityDiagram.asta file is added in Documentation). This will be modified when new features or modules are proposed and approved by the team.
 
+# Week #4: 
+
+1. Updated activity diagram for new modules/screens.
+2. Started working on the background music bug.
+3. Started analyzing UML class design for the selected pattern(Decorator).
+4. Analyzed bug number 10 in Game Analysis.
+
 
 
 

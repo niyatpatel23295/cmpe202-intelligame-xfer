@@ -10,13 +10,15 @@ Description/Normal Flow:
 
 1. As the game starts menu screen appears.
      
-2. Player clicks on **Play**. Check **Play Level** Use Case.
+2. Player clicks on **Play**. Check **Play Level** use Case.
      
-3. Player Clicks on **ScoreBoard**. Check **ScoreBoard** Use Case.
+3. Player clicks on **ScoreBoard**. Check **ScoreBoard** use Case.
      
-4. Player Clicks on **Select Level**. Check **Select Level** Use Case.
+4. Player clicks on **Select Level**. Check **Select Level** use Case.
+
+5. Player clicks on **purchase**. Check **Purchase Screen** use case.
      
-5. Player Clicks on **Quit**. Exit from the game.
+6. Player clicks on **Quit**. Exit from the game.
 
 Alternate Flow: Exception in executing the game.
 
@@ -50,9 +52,9 @@ Description :
 
 6. He collects banana and increase score (on scoreboard) by one.
 
-7. He Collects Star then life increases by one.
+7. He collects **Heart** then life increases by one.
 
-8. He collects heart and power increases by 50% on health screen.
+8. He collects **Star** and power increases by 50% on health screen.
 
     8a. Max health is 100%.
 
@@ -64,9 +66,7 @@ Description :
 
     9c. If life is zero, **Game Over** screen.
 
-10. Timer increases if game is in running mode (not paused).
-
-11. Player clicks “ Quit “ in bottom left of screen. Check **Quit Level** Use Case.
+10. Player clicks “ Quit “ in bottom left of screen. Check **Quit Level** Use Case.
 
 Alternate Flow : 
 
@@ -93,7 +93,7 @@ PostConditions: Resume game.
 
 Description:
 
-1. Game paused (Monkey/background screen stops moving and timer stops  ).
+1. Game paused (Monkey/background screen stops moving ).
 
 2. Pause button changes to Resume button.
 
@@ -169,3 +169,22 @@ Alternate Flow :
 * Levels are not visible.
 * Not able to buy level.
 * Select level button redirects to another screen.
+
+## **Use Case 1.7: Purchase Screen** 
+
+Primary Actors: Player
+
+Goal: To purchase additional features for game.
+
+Triggers: Click Purchase button from Home Screen.
+
+Description : 
+
+1. The Player selects one thing from pool of features and purchase it. 
+
+3. Player click on **Home Screen** button and goes back to Menu.
+
+
+Alternate Flow : Purchase option doesn't redirect to payment page.
+
+

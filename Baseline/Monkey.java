@@ -21,22 +21,37 @@ public class Monkey extends Actor
   public Monkey()
   {
     music = new GreenfootSound("music.wav");
-    music.playLoop();
+    music.playLoop(); 
     setImage(new GreenfootImage("monkey" + imagemParado + ".png"));
   }
   
   public void act()
   {
-    if ((Greenfoot.isKeyDown("right")) && (((Monkey)getWorld().getObjects(Monkey.class).get(0)).getY() == 480)) {
-      if (imagemMovimento == 7) {
-        imagemMovimento = 3;
+
+      if((Greenfoot.isKeyDown("left")))  // when monkey walks backwards
+      {
+         if (imagemMovimento == 7) 
+         {
+               imagemMovimento = 3;
+         }
+         imagemMovimento += 1;
+         setImage(new GreenfootImage("monkey" + imagemMovimento + ".png"));
+         move(-10);
       }
-      imagemMovimento += 1;
-      setImage(new GreenfootImage("monkey" + imagemMovimento + ".png"));
-      move(15);
-    }
-    else if ((Greenfoot.isKeyDown("up")) || (inJump))
-    {
+
+      else if ((Greenfoot.isKeyDown("right")) && (((Monkey)getWorld().getObjects(Monkey.class).get(0)).getY() == 480)) //when monkey moves forward
+      { 
+        if (imagemMovimento == 7) 
+        {
+            imagemMovimento = 3;
+        }
+       imagemMovimento += 1;
+       setImage(new GreenfootImage("monkey" + imagemMovimento + ".png"));
+       move(10); //change in each step size
+      }
+   
+       else if ((Greenfoot.isKeyDown("up")) || (inJump)) //when monkey jumps
+      {
       inJump = true;
       
       if (countJump == 12) {
@@ -54,6 +69,7 @@ public class Monkey extends Actor
           y = ACTOR_FLOOR;
         }
       }
+      
       else
       {
         setImage(new GreenfootImage("monkey" + countJump + ".png"));
@@ -62,12 +78,16 @@ public class Monkey extends Actor
         int x = ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getX();
         ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setLocation(x, y);
       }
-      move(40);
-    } else {
+      
+      move(30); // change walking width (each step)
+    } 
+    else 
+    {
       setImage(new GreenfootImage("monkey" + imagemParado + ".png"));
     }
   }
-  
+
+ 
   public GreenfootSound getMusic()
   {
     return music;

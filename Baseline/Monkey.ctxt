@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Monkey
+comment1.params=
+comment1.target=Monkey()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=greenfoot.GreenfootSound\ getMusic()
+numComments=4

@@ -24,6 +24,9 @@ For each of these screens, we've decided to implement appropriate design pattern
 
 In week #1, each team member did a PoC to test out the functionalties of the Game engine. This code might not be used in the actual product but it helped the other team members to understand the game engine in a better way.
 
+In week #4,
+It’s important that as developers we understand that models are critical for simplifying both software and the software process—it’s much easier to explore an idea, and improve upon it as your understanding increases, by drawing a diagram or two instead of writing tens or even hundreds of lines of code. We as a team drew activity diagram, wireframes, usecase diagram, sequence diagram to bring about this simplicity.
+
 **# Feedback** 
 (Ambika)
 
@@ -43,8 +46,14 @@ We as a team, take frequent meetings to give feedback on each other tasks and fi
 In week #1, We learned about many game engines and tried to implement simple example games. We came to know that each game engine have its pros and cons. We implemented many simple example games to understand the architecture and working of different engines but we were not afraid to discard the effort and code as many game engines didn't provide what we were looking for. 
 
 In week #2, We implemented many design patterns and tried to solve some example problems with them. We also searched for many existing games to work upon. As being in reasearch phase, We invested much of our time and effort in these. But as its required, We kept doing it and finally decided which game to develop and which design patterns to use in developmet.
+
+In week #3,
+Courage is important because you need to make important decisions and be able to change direction by either discarding or refactoring your work when some of your decisions prove inadequate.We as a team showed courage by effectively putting out points which were adding unwanted complexity to the code.
  
 **# Respect**
 (Masi)
 
 In week #1, The IntelliGame team were respectful to each others' points of views and knowledge as a valued team member. Every team member evaluated a different game engine, and presented their results to the team, discussing all the cons and pros. Every one respected opposite opinions, and made their best effort to leverage our diverse perspectives and reasoning.  As a development team, we accepted responsibility and received authority over our work.
+
+In week #5,
+We as team showed respect for every team members time and decided upon a feasible time frame that is manageable to everyone. Zoom meetings as a mode of communication was also practiced so that the entire team can work around their schedule.

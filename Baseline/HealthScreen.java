@@ -31,15 +31,15 @@ public class HealthScreen extends Actor
     }
 
  
-    public void updatePoints(int score)
+    public void updateHealth(int damage)
   {
       //score = subject.getScore(); //get score from concretsubject class
-      health += score;
+      health += damage;
       if(getHealth() > 4)
         health = 4;
       if (getHealth() == 0)
       {
-         setImage("health.png");
+         setImage("health0.png");
         ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().stop();
         ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
         //getWorld().addObject(new GameOver(), getWorld().getWidth() / 2, getWorld().getHeight() / 2);
@@ -48,7 +48,7 @@ public class HealthScreen extends Actor
         getWorld().addObject(new GameOver(), 400, 150);
         getWorld().addObject(new TryAgain(), 400, 250);
         //((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().stop();
-        //Greenfoot.stop();
+        Greenfoot.stop();
       };
     
     setImage("health"+health+".png");

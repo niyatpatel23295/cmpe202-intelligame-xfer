@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=MyWorld
-comment1.params=
-comment1.target=MyWorld()
-comment2.params=
-comment2.target=void\ act()
-comment3.params=x\ y\ qtd
-comment3.target=void\ putBanana(int,\ int,\ int)
-numComments=4

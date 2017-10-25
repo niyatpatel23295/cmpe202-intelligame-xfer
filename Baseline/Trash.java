@@ -23,7 +23,7 @@ public class Trash extends Actor
   {
     if (isTouching(Monkey.class) && (flag == false)) {
       ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
-      ((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updatePoints(-1);
+      ((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updateHealth(-1);
       new GreenfootSound("power-down.wav").play();
       setFlag(true);
     }

@@ -21,7 +21,7 @@ public class PowerUp extends Actor
       if (isTouching(Monkey.class)) 
       {
           sound.play();
-          ((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updatePoints(1);
+          ((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updateHealth(1);
           getWorld().removeObject(this);
       }
   }

@@ -28,7 +28,7 @@ public class Monkey extends Actor
   public void act()
   {
 
-      if((Greenfoot.isKeyDown("left")))  // when monkey walks backwards
+      if((Greenfoot.isKeyDown("left")) && (((Monkey)getWorld().getObjects(Monkey.class).get(0)).getY() == 480))  // when monkey walks backwards  // when monkey walks backwards
       {
          if (imagemMovimento == 7) 
          {

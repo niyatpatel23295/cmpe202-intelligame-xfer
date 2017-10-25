@@ -34,6 +34,9 @@ Goal is to make very short feedback loops to show the development continuously. 
 
 In week #3, We are countinuosly improving our software by resolving existing bugs of baseline code. We will implement new features in upcoming weeks though. We gave feedback to each other on suggested design patterns and selected five design patterns for now and have started working on that individually. We are working on making a bug free game by implementing test driven practices.
 
+In week #4, We improved communication between each members and started working productively. We made changes in software to deliver it earliest. Our game has a base template now and we are speeding up our project. We are cpuntinuously working on making design using UML. Our team has completed Use Case spec, Activity diagram, wireframe, Sequence diagram and User stories. Now in the next week we will implement design patterns to make code better.
+We as a team, take frequent meetings to give feedback on each other tasks and find improvement areas to work on.
+
 **# Courage**
 (Niyat)
 

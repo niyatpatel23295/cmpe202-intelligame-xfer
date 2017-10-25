@@ -71,6 +71,9 @@ https://github.com/lkandukuri/Factory-Pattern
 3. Started analyzing UML class design for the selected pattern(Decorator).
 4. Analyzed bug number 10 in Game Analysis.
 
+# Week #5:
 
-
+1. Added new backgrounds for new levels.
+2. Started implementing Levels screen.
+3. Adding more levels to the game by creating new worlds in greenfoot.
 

@@ -1,16 +1,16 @@
 # Part 1 (Weeks 1-4) :: Kanban
 
-# Week #1: Game Engine Evaluations
+## Week #1: Game Engine Evaluations
 
-## Phaser Game Engine Evaluation
+### Phaser Game Engine Evaluation
 
 Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering. Phaser is based heavily on [Flixel](http://www.flixel.org/). The engine is relatively new, but has been actively maintained by Richard Davey ([Photon Storm](http://www.photonstorm.com/)). Development can be done using TypeScript or JavaScript. 
 
-##  Evaluation 
+###  Evaluation 
 
 Flash-like, 2D, Sounds, Collisions, Physics, JavaScript, Typescript, WebGL, Free.
 
-## Links
+### Links
 
 **Visit:** [Phaser's Official Site](http://phaser.io/) and overview of [HTML5 Game Engines](https://html5gameengine.com/)
 
@@ -18,18 +18,18 @@ Flash-like, 2D, Sounds, Collisions, Physics, JavaScript, Typescript, WebGL, Free
 
 **Extend:** With [Phaser Plugins](http://phaser.io/shop/plugins)
 
-## Sample Games
+### Sample Games
 
 700+ [Examples](http://phaser.io/examples] (source available in this [repo](https://github.com/photonstorm/phaser-examples))
 
 
-# Week #2: Finalizing a game, understanding the base-line code and practising one design pattern
+## Week #2: Finalizing a game, understanding the base-line code and practising one design pattern
 
 ** Game Finalized: ** Monkey Adventure
 
-## Composite Design Pattern Evaluation: [source](https://en.wikipedia.org/wiki/Composite_pattern)
+### Composite Design Pattern Evaluation: [source](https://en.wikipedia.org/wiki/Composite_pattern)
 
-### Overview 
+#### Overview 
 
 The composite pattern describes a group of objects that is treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly.
 
@@ -57,7 +57,7 @@ Fig 1. Composite Design Pattern UML Class Diagram
 
 [Sample Code for Composite Design Pattern in Java](https://github.com/Masea/DesignPatterns_Composite)
 
-# Week #3: Assign design patterns to features, evaluate a new design pattern, write user stories for the game.
+## Week #3: Assign design patterns to features, evaluate a new design pattern, write user stories for the game.
 
 1. Evaluated the composite design pattern which is useful for implementing the menu feature. 
 An example of implementing the menu options using composite design pattern can be found [here](https://github.com/Masea/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns/composite).
@@ -66,7 +66,7 @@ An example of implementing the menu options using composite design pattern can b
 4. Suggested some new features to be added into the game. Updated them in the GameAnalysis page.
 5. Prepared the user stories based on the agreed-upon features (UserStories.md file is added in Documentation). This will be modified when new features or modules are proposed and approved by the team.
 
-# Week #4: Refine the architectural design of the game based on features and their pertinent design patterns
+## Week #4: Refine the architectural design of the game based on features and their pertinent design patterns
 
 1. Discussed and agreed on all pages of wireframe with the team
 2. Discussed with the team the tasks that each team member should complete regarding the UI
@@ -77,5 +77,5 @@ An example of implementing the menu options using composite design pattern can b
 
 # Part 2 (Weeks 5-8) :: Scrum
 
-# Week #5: Build the UI for Menu Option; Fix bugs / add functionalities on existing game
+## Week #5: Build the UI for Menu Option; Fix bugs / add functionalities on existing game
 

@@ -19,6 +19,8 @@ In Week#4, our team had discussed on different modules/screens to be added into 
 
 For each of these screens, we've decided to implement appropriate design patterns. We've managed to fix some of the bugs identified previously and should work on the remaining in the coming weeks. We've decided to take up one screen from above and start developing that. We're working together on creating the best solution possible.
 
+In week #5, we as team sto tarted communicate more effectively and decided upon a feasible time frame that is manageable to everyone. Zoom meetings as a mode of communication was also practiced so that the entire team can work around their schedule.
+
 **# Simplicity**
 (Dhanashree)
 
@@ -63,4 +65,4 @@ In Week #3, we brainstormed and proposed many new features to be added into the 
 
 In Week#4, we discussed the different parts of the game UI and wireframe thoroughly. Every team member has some new ideas, and we acheived a nice outcome by keeping our discussions and meeting always to the point and respectfull to other team members. 
 
-In week #5, we as team showed respect for every team members time and decided upon a feasible time frame that is manageable to everyone. Zoom meetings as a mode of communication was also practiced so that the entire team can work around their schedule.
+In week #5, we as team showed respect for every team members time by meeting online using Zoom, and agreed upon a time frame that would work for all team members.

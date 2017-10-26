@@ -79,3 +79,6 @@ An example of implementing the menu options using composite design pattern can b
 
 ## Week #5: Build the UI for Menu Option; Fix bugs / add functionalities on existing game
 
+1. Designed the initial version of menu UI based on the agreed upon wireframe discussed in our last meeting
+2. Fixed some of the bugs
+3. Added new user stories based on the last discussion we had as a team

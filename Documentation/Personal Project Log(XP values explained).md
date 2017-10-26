@@ -49,6 +49,8 @@ In week #2, We implemented many design patterns and tried to solve some example 
 
 In week #3,
 Courage is important because you need to make important decisions and be able to change direction by either discarding or refactoring your work when some of your decisions prove inadequate.We as a team showed courage by effectively putting out points which were adding unwanted complexity to the code.
+
+In week #4, Everyone took leads to their own design patterns. We are finding it hard to where to implement it in code and how. Many failed attempts but still everyone keeps trying.
  
 **# Respect**
 (Masi)

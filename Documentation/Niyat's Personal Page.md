@@ -62,3 +62,12 @@ Week #3
 4. Make a use case spec diagram :
    I have made a sequence diagram. Diagram will have to be to accomodate future changes.
 
+Week #4
+--------------------------------------------------------------------------------------------------------------------
+1. Changed Sequence Diagram for new Bugs
+
+2. Started working on BUGs
+   
+3. Started anylysing sequence diagram's implementation in code
+   
+4. Started anlysing assigned design pattern - State Design pattern and its implementation in code.

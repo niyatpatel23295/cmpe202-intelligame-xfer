@@ -1,3 +1,4 @@
+# Part 1 (Weeks 1-4) :: Kanban
 
 # Week #1: Game Engine Evaluations
 
@@ -56,7 +57,7 @@ Fig 1. Composite Design Pattern UML Class Diagram
 
 [Sample Code for Composite Design Pattern in Java](https://github.com/Masea/DesignPatterns_Composite)
 
-# Week #3: Assigning design patterns to features, evaluating a new design pattern, writing user stories for the game.
+# Week #3: Assign design patterns to features, evaluate a new design pattern, write user stories for the game.
 
 1. Evaluated the composite design pattern which is useful for implementing the menu feature. 
 An example of implementing the menu options using composite design pattern can be found [here](https://github.com/Masea/Head-First-Design-Patterns/tree/master/src/headfirst/designpatterns/composite).
@@ -64,3 +65,17 @@ An example of implementing the menu options using composite design pattern can b
 3. Suggested few new game names. We have to finalize appropriate name.
 4. Suggested some new features to be added into the game. Updated them in the GameAnalysis page.
 5. Prepared the user stories based on the agreed-upon features (UserStories.md file is added in Documentation). This will be modified when new features or modules are proposed and approved by the team.
+
+# Week #4: Refine the architectural design of the game based on features and their pertinent design patterns
+
+1. Discussed and agreed on all pages of wireframe with the team
+2. Discussed with the team the tasks that each team member should complete regarding the UI
+3. Discussed with the team and roughly designed states of the game for state design pattern
+4. Discussed with the team and agreed on health status bar options / functionalities
+5. Discussed with the team and planned the avilable fruit / snack options appearing in the game
+6. Discussed with the team and decided on options / functionalities available on each level of the game
+
+# Part 2 (Weeks 5-8) :: Scrum
+
+# Week #5: Build the UI for Menu Option; Fix bugs / add functionalities on existing game
+

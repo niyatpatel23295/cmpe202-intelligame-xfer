@@ -24,17 +24,17 @@
 
 12. As a player, I want to experience a timed game levels, so that I can enjoy the excitement of accomplishing a level with a compeetive timing, and collect more score.
 
+13. As a player, I want to invite friends to play the game (share the link), so that I can interact with others and enjoy the game more.
 
-[ ... To Be Continued ... ]
+14. As a player, I want to add different fun voices for whenever the monkey eats different kinds of items i.e. banana, other regular fruits, heart (immunity), spark (power), rotten fruits (weakness), so that the game does not get boring for me.
 
-[the following user stories are not complete and will be modified]
+15. As a player, I want to experience increase in the difficuly of the game by hitting more dustbins/cactuses as I go to next levels (Sagas), so that I have to watch out and have more fun.
 
-13. As a player, I want to Sharing score with friends on social media.
+16. As a player, I want to change the background/ look and feel of every level, so that by having more options I get encouraged to spend more time on the game.
 
-14. As a player, I want to Invite friends to play the game (share the link).
 
-15. As a player, I want to experience increase in the difficuly of the game by hitting more dustbins/cactuses as I go to next levels (Sagas), so that I have to watch out and have more fun. 
 
-16. As a player, I want to change the background/ look and feel of every level.
 
-17. As a player, I want to add different fun voices for whenever the monkey eats different kinds of items i.e. banana, other regular fruits, heart (immunity), spark (power), rotten fruits (weakness).
+ 
+
+

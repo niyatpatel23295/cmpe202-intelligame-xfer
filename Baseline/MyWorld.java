@@ -21,6 +21,7 @@ public class MyWorld extends World
   private Monkey monkey;
   private Cactus cactus;
   private PowerUp power;
+  private Coin coin;
   
   public MyWorld()
   {
@@ -36,6 +37,7 @@ public class MyWorld extends World
     monkey = new Monkey();
     cactus = new Cactus();
     power = new PowerUp();
+    coin =new Coin();
     
     addObject(new Sound(), 740, 570); //sound icon
     addObject(new Menu(), 50, 570); //sound icon
@@ -90,7 +92,7 @@ public class MyWorld extends World
         removeObject(cactus);
         addObject(cactus, 228, 500);
         putBanana(250, 370, 4);
-
+        addObject(coin, 250, 400); //add coin
       }
       
 
@@ -100,6 +102,7 @@ public class MyWorld extends World
         addObject(trash, 550, 510);
         putBanana(560, 330, 3);
         addObject(power, 260, 500);  // To place "heart" to get new power up 
+        removeObject(power); //remove coin
       }
       
 

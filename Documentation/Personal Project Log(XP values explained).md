@@ -57,5 +57,11 @@ In week #4, Everyone took leads to their own design patterns. We are finding it 
 
 In week #1, The IntelliGame team were respectful to each others' points of views and knowledge as a valued team member. Every team member evaluated a different game engine, and presented their results to the team, discussing all the cons and pros. Every one respected opposite opinions, and made their best effort to leverage our diverse perspectives and reasoning.  As a development team, we accepted responsibility and received authority over our work.
 
+In Week #2, our team had finalized the game engine (Greenfoot) to be used, as well as the game itself (Monkey Adventure) to be implemented. We discussed possible features of the game, and tried to understand and test the baseline code, and functionalities. We have taken the baseline code and tried to understand the same by testing it. All the above were done by several discussions among the team members, and we all listened and respected each others' points of view.
+
+In Week #3, we brainstormed and proposed many new features to be added into the game. We discussed about design patterns that will fit into different game modules. We divided the task of implementing different design patterns for different features. Moreover, each of us found some bugs in the existing code, and made sure to respect others by discussing it with them to reach to a common grounf before going forward in fixing the bugs. We successfully resoved all the bugs that we found so far.
+
+In Week#4, we discussed the different parts of the game UI and wireframe thoroughly. Every team member has some new ideas, and we acheived a nice outcome by keeping our discussions and meeting always to the point and respectfull to other team members. 
+
 In week #5,
 We as team showed respect for every team members time and decided upon a feasible time frame that is manageable to everyone. Zoom meetings as a mode of communication was also practiced so that the entire team can work around their schedule.

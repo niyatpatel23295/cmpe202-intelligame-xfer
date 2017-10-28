@@ -71,3 +71,13 @@ Week #4
 3. Started anylysing sequence diagram's implementation in code
    
 4. Started anlysing assigned design pattern - State Design pattern and its implementation in code.
+
+Week #5
+--------------------------------------------------------------------------------------------------------------------
+1. Fixed App crashing after game over.
+
+2. When game gets over it redirects to start or quit.
+   
+3. Added Timer in game.
+
+4. Started working on state design pattern to be implements on score board.

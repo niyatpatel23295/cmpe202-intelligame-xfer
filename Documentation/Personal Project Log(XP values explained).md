@@ -19,7 +19,7 @@ In Week#4, our team had discussed on different modules/screens to be added into 
 
 For each of these screens, we've decided to implement appropriate design patterns. We've managed to fix some of the bugs identified previously and should work on the remaining in the coming weeks. We've decided to take up one screen from above and start developing that. We're working together on creating the best solution possible.
 
-In week #5, we as team sto tarted communicate more effectively and decided upon a feasible time frame that is manageable to everyone. Zoom meetings as a mode of communication was also practiced so that the entire team can work around their schedule.
+In week #5, we as team started to communicate more effectively and decided upon a feasible time frame that is manageable to everyone. Zoom meetings as a mode of communication was also practiced so that the entire team can work around their schedule. We've decided to implement the game in separate modules(one module for each member) and decided on the design patterns. As we came across different design patterns in this week, we tried to map them to various new functionalities. We've started fixing bugs and developing new functionalities. We've also discussed on how to maintain the Sprint task sheet. We're working together on creating the best solution possible.
 
 **# Simplicity**
 (Dhanashree)

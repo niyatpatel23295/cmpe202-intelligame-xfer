@@ -54,6 +54,8 @@ Courage is important because you need to make important decisions and be able to
 
 In week #4, Everyone took leads to their own design patterns. We are finding it hard to where to implement it in code and how. Many failed attempts but still everyone keeps trying.
  
+In week #5, Everyone started creating prototype for individual assigned modules. Though everyone have faced many challenges, We kept trying to implement.
+
 **# Respect**
 (Masi)
 

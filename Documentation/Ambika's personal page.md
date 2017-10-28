@@ -71,3 +71,16 @@ Week #4
 3. Enhanced score screen to make it look better visually. (In review)
 4. Added health screen to show power level of monkey. (In review)
 5. Worked on doing analysis of observer pattern to apply in game.
+
+Week #5
+--------------------------------------------------------------------------------------------------------------------
+1. Created GUI for the game, which directs to other screens.
+2. Fixed bug of monkey and prop size.
+3. Fixed bug of left arrow key functionality.
+4. Added functionality of sound on and off in the menu screen as well as game play screen.
+5. Added purchase screen use case in my Use case specification.
+6. Fixed bug of continuous background music.
+7. Change the monkey's steps size. Previously, it was not smooth operation.
+
+
+

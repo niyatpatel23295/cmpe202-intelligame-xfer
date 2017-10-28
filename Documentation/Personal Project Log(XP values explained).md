@@ -42,6 +42,8 @@ In week #3, We are countinuosly improving our software by resolving existing bug
 In week #4, Every week we try to improve our process. This week we improved collaboration of each team member for building the project and started working productively. We made changes in software to deliver it earliest by fixing bugs and adding functionalities. Our game has a base template now and we are speeding up our project. We are cpuntinuously working on making design using UML. Our team has completed Use Case spec, Activity diagram, wireframe, Sequence diagram and User stories. Now in the next week we will implement design patterns to make code better.
 We as a team, take frequent meetings to give feedback on each other tasks and find improvement areas to work on.
 
+In week #5, We have improved our pace for finishing the game. We all are working on different modules, but we kept others informed with our changes so that it will not affect their code respectively. We improved our communication more, as we are frequently taking team meetings, everybody suggested their ideas to implement patterns. Team members are synced up with other's module. It would help them to take feedback from other team members.
+
 **# Courage**
 (Niyat)
 

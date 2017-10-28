@@ -69,4 +69,4 @@ In Week #3, we brainstormed and proposed many new features to be added into the 
 
 In Week#4, we discussed the different parts of the game UI and wireframe thoroughly. Every team member has some new ideas, and we acheived a nice outcome by keeping our discussions and meeting always to the point and respectfull to other team members. 
 
-In week #5, we as team showed respect for every team members time by meeting online using Zoom, and agreed upon a time frame that would work for all team members.
+In week #5, we as team showed respect for every team members' time by meeting online using Zoom, and agreed upon a time frame that would work for all team members. We discussed different options and chandeg the architecture of the game slightly.

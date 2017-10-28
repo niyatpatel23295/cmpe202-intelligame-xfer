@@ -2,10 +2,10 @@
 
 **1. Composite (Masi)** :: Menu bar (options, help, etc.)
 
-**2. Abstract Factory / Factory (Dhanashree)** :: Fruits, Rewards, Immunity (Heart), Power (Spark), Weakness (Rotten Fruits)
+**2. State, Observer, Proxy (Dhanashree)** :: User authentication (User login + passcode verification)
 
 **3. Observer (Ambika)** :: Health status (Update in Health Screen with the change in Cactus/ trash/ Heart Classes)
 
 **4. State (Niyat)** :: State of the game (ReadyToStart, Level1Finished, Level2Finished, Finished, GameOver)
 
-**5. Decorator (Lavanya)** :: Background (Level1, Level2, Level3, AnyLevelPurchased100Points)
+**5. Decorator/Strategy (Lavanya)** :: Background (Level1, Level2, Level3 + LevelScreen)

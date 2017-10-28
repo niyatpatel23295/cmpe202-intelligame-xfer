@@ -22,6 +22,7 @@ public class MyWorld extends World
   private Cactus cactus;
   private PowerUp power;
   private Coin coin;
+  private Time timer;
   
   public MyWorld()
   {
@@ -38,15 +39,15 @@ public class MyWorld extends World
     cactus = new Cactus();
     power = new PowerUp();
     coin =new Coin();
-    
+    timer = new Time();
     addObject(new Sound(), 740, 570); //sound icon
     addObject(new Menu(), 50, 570); //sound icon
     putBanana(680, 33, 1); //placed one banana for score screen 
     addObject(score, 700, 40);
+    addObject(timer, 700, 100);
     addObject(health, 100, 40); // set x, y coordinates
     addObject(monkey, 100, 480);
     addObject(trash, 550, 510);
-    putBanana(100, 300, 4);
   }
   
 

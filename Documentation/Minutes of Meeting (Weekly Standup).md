@@ -82,8 +82,8 @@ Questions:
 
 Answers:
 
-1. Tasks for this week were mainly to make a template and decide the final modules and start working on that. We have created a GUI for Menu/home screen. We fixed prioritized bugs to make the game operation smooth, we would fix other bugs according to their priority. Along with that, We discussed design patterns and various changes to be made in the game flow, and team worked on implementing the functionalities. We all have decided to work on one module each associated with atleast one design pattern (check [it](https://github.com/nguyensjsu/cmpe202-intelligame/blob/master/Documentation/AssignDesignPatternsToFeatures.md) out). We all are working on making UML Class Design for the game.
+1. Tasks for this week were mainly to make a template and decide the final modules and start working on that. We have created a GUI for Menu/home screen. We fixed prioritized bugs to make the game operation smooth, we would fix other bugs according to their priority. Along with that, We discussed design patterns and various changes to be make in the game flow, and team worked on implementing the functionalities. We all have decided to work on one module each associated with atleast one design pattern (check [it](https://github.com/nguyensjsu/cmpe202-intelligame/blob/master/Documentation/AssignDesignPatternsToFeatures.md) out). We all are working on making UML Class Design for the game.
 
-2. The team will continue implementing individual modules assigned and will work on choosing design patterns that perfectly fit those modules. UML Class design for respective modules will further progress.
+2. The team will continue implementing individual modules assigned and will work on choosing design patterns that perfectly fit those modules.
 
-3. Current challenge is to implement design patterns appropriately. We have so far dedided to implement State Design pattern for Score and Decorator for Menu. Other components are being reviewed for the best suitable patterns.
+3. Current challenge is to implement design patterns appropriately. We have so far decided to implement State Design pattern for Score and Decorator for Menu. Other components are being reviewed for the best suitable patterns.We have decided to implement state,proxy and observer design pattern for user authentication.

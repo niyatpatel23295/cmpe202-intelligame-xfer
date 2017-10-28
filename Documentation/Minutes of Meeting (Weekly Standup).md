@@ -80,6 +80,10 @@ Questions:
 2.  What is the team going to do next week?
 3.  What are the current blockers/challenges the team is facing?
 
+Answers:
+
 1. Tasks for this week were mainly to make a template and decide the final modules and start working on that. We have created a GUI for Menu/home screen. We fixed prioritized bugs to make the game operation smooth, we would fix other bugs according to their priority. Along with that, We discussed design patterns and various changes to be made in the game flow, and team worked on implementing the functionalities. We all have decided to work on one module each associated with atleast one design pattern. We all are working on making UML Class Design for the game.
 
-3. Currently we are struggling with deciding which component of game will be suitable for which design pattern. We have so far dedided to implement State Design pattern for Score and Decorator for Menu. Other components are still being reviewed for which pattern to implement.
+2. The team will continue implementing individual modules assigned and will work on choosing design patterns that perfectly fit those modules. UML Class design for respective modules will further progress.
+
+3. Current challenge is to implement design patterns appropriately. We have so far dedided to implement State Design pattern for Score and Decorator for Menu. Other components are being reviewed for the best suitable patterns.

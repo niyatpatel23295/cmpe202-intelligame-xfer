@@ -4,7 +4,7 @@
 
 Welcome to the cmpe202-intelligame Home Page!
 
-Take a look at IntelliGame's [Task Board](https://github.com/nguyensjsu/cmpe202-intelligame/projects/1), [Sprint burndown chart](https://docs.google.com/spreadsheets/d/1-ly4D-oXPEhyvYskkFmsm8n3-NE6Tz2ICrFPRniC6k8/edit?ts=59f2c4a2#gid=0) and  [Kanban CFD/burndown chart](https://docs.google.com/a/sjsu.edu/spreadsheets/d/1dHsh0lqHa1oSwWzEw4BaylPXvOu0yQg38ygP4IT3L7g/edit?usp=sharing). 
+Take a look at IntelliGame's [Task Board](https://github.com/nguyensjsu/cmpe202-intelligame/projects/1), [Sprint burndown chart](https://docs.google.com/a/sjsu.edu/spreadsheets/d/1-ly4D-oXPEhyvYskkFmsm8n3-NE6Tz2ICrFPRniC6k8/edit?usp=sharing) and  [Kanban CFD/burndown chart](https://docs.google.com/a/sjsu.edu/spreadsheets/d/1dHsh0lqHa1oSwWzEw4BaylPXvOu0yQg38ygP4IT3L7g/edit?usp=sharing). 
 
 IntelliGame is a web-based fun and interactive game that is currently under development at [Computer Engineering Department](https://cmpe.sjsu.edu/)  of [San Jose State University](http://www.sjsu.edu/). It is a team project for the graduate course "CMPE-202 Software Systems Engineering" instructed by [Paul Nguyen](https://github.com/paulnguyen/) during Fall 2017. 
 

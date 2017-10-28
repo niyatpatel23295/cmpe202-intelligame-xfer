@@ -61,7 +61,7 @@ Questions:
 Answers:
 
 1. In a past week, We have created different diagrams and Wireframes. We all come up with many more new game features and other purchasing options for improving user engagements.  Major features are as below:
-* Health bar - If monkey touches any obstacle, Its health will be degraded by 20%.
+* Health bar - If monkey touches any obstacle, Its health will be degraded by 25%.
 * Life - If monkey dies, It can restart level using available lives. Monkey can have 3 lives at max.
 * Immunity - When Monkey eats Golden Banana, It can stay immune to any obstacle for 5 seconds.
 * Purchase options - User can unlock next level using credit/debit card options or trade his points for the same.
@@ -72,3 +72,13 @@ We also braistormed on architecture of the game as a system. We decided to imple
 2. The team will implement suggested features in the game and implement design patterns on that. Firstly, We will fix remaining few bugs in the system along with making GUI for menu and connect it to all available screens. Every team member will work on one screen and finally we will integrate our design together. Moreover, team members will update UML diagrams accordingly. 
 
 3. One major challenge is to match appropriate design patterns to different features/modules in our game. We'll implement more design patterns as we progress in development of game modules depending on the requirements.
+
+## Week#5:
+
+Questions: 
+1.  What did the team do the past week?
+2.  What is the team going to do next week?
+3.  What are the current blockers/challenges the team is facing?
+
+1. Tasks for this week were mainly to make a template and decide the final modules and start working on that. We have created a GUI for Menu/home screen. We fixed prioritized bugs to make the game operation smooth, we would fix other bugs according to their priority. Along with that, We discussed design patterns and various changes to be made in the game flow, and team worked on implementing the functionalities. We all have decided to work on one module each associated with atleast one design pattern. We all are working on making UML Class Design for the game.
+

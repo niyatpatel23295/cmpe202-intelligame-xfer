@@ -9,18 +9,18 @@
 
 ## Existing bugs:
 
-1. Not a smooth finish of the game.
-2. No option to "Play game" or starting a game.
-3. Once game is over, it should redirect to "Try again" or "Quit".
-4. Background music is running continuously. It should not start if game has not started. [fixed]
+1. Not a smooth finish of the game. [fixed]
+2. No option to "Play game" or starting a game. [fixed]
+3. Background music is running continuously. It should not start if game has not started. [fixed]
 5. Props and monkey size should be small compared to background. [fixed]
-6. Change the background and props to make it visually attractive(make a scrolling background).
-7. Monkey should not be killed, once he touches prop. His health status should be decreased by X%. [fixed]
-8. Even after the game is over, monkey moves till it reaches ground if the run button is pressed without reset.
-9. Left button is not working, monkey should go back when left button is pressed. [fixed]
-10. There are a total of 41 bananas in the game. Even if we miss collecting one banana, the final score is still 41. Score should be adjusted depending on the number of bananas collected.
-11. Decrease the jump width (x parameter).[fixed]
-12. Music should stop if the game is paused for easy identification.
+6. Monkey should not be killed, once he touches prop. His health status should be decreased by X%. [fixed]
+7. Left button is not working, monkey should go back when left button is pressed. [fixed]
+8. Decrease the jump width (x parameter).[fixed]
+9. Once game is over, it should redirect to "Try again" or "Quit". [in process]
+10. Change the background and props to make it visually attractive(make a scrolling background).
+11. Even after the game is over, monkey moves till it reaches ground if the run button is pressed without reset.
+12. There are a total of 41 bananas in the game. Even if we miss collecting one banana, the final score is still 41. Score should be adjusted depending on the number of bananas collected.
+13. Music should stop if the game is paused for easy identification.
 
 ## New features planned to be implemented:
 

@@ -77,4 +77,5 @@ https://github.com/lkandukuri/Factory-Pattern
 2. Started implementing Levels screen.
 3. Adding more levels to the game by creating new worlds in greenfoot.
 4. Analyse strategy design pattern for Levels module.
+5. Solved the issues 59 and 52 in the taskboard.
 

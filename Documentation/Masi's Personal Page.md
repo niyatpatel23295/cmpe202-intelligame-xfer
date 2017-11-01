@@ -82,3 +82,10 @@ An example of implementing the menu options using composite design pattern can b
 1. Designed the initial version of menu UI based on the agreed upon wireframe discussed in our last meeting
 2. Fixed some of the bugs
 3. Added new user stories based on the last discussion we had as a team
+
+## Week #6: Build a working version of menu; finalize the architecture; Fix bugs
+
+1. Implemented the first version of menu using composite design pattern
+2. Discussed with the team and finalized the class diagram and the overall architechture of the game so that each class belongs to a design pattern
+3. Discussed details of each class specially the classes that are shared between several design patterns to avoid later discrepancies in integration phase
+4. Fixed some of the bugs

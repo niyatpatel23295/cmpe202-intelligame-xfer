@@ -22,4 +22,8 @@ public class GameOverState extends World
         addObject(new BacktoMenu(), 450, 320);
         addObject(new QuitButton(), 450, 390);
     }
+         public void act()
+    {
+      //homeMusic.playLoop();
+    }
 }

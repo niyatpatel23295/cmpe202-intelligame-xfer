@@ -83,4 +83,6 @@ Week #5
 7. Change the monkey's steps size. Previously, it was not smooth operation.
 
 
-
+Week #6
+--------------------------------------------------------------------------------------------------------------------
+Fix bug of backward movement of monkey

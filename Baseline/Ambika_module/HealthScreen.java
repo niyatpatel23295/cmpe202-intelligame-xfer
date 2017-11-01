@@ -12,8 +12,8 @@ import java.util.List;
 /**
  * Write a description of class HealthScreen here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Ambika Bohra
+ * @version 10/31/17
  */
 public class HealthScreen extends ConcreteObserver
 {
@@ -21,39 +21,34 @@ public class HealthScreen extends ConcreteObserver
      * Act - do whatever the HealthScreen wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    
-    private int health = 4;
-    public HealthScreen() 
-    {
-        super();
-        GreenfootImage im1 = new GreenfootImage("health4.png");
-        setImage(im1);    
-    }
+  private int health;
+  public HealthScreen() 
+  {
+     super();
+     GreenfootImage im1 = new GreenfootImage("health4.png");
+     setImage(im1);   
+     health = 4;
+  }
 
  
-    public void updatePoints(int score)
+  public void updatePoints(int score)
   {
-      //score = subject.getScore(); //get score from concretsubject class
-      health += score;
-      if(getHealth() > 4)
+    health += score;
+    
+    if(health > 4)
         health = 4;
     
-      if (getHealth() == 0)
-      {
-        setImage("health.png");
+    if (health <= 0)
+    {
+        setImage("health0.png");
         ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().stop();
         ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
-        //getWorld().addObject(new GameOver(), getWorld().getWidth() / 2, getWorld().getHeight() / 2);
-        
-        new GreenfootSound("game-over.wav").play();
-        getWorld().addObject(new GameOver(), 400, 150);
-        getWorld().addObject(new TryAgain(), 400, 250);
-      };
+        Greenfoot.setWorld(new GameOverState()); //go to new World "game Over State"
+    }
+    else
+    {
       setImage("health"+health+".png");
+    }
  
   }  
-     public int getHealth()
-    {
-        return health;
-    }
 }

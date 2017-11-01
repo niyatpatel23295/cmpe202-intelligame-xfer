@@ -24,6 +24,7 @@ public class Composite implements IDisplayComponent {
 	return components.get( i );
     }
 
+    @Override
     public void display() {
 	 System.out.println( description );
 	 for (Component obj  : components)

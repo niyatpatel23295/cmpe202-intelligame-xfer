@@ -69,13 +69,12 @@ public class MyWorld extends World
         addObject(new ScoreScreen(), 430, 260);
         addObject(new NextLevel(), 380, 350);
         addObject(new QuitButton(), 380, 420);
-        
-        
-        //return;
-      }
       
-      setBackground(new GreenfootImage("background" + stage + ".png"));
-      ((Monkey)getObjects(Monkey.class).get(0)).setLocation(0, 480);
+      }
+      else {
+    	  setBackground(new GreenfootImage("background" + stage + ".png"));
+    	  ((Monkey)getObjects(Monkey.class).get(0)).setLocation(0, 480);
+      }
      
       if (stage == 2) {
         addObject(trash, 550, 510);
@@ -112,7 +111,9 @@ public class MyWorld extends World
         putBanana(250, 450, 3);
       }
       
+      if(stage != 6) {
       stage += 1;
+      }
     }
   }
   

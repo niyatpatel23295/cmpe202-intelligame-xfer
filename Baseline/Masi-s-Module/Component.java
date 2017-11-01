@@ -1,11 +1,10 @@
 package composite;
 
-public interface Component {
+public interface IDisplayComponent {
 
-     void printDescription() ;
-     void addChild(Component c);
-     void removeChild(Component c);
-     Component getChild(int i);
-
+     void display() ;
+     void addSubComponent( IDisplayComponent c );
+     void addSubComponent( IDisplayComponent c );
+     IDisplayComponent getSubComponent(int i);
 }
  

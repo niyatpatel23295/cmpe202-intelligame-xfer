@@ -29,7 +29,7 @@ public class Composite implements IDisplayComponent {
 	 System.out.println( description );
 	 for (Component obj  : components)
 	 {
-             obj.printDescription();
+             obj.display();
 	 }
     }
  

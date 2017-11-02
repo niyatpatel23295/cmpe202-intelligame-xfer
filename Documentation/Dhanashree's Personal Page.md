@@ -61,3 +61,16 @@ https://github.com/dgaonkar17/cmpe202/tree/master/DesignPatterns/Chain%20of%20Re
 3. Started analyzing UML class design for the selected pattern(Decorator).
 4. Analyzed bug number 39,40 in Game Analysis.
 
+# Week #5:
+
+1. Started working on authentiction screen.
+2. Analyzed which design patterns will fit the scenario.
+3. Made a base code for authentication design pattern.
+
+# Week #6:
+
+1. Created a screen for user Authentication screen.
+2. Activate "enter user pin" functionality for authentication screen.
+3. Working on implementing observer design pattern for authentication screen.
+
+

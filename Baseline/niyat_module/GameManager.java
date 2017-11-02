@@ -1,11 +1,9 @@
-package state;
-
-public class VirtualMachineManager {
+public class GameManager {
  
-	VirtualMachineState poweredOnState ;
-    VirtualMachineState poweredOffState ;
-    VirtualMachineState suspendedState ;
-    VirtualMachineState currentState ;
+	GameState poweredOnState ;
+    GameState poweredOffState ;
+    GameState suspendedState ;
+    GameState currentState ;
 
     public VirtualMachineManager()
     {

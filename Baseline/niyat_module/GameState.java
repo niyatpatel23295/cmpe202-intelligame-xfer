@@ -1,11 +1,11 @@
 package state;
 
-public class VmState implements VirtualMachineState {
+public class GameState implements IGameState {
  
-	VirtualMachineManager vm_manager;
+	GameManager game_manager;
 	 
 	public VmState(VirtualMachineManager vmm) {
-        vm_manager = vmm ;
+        game_manager = vmm ;
 	}
 
 	public void doPowerOn() {

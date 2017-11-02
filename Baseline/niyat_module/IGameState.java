@@ -1,10 +1,10 @@
 package state;
 
-public interface VirtualMachineState {
+public interface IGameState
+ {
 	 
-	public abstract void doPowerOn();
+	public abstract void setStateRunning();
 	public abstract void doPowerOff();
 	public abstract void doSuspend();
 	public abstract void doReset();
 }
- 

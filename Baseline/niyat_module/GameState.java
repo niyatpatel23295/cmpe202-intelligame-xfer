@@ -1,28 +1,33 @@
-package state;
-
 public class GameState implements IGameState {
  
 	GameManager game_manager;
 	 
-	public VmState(VirtualMachineManager vmm) {
-        game_manager = vmm ;
+	public GameState(GameManager gm) {
+        game_manager = gm ;
 	}
 
-	public void doPowerOn() {
-        System.out.println( "Power On is not valid in " + this.getClass().getName() + " state." );
+	public void setStateStart() {
+        System.out.println( "Start is not valid in " + this.getClass().getName() + " state." );
 	}
 
-	public void doPowerOff() {
-        System.out.println( "Power Off is not valid in " + this.getClass().getName() + " state." );
+	public void setStateRunning() {
+        System.out.println( "Game Running is not valid in " + this.getClass().getName() + " state." );
 	}
 
-	public void doSuspend() {
-        System.out.println( "Suspend is not valid in " + this.getClass().getName() + " state." );
+	public void setStatePaused() {
+        System.out.println( "Paused is not valid in " + this.getClass().getName() + " state." );
 	}
 
-	public void doReset() {
-        System.out.println( "Reset is not valid in " + this.getClass().getName() + " state." );
+	public void setStateStopped() {
+        System.out.println( "Stopped is not valid in " + this.getClass().getName() + " state." );
+	}
+
+	public void setStateGameOver() {
+        System.out.println( "Game Over is not valid in " + this.getClass().getName() + " state." );
+	}
+
+	public void setStateLevelComplete() {
+        System.out.println( "Level Complete is not valid in " + this.getClass().getName() + " state." );
 	}
 	 
 }
- 

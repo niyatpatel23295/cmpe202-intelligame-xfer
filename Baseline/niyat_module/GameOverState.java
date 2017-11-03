@@ -1,8 +1,8 @@
 import greenfoot.Greenfoot;
 
-public class GameLevelCompletedState extends GameState {
+public class GameOverState extends GameState {
 
-    public GameLevelCompletedState( GameManager gm )
+    public GameOverState( GameManager gm )
     {
         super( gm ) ;
     }

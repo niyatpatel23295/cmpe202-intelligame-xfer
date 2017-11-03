@@ -1,43 +1,63 @@
 public class GameManager {
  
-	GameState poweredOnState ;
-    GameState poweredOffState ;
-    GameState suspendedState ;
-    GameState currentState ;
+	GameState start ;
+    GameState running ;
+    GameState paused ;
+    GameState stopped ;
+    GameState gameover ;
+    GameState levelcomplete ;
+    GameState currentState;
 
-    public VirtualMachineManager()
+    public GameManager()
     {
-        poweredOnState = new VmPoweredOn(this);
-        poweredOffState = new VmPoweredOff(this);
-        suspendedState = new VmSuspended(this);
-        currentState = poweredOffState ;
+        start = new GameStartState(this);
+        running = new GameRunningState(this);
+        paused = new GamePausedState(this);
+        stopped = new GameStoppedState(this);
+        gameover = new GameOverState(this);  
+        levelcompleted = new GameLevelCompletedState(this);      
+        currentState = start ;
     }
 	 
-	public void powerOn() {
-        System.out.println( "powering on...");
-	    currentState.doPowerOn();
+	public void start() {
+        System.out.println( "starting on...");
+	    currentState.setStateStart();
 	}
 	 
-	public void powerOff() {
-        System.out.println( "powering off...");
-	    currentState.doPowerOff();
+	public void run() {
+        System.out.println( "running off...");
+	    currentState.setStateRunning();
 	}
 	 
-	public void suspend() {
-        System.out.println( "suspending...");
-	    currentState.doSuspend();
+	public void pause() {
+        System.out.println( "pausing...");
+	    currentState.setStatePaused();
 	}
 	 
-	public void reset() {
-        System.out.println( "reset vm...");
-	    currentState.doReset();
+	public void stop() {
+        System.out.println( "stopping...");
+	    currentState.setStateStopped();
 	}
-	 
-	void setState(VmStates nextState) {
+
+    public void gameOver() {
+        System.out.println( "Game Overing vm...");
+        currentState.setStateGameOver();
+    }
+
+    public void nextLevel() {
+        System.out.println( "Going to next level vm...");
+        currentState.setStateLevelComplete();
+    }
+
+	void setState(GameStates nextState) {
         switch( nextState ) {
-            case OFF :          currentState = poweredOffState ; break ;
-            case ON :           currentState = poweredOnState ; break ;
-            case SUSPENDED:     currentState = suspendedState ; break ;
+            case START :          currentState = start ; break ;
+            case RUNNING :           currentState = running ; break ;
+            case PAUSED:     currentState = pauded ; break ;
+            case STOPPED :          currentState = stopped ; break ;
+            case GAMEOVER :           currentState = gameover ; break ;
+            case LEVELCOMPLETE:     currentState = levelcompleted ; break ;
+
         }
 
 	}
@@ -48,4 +68,4 @@ public class GameManager {
     }
 	 
 }
- 
+

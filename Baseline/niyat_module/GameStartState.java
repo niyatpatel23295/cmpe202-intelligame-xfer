@@ -1,16 +1,15 @@
-package state;
+import greenfoot.Greenfoot;
 
-public class VmPoweredOff extends VmState {
+public class GameStartState extends GameState {
 
-    public VmPoweredOff( VirtualMachineManager vmm )
+    public GameStartState( GameManager gm )
     {
-        super( vmm ) ;
+        super( gm ) ;
     }
 
     @Override
-    public void doPowerOn() {
-        vm_manager.setState( VmStates.ON );
+    public void setStateRunning() {
+       Greenfoot.setWorld(new MyWorld());
     }
- 
+
 }
- 

@@ -22,12 +22,14 @@ For each of these screens, we've decided to implement appropriate design pattern
 In week #5, we as team started to communicate more effectively and decided upon a feasible time frame that is manageable to everyone. Zoom meetings as a mode of communication was also practiced so that the entire team can work around their schedule. We've decided to implement the game in separate modules(one module for each member) and decided on the design patterns. As we came across different design patterns in this week, we tried to map them to various new functionalities. We've started fixing bugs and developing new functionalities. We've also discussed on how to maintain the Sprint task sheet. We're working together on creating the best solution possible.
 
 **# Simplicity**
-(Dhanashree)
 
 In week #1, each team member did a PoC to test out the functionalties of the Game engine. This code might not be used in the actual product but it helped the other team members to understand the game engine in a better way.
 
 In week #4,
 It’s important that as developers we understand that models are critical for simplifying both software and the software process—it’s much easier to explore an idea, and improve upon it as your understanding increases, by drawing a diagram or two instead of writing tens or even hundreds of lines of code. We as a team drew activity diagram, wireframes, usecase diagram, sequence diagram to bring about this simplicity.
+
+In week #6
+We brought about simplicity in our integration methoddology by creating modules. So that there is less dependency and more isolated tasks.
 
 **# Feedback** 
 (Ambika)

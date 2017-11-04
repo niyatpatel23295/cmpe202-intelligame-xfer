@@ -88,7 +88,7 @@ Answers:
 
 3. Current challenge is to implement design patterns appropriately. We have so far decided to implement State Design pattern for Score and Decorator for Menu. Other components are being reviewed for the best suitable patterns.We have decided to implement state,proxy and observer design pattern for user authentication.
 
-##Week #6:
+## Week#6:
 
 Questions: 
 1.  What did the team do the past week?

@@ -101,4 +101,4 @@ Answers:
 
 2. In the next week, we are planning to finalize the development of different modules using appropriate design patterns and to start working on integration of different modules.
 
-3. Current blockers for next week is to managing the integration of all modules. We have to ensure it doesn't create any bugs. Similarly we will make new enhancement as the project requires to keep the integration smooth.
+3. Current blocker is to manage the integration of all modules. We have to ensure it doesn't create any bugs. Similarly we will make new enhancement as the project requires to keep the integration smooth.

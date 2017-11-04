@@ -48,6 +48,8 @@ We as a team, take frequent meetings to give feedback on each other tasks and fi
 
 In week #5, We have improved our pace for finishing the game. We all are working on different modules, but we kept others informed with our changes so that it will not affect their code respectively. We improved our communication more, as we are frequently taking team meetings, everybody suggested their ideas to implement patterns. Team members are synced up with other's module. It would help them to take feedback from other team members.
 
+In week #6, We have gathered various ideas to make the new enhancement in our Project. All team members gave their suggestions to reduce the bugs and new design patterns that can be applied. We have improved our working process and gave more effort to building this game.
+
 **# Courage**
 (Niyat)
 

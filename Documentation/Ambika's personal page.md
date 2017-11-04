@@ -85,4 +85,7 @@ Week #5
 
 Week #6
 --------------------------------------------------------------------------------------------------------------------
-Fix bug of backward movement of monkey
+Fix bug of backward movement of monkey.
+Added smooth connection between two level.
+Added new screens for Game over state and made the game running (even after game is over) and directed to new instance of MyWorld class.
+Added observer pattern for Healthscreen.

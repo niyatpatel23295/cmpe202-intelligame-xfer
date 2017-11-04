@@ -87,3 +87,18 @@ Answers:
 2. The team will continue implementing individual modules assigned and will work on choosing design patterns that perfectly fit those modules.
 
 3. Current challenge is to implement design patterns appropriately. We have so far decided to implement State Design pattern for Score and Decorator for Menu. Other components are being reviewed for the best suitable patterns.We have decided to implement state,proxy and observer design pattern for user authentication.
+
+##Week #6:
+
+Questions: 
+1.  What did the team do the past week?
+2.  What is the team going to do next week?
+3.  What are the current blockers/challenges the team is facing?
+
+Answers:
+
+1. In the past week, we worked on creating different modules which included new functionalities like new levels, Power ups, health screen, Menu screen, user login and score screen. We discussed about the dependencies between each of these modules and made sure that development tasks are not effected by these dependencies.
+
+2. In the next week, we are planning to finalize the development of different modules using appropriate design patterns and to start working on integration of different modules.
+
+3. 

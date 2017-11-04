@@ -21,6 +21,8 @@ For each of these screens, we've decided to implement appropriate design pattern
 
 In week #5, we as team started to communicate more effectively and decided upon a feasible time frame that is manageable to everyone. Zoom meetings as a mode of communication was also practiced so that the entire team can work around their schedule. We've decided to implement the game in separate modules(one module for each member) and decided on the design patterns. As we came across different design patterns in this week, we tried to map them to various new functionalities. We've started fixing bugs and developing new functionalities. We've also discussed on how to maintain the Sprint task sheet. We're working together on creating the best solution possible.
 
+In week #6, each of us worked on different modules assigned. We coordinated whenever there is a dependency with other modules. Once the dependencies are understood, we continued working on our individual modules. We started implemeting the design patterns and also started working on the UML class design. We had discussed and resolved known bugs. We're working together on creating the best solution possible.
+
 **# Simplicity**
 
 In week #1, each team member did a PoC to test out the functionalties of the Game engine. This code might not be used in the actual product but it helped the other team members to understand the game engine in a better way.

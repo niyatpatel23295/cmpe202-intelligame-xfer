@@ -21,8 +21,10 @@ public class MyWorld extends World
   private PowerUp power;
   private HealthScreen health;
   private ScoreScreen score;
-  
-  public MyWorld()
+  private Coin coin;  
+  private Time timer; 
+ 
+ public MyWorld()
   {
     super(800, 600, 1);
     
@@ -36,13 +38,16 @@ public class MyWorld extends World
     cactus = new Cactus();
     power = new PowerUp();
     
+    coin =new Coin();
+    timer = new Time();
+    
     addObject(new Sound(), 740, 570); //sound icon
     addObject(new Menu(), 50, 570); //sound icon
     putBanana(680, 33, 1); //placed one banana for score screen 
     
     addObject(score, 700, 40);
     addObject(health, 100, 40); // set x, y coordinates
-
+    addObject(timer, 700, 100);
     
     addObject(monkey, 100, 480);
     addObject(trash, 550, 510);
@@ -78,9 +83,11 @@ public class MyWorld extends World
         removeObject(cactus);
         addObject(cactus, 228, 500);
         putBanana(380, 150, 2);
-    }
+        addObject(coin, 250, 400); //add coin  
+  }
       
       if (stage == 4) {
+
         removeObject(cactus);
         addObject(trash, 550, 510);
         putBanana(250, 330, 2);

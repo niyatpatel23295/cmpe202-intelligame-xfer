@@ -27,7 +27,8 @@ public class Time extends Actor
         im.fill();
         im.setColor(Color.WHITE);
         im.setFont(font);
-        im.drawString("0", 30, 45);
+        //im.drawString("0", 30, 45);
+        im.drawString("0", 30, 45); //start time 30 seconds
         
         setImage(im);
         timer.schedule( new UpdateTime(), 1000 ) ;

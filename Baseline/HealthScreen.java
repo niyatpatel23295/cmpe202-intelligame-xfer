@@ -22,12 +22,13 @@ public class HealthScreen extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    private int health = 4;
+    private int health;
     public HealthScreen() 
     {
         super();
         GreenfootImage im1 = new GreenfootImage("health4.png");
-        setImage(im1);    
+        setImage(im1);  
+        health = 4;  
     }
 
  
@@ -37,21 +38,21 @@ public class HealthScreen extends Actor
       health += damage;
       if(getHealth() > 4)
         health = 4;
-      if (getHealth() == 0)
+      if (getHealth() <= 0)
       {
          setImage("health0.png");
         ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().stop();
         ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
         //getWorld().addObject(new GameOver(), getWorld().getWidth() / 2, getWorld().getHeight() / 2);
         
-        new GreenfootSound("game-over.wav").play();
-        getWorld().addObject(new GameOver(), 400, 150);
-        getWorld().addObject(new TryAgain(), 400, 250);
+       // new GreenfootSound("game-over.wav").play();
+       // getWorld().addObject(new GameOver(), 400, 150);
+       // getWorld().addObject(new TryAgain(), 400, 250);
         //((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().stop();
-        Greenfoot.stop();
-      };
-    
-    setImage("health"+health+".png");
+        Greenfoot.setWorld(new GameOverState()); 
+      }
+    else
+      setImage("health"+health+".png");
   }  
      public int getHealth()
     {

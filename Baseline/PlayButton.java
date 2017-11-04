@@ -3,22 +3,33 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Button here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @AMBIKA BOHRA
+ * @version 2 (added music)
  */
 public class PlayButton extends Button
 {
-    /**
-     * Act - do whatever the Button wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+    /*
+     * sets home screen background music 
+     * if clicked , it sets my world 
      */
+    private GreenfootSound music;
+    PlayButton()
+    {
+        music = new GreenfootSound("home.wav");   
+    }
+    
     public void act() 
     {
-
+        music.playLoop();
         if (Greenfoot.mouseClicked(this))
         {
             Greenfoot.setWorld(new MyWorld());
+            music.stop(); //stops home wrld music
         }
-        // Add your action code here.
-    }    
+    }  
+    
+     public GreenfootSound getMusic()
+  {
+      return music;
+  }
 }

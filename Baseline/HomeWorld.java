@@ -5,7 +5,7 @@ import greenfoot.World;
 import java.util.List; // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class HomeWorld here.
+ * GUI (home screen)
  * 
  * @author (your name) 
  * @version (a version number or a date)
@@ -19,39 +19,33 @@ public class HomeWorld extends World
      */
     private GreenfootImage img;
     private Title title;
-    GreenfootSound music; 
     
     public HomeWorld()
     {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-       
         super(800, 600, 1); 
         
         title = new Title();
         addObject(title, 400, 150);
+        
         img = new GreenfootImage("menubg1.jpg");
         setBackground(img);
       
-        addObject(new PlayButton(), 400, 250);
+        addObject(new PlayButton(), 400, 250); //takes to play screen
            
-        addObject(new LevelButton(), 400, 330);
+        addObject(new LevelButton(), 400, 330); //takes to levels screen
 
-        addObject(new QuitButton(), 400, 410);
+        addObject(new QuitButton(), 400, 410); //stops game
       
-        addObject(new ScoreButton(), 100, 550);
+        addObject(new ScoreButton(), 250, 550); // score board
         
-        addObject(new Purchase(), 250, 550);
+        //addObject(new Purchase(), 250, 550); 
         
-        addObject(new ShareFriends(),400, 550);
+        addObject(new ShareFriends(),400, 550); //sharing options
         
-        addObject(new Help(), 700, 550);
+        addObject(new Help(), 550, 550); //info page for various key operations
 
-        addObject(new Sound(), 550, 550);
-        
-       
+        //addObject(new Sound(), 550, 550);
+          
     }
-  
-
-   
 
 }

@@ -64,6 +64,8 @@ In week #4, Everyone took leads to their own design patterns. We are finding it 
  
 In week #5, Everyone started creating prototype for individual assigned modules. Though everyone have faced many challenges, We kept trying to implement.
 
+In week #6, Everyone has worked on assigned design pattern. It seems tought to wire in the new designed code into existing baseline code. Even though it is diffult, We are trying hard to get it done. 
+
 **# Respect**
 (Masi)
 

@@ -84,7 +84,8 @@ https://github.com/lkandukuri/Factory-Pattern
 1. Activated the "Next Level" button at the end of each game.
 2. Implemented "Next Level" functionality by using Singleton design pattern.
 3. Created Levels screen for the game with three levels.
-4. Worked on issues 50 and 58.
+4. Worked on issues 50(in progress), 58 and 73.
 5. Working on state of levels-showing lock and open based on eligibility for a particular level.
+6. Started working on strategy design pattern for different levels.
 
 

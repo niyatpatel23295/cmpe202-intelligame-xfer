@@ -81,3 +81,12 @@ Week #5
 3. Added Timer in game.
 
 4. Started working on state design pattern to be implements on score board.
+
+
+Week #6
+--------------------------------------------------------------------------------------------------------------------
+1. Add State Design pattern
+
+2. Implement State design pattern for Game Start, Running, Stopped, Paused, LevelCompleted and GameOver states
+   
+3. Other minor bug Fixes.

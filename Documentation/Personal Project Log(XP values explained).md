@@ -78,3 +78,5 @@ In Week #3, we brainstormed and proposed many new features to be added into the 
 In Week#4, we discussed the different parts of the game UI and wireframe thoroughly. Every team member has some new ideas, and we acheived a nice outcome by keeping our discussions and meeting always to the point and respectfull to other team members. 
 
 In week #5, we as team showed respect for every team members' time by meeting online using Zoom, and agreed upon a time frame that would work for all team members. We discussed different options and chandeg the architecture of the game slightly.
+
+In week #6, IntelliGame team members continued developing the modules assigned to them while communicating any discrepancies faced in the classes shared between two or more team members while recognizing and respecting others' efforts and trying to reach to a common ground rather than insisting on their own point of view.

@@ -97,8 +97,8 @@ Questions:
 
 Answers:
 
-1. In the past week, we worked on creating different modules which included new functionalities like new levels, Power ups, health screen, Menu screen, user login and score screen. We discussed about the dependencies between each of these modules and made sure that development tasks are not effected by these dependencies.
+1. In the past week, we worked on creating different modules which included new functionalities like new levels, Power ups, Menu screen, user login and score screen. We discussed about the dependencies between each of these modules and made sure that development tasks are not affected by these dependencies.
 
-2. In the next week, we are planning to finalize the development of different modules using appropriate design patterns and to start working on integration of different modules.
+2. In the next week, we are planning to finalize the development of different modules using appropriate design patterns and to work on integration of different modules.
 
 3. Current blocker is to manage the integration of all modules. We have to ensure it doesn't create any bugs. Similarly we will make new enhancement as the project requires to keep the integration smooth.

@@ -63,12 +63,7 @@ public class MyWorld extends World
         //Greenfoot.stop();
         ((Monkey)getObjects(Monkey.class).get(0)).getMusic().stop();
         new GreenfootSound("the-end.wav").play();
-        //addObject(new Finished(), 410, 200);
-        Level level = new Level();
-        addObject(level, 400, 300);
-        addObject(new ScoreScreen(), 430, 260);
-        addObject(new NextLevel(), 380, 350);
-        addObject(new QuitButton(), 380, 420);
+        Greenfoot.setWorld(new LevelCompletedState(score)); //For connecting Levels
       
       }
       else {

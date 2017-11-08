@@ -1,7 +1,4 @@
-abstract class Observer {
-    protected Subject subject;
-    public abstract void update();
-}
+
 
 class Subject {
     private List<Observer> observers = new ArrayList<>();

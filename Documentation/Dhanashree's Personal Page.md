@@ -73,4 +73,8 @@ https://github.com/dgaonkar17/cmpe202/tree/master/DesignPatterns/Chain%20of%20Re
 2. Activate "enter user pin" functionality for authentication screen.
 3. Working on implementing observer design pattern for authentication screen.
 
+# Week #7:
+1. Integrated with other modules for authentication of user.
+2. Implementing proxy design pattern for authentication screen.
+
 

@@ -10,16 +10,15 @@ import greenfoot.Greenfoot;
  */
 public class Level1Button extends Button
 {
-    /**
-     * Act - do whatever the Level1Button wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-    	// Add your action code here.
-    	 if (Greenfoot.mouseClicked(this))
-         {
-    		 Greenfoot.setWorld(new MyWorld());
-         }  
-    }    
+	/**
+	 * Act - do whatever the Level1Button wants to do. This method is called whenever
+	 * the 'Act' or 'Run' button gets pressed in the environment.
+	 */
+	public void act() 
+	{
+		if (Greenfoot.mouseClicked(this))
+		{
+			Greenfoot.setWorld(new MyWorld());
+		}  
+	}    
 }

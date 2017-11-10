@@ -10,21 +10,19 @@ import java.util.List;
  */
 public class PowerUp extends Actor
 {
-    GreenfootSound sound = new GreenfootSound("power-up.wav");
-  
-  public PowerUp() {
-    
-    }
-  
-  public void act() 
-  { 
-      if (isTouching(Monkey.class)) 
-      {
-          sound.play();
-          //this.setScore(2);
-          ((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updateHealth(2);
-          getWorld().removeObject(this);
-      }
-  }
+	GreenfootSound sound = new GreenfootSound("power-up.wav");
+
+	public PowerUp() {}
+
+	public void act() 
+	{ 
+		if (isTouching(Monkey.class)) 
+		{
+			sound.play();
+			//this.setScore(2);
+			((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updateHealth(2);
+			getWorld().removeObject(this);
+		}
+	}
 }  
 

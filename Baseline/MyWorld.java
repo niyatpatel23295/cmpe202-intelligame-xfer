@@ -31,25 +31,26 @@ public class MyWorld extends World
     img = new GreenfootImage("background1.png");
     setBackground(img);
     
-    score = new ScoreScreen();
-    health = new HealthScreen(); // added a new health screen to record power level
-    
+    //objects for play screen
+    score = new ScoreScreen(); //records point collected
+    health = new HealthScreen(); //dispalys health level of player
     trash = new Trash();
     monkey = new Monkey();
     cactus = new Cactus();
     power = new PowerUp();
     
-    addObject(new Sound(), 740, 570); //sound icon
-    addObject(new Menu(), 50, 570); //sound icon
-    putBanana(680, 33, 1); //placed one banana for score screen 
+    addObject(score, 700, 40); //score scrren at top right
+    addObject(health, 100, 40); //health scrren at top left
+    addObject(new Sound(), 740, 570); //quit button at bottom left
+    addObject(new Menu(), 50, 570); //sound button at bottom left
     
-    addObject(score, 700, 40);
-    addObject(health, 100, 40); // set x, y coordinates
-    
+    //stage 1 construction
     addObject(monkey, 40, 480);
     addObject(trash, 570, 510);
-    putBanana(60, 300, 2);
-    putBanana(180, 250, 2);
+    putBanana(60, 300, 5);
+    
+    //score observer pattern
+    monkey.attach(score);//attaching observer to subject
     
   }
  
@@ -62,7 +63,6 @@ public class MyWorld extends World
       trash.setFlag(false); //set flag to false aftor each level
       cactus.setFlag(false); //set flag to false aftor each level
 
-     
       if (stage == 2) {
         this.removeObjects(this.getObjects(Banana.class));//remove previous stage bananas
         addObject(cactus, 200, 510);
@@ -102,9 +102,7 @@ public class MyWorld extends World
         new GreenfootSound("the-end.wav").play(); 
         stage = 1; //for removing error of background
         Greenfoot.setWorld(new LevelCompletedState(score));  //directs to level completed world with parameter score   
-      }
-      
-      
+      }  
        setBackground(new GreenfootImage("background" + stage + ".png"));
        ((Monkey)getObjects(Monkey.class).get(0)).setLocation(0, 480); //set location after each stage
        stage++;

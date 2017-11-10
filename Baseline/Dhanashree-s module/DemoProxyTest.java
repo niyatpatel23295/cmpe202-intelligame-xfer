@@ -1,8 +1,3 @@
-interface SocketInterface {
-    String readLine();
-    void  writeLine(String str);
-    void  dispose();
-}
 
 class SocketProxy implements SocketInterface {
     // 1. Create a "wrapper" for a remote,

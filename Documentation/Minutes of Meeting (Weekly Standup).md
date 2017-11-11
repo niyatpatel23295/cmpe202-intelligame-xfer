@@ -112,3 +112,5 @@ Questions:
 
 Answers:
 1. Our team implemented various design patterns in their modules. We integrated our pattern in the baseline code ensuring the code quality.
+2. The next step would be to finalize the integration of modules, and then take care of any bugs that may appear as a result of integration. We will also add some final touches to the GUI.
+3. Some design pattern implementations are not completely correct, so we are going to discuss that, and make sure everything makes sense in our code.

@@ -23,6 +23,8 @@ In week #5, we as team started to communicate more effectively and decided upon 
 
 In week #6, each of us worked on different modules assigned. We coordinated whenever there is a dependency with other modules. Once the dependencies are understood, we continued working on our individual modules. We started implemeting the design patterns and also started working on the UML class design. We had discussed and resolved known bugs. We're working together on creating the best solution possible.
 
+In week #7, we continued working on modules assigned to each of us and started making the final changes. We started integrating the code and correcting errors if any. We are working on integrating class diagrams of different modules into a single project class diagram. We're working together on creating the best solution possible.
+
 **# Simplicity**
 
 In week #1, each team member did a PoC to test out the functionalties of the Game engine. This code might not be used in the actual product but it helped the other team members to understand the game engine in a better way.

@@ -1,14 +1,26 @@
-public class GameManager {
- 
-	GameState start ;
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class GameManager here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class GameManager extends Actor
+{
+    /**
+     * Act - do whatever the GameManager wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    GameState start ;
     GameState running ;
     GameState paused ;
     GameState stopped ;
     GameState gameover ;
-    GameState levelcomplete ;
+    GameState levelcompleted ;
     GameState currentState;
-
-    public GameManager()
+    
+        public GameManager()
     {
         start = new GameStartState(this);
         running = new GameRunningState(this);
@@ -16,10 +28,14 @@ public class GameManager {
         stopped = new GameStoppedState(this);
         gameover = new GameOverState(this);  
         levelcompleted = new GameLevelCompletedState(this);      
-        currentState = start ;
+        currentState = stopped ;
     }
-	 
-	public void start() {
+    
+    public void act() 
+    {
+        // Add your action code here.
+    }    
+   	public void start() {
         System.out.println( "starting on...");
 	    currentState.setStateStart();
 	}
@@ -53,7 +69,7 @@ public class GameManager {
         switch( nextState ) {
             case START :          currentState = start ; break ;
             case RUNNING :           currentState = running ; break ;
-            case PAUSED:     currentState = pauded ; break ;
+            case PAUSED:     currentState = paused ; break ;
             case STOPPED :          currentState = stopped ; break ;
             case GAMEOVER :           currentState = gameover ; break ;
             case LEVELCOMPLETE:     currentState = levelcompleted ; break ;
@@ -66,6 +82,4 @@ public class GameManager {
     {
         System.out.println( "Current State: " + currentState.getClass().getName());
     }
-	 
 }
-

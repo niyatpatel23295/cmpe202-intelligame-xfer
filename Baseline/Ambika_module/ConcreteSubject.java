@@ -1,44 +1,52 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
-/**
- * Write a description of class ConcreteSubject here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+import java.util.ArrayList;
+/*
+ * child classes are Cactus, Trash and PowerUp
  */
-public class ConcreteSubject extends Actor implements Subject
+public class ConcreteSubject extends Actor implements HealthSubject
 {
-    /**
-     * Act - do whatever the ConcreteSubject wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    //ScreenObserver healthObserver;
-    private int updateScore;
-   
-    public int getScore()
+    HealthObserver observer ;
+    private String state = "No Change";
+    private ArrayList<ConcreteSubject> subjects= new ArrayList<ConcreteSubject>();
+    protected boolean flag = false;
+    
+    public String getState()
     {
-        return updateScore;
+        return state;
+    }
+    
+    public void setFlag(boolean value)
+    {
+        flag = value;
     }
     
     public void act()
     {
-       //do nothing  
+       attachSubjects(); 
     }
-    public void setScore(int newScore)
+    
+    public void setState(String state)
     {
-        this.updateScore = newScore;
+        this.state = state;
         notifyObserver();
     }
+    
+     public void attachSubjects()
+    {
+        subjects.add((Cactus)getWorld().getObjects(Cactus.class).get(0));
+        subjects.add((Trash)getWorld().getObjects(Trash.class).get(0));
+        subjects.add((PowerUp)getWorld().getObjects(PowerUp.class).get(0));
+    }
       
-    //public void attach(HealthScreen obj)
-    //{
-    //    this.healthObserver = obj;
-    //}
+    public void attach(HealthObserver obj)
+    {
+        this.observer = obj;
+    }
     
     public void notifyObserver()
     {
-        //healthObserver.updatePoints(updateScore);
-       ((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updatePoints(updateScore);
+        if(this.observer != null)
+            observer.updateHealth(state);
     }
     
 }

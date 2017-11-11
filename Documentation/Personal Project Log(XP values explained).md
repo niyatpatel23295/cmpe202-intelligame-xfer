@@ -1,6 +1,4 @@
 **# Communication**
-(Lavanya)
-
 In Week #1, our team had discussed on what the requirements are and divided the tasks individually. Each of us had planned to explore different game engines and to come up with ideas that could be integrated later. At the end of the week, we've evaluated different game engines based on their complexity, technology stack used and supported platforms. Finally, we've shared our ideas and views about each game engine. We're working together on creating the best solution possible.
 
 In Week #2, our team had finalized the game engine(Greenfoot) and the game(Monkey Adventure) to be implemented. We've brainstormed the features/modules to be added into the game. We have taken the baseline code and tried to understand the same by testing it. Each of us have analyzed one design pattern by implementing an example. We've discussed on how to fit a particular design pattern into a specific module. We're working together on creating the best solution possible.
@@ -23,6 +21,8 @@ In week #5, we as team started to communicate more effectively and decided upon 
 
 In week #6, each of us worked on different modules assigned. We coordinated whenever there is a dependency with other modules. Once the dependencies are understood, we continued working on our individual modules. We started implemeting the design patterns and also started working on the UML class design. We had discussed and resolved known bugs. We're working together on creating the best solution possible.
 
+In week #7, we continued working on modules assigned to each of us and started making the final changes. We started integrating the code and correcting errors if any. We are working on integrating class diagrams of different modules into a single project class diagram. We're working together on creating the best solution possible.
+
 **# Simplicity**
 
 In week #1, each team member did a PoC to test out the functionalties of the Game engine. This code might not be used in the actual product but it helped the other team members to understand the game engine in a better way.
@@ -34,8 +34,6 @@ In week #6
 We brought about simplicity in our integration methoddology by creating modules. So that there is less dependency and more isolated tasks.
 
 **# Feedback** 
-(Ambika)
-
 In week #1, Our team has worked on finding suitable game as our project. We have evaluated scope of several game engines, with the mutual feedback on gathered ideas considering design and implementation, we came up with one game engine on which we will develop our game. Through constant feedback, we are continuously planning to improve, revise our practices and adjust our project going forward.
 
 In week #2, Every team member came up with different ideas on game based on greenfoot. After gathering their individual ideas, we finalized one game Monkey Adventure. We are improving our practices, this week we have improved collaboration among team memebers. Also, we have discussed improvement needed in game baseline code, which team will implement as the project goes forward. 
@@ -50,9 +48,9 @@ In week #5, We have improved our pace for finishing the game. We all are working
 
 In week #6, We have gathered various ideas to make the new enhancement in our Project. All team members gave their suggestions to reduce the bugs and new design patterns that can be applied. We have improved our working process and gave more effort to building this game.
 
-**# Courage**
-(Niyat)
+In week #7, With every new use case/story being created, the team immediately reverted with timeline estimation, firming up requirements as they arose.
 
+**# Courage**
 In week #1, We learned about many game engines and tried to implement simple example games. We came to know that each game engine have its pros and cons. We implemented many simple example games to understand the architecture and working of different engines but we were not afraid to discard the effort and code as many game engines didn't provide what we were looking for. 
 
 In week #2, We implemented many design patterns and tried to solve some example problems with them. We also searched for many existing games to work upon. As being in reasearch phase, We invested much of our time and effort in these. But as its required, We kept doing it and finally decided which game to develop and which design patterns to use in developmet.
@@ -67,8 +65,6 @@ In week #5, Everyone started creating prototype for individual assigned modules.
 In week #6, Everyone has worked on assigned design pattern. It seems tought to wire in the new designed code into existing baseline code. Even though it is diffult, We are trying hard to get it done. 
 
 **# Respect**
-(Masi)
-
 In week #1, The IntelliGame team were respectful to each others' points of views and knowledge as a valued team member. Every team member evaluated a different game engine, and presented their results to the team, discussing all the cons and pros. Every one respected opposite opinions, and made their best effort to leverage our diverse perspectives and reasoning.  As a development team, we accepted responsibility and received authority over our work.
 
 In Week #2, our team had finalized the game engine (Greenfoot) to be used, as well as the game itself (Monkey Adventure) to be implemented. We discussed possible features of the game, and tried to understand and test the baseline code, and functionalities. We have taken the baseline code and tried to understand the same by testing it. All the above were done by several discussions among the team members, and we all listened and respected each others' points of view.
@@ -80,3 +76,5 @@ In Week#4, we discussed the different parts of the game UI and wireframe thoroug
 In week #5, we as team showed respect for every team members' time by meeting online using Zoom, and agreed upon a time frame that would work for all team members. We discussed different options and chandeg the architecture of the game slightly.
 
 In week #6, IntelliGame team members continued developing the modules assigned to them while communicating any discrepancies faced in the classes shared between two or more team members while recognizing and respecting others' efforts and trying to reach to a common ground rather than insisting on their own point of view.
+
+In week #7, our team members finalized the implementation of their assigned design patterns and together integrated the modules, first independently, and then together,taking into account the parts of their modules that affect other team members' modules, and any inter-modul classes that had any kind of dependency to another modul's class(es). Each of us discussed the effects of other team members' code on our own, and resolved issues while remaining respectfull to each others' opinions and acknowledging their efforts. 

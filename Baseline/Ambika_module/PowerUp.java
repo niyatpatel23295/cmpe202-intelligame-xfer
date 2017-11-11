@@ -11,20 +11,17 @@ import java.util.List;
 public class PowerUp extends ConcreteSubject
 {
     GreenfootSound sound = new GreenfootSound("power-up.wav");
-  
-  public PowerUp() {
-    
+
+    public PowerUp() {}
+
+    public void act() 
+    { 
+        if (isTouching(Monkey.class)) 
+         {
+            sound.play();
+            setState("power");
+            getWorld().removeObject(this);
+        }
     }
-  
-  public void act() 
-  { 
-      if (isTouching(Monkey.class)) 
-      {
-          sound.play();
-          this.setScore(2);
-          //((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updatePoints(1);
-          getWorld().removeObject(this);
-      }
-  }
 }  
 

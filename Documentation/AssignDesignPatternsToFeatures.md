@@ -1,6 +1,6 @@
 ## Design Pattern :: Feature
 
-**1. Composite (Masi)** :: Menu bar (options, help, etc.)
+**1. Factory (Masi)** :: Random craetion of snacks based on the current level
 
 **2. State, Observer, Proxy (Dhanashree)** :: User authentication (User login + passcode verification)
 

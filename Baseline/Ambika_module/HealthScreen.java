@@ -7,48 +7,73 @@ import greenfoot.Greenfoot;
 import greenfoot.GreenfootSound;
 import greenfoot.World;
 import java.util.List;
-  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.util.ArrayList;
 /**
- * Write a description of class HealthScreen here.
+ * record of player health .
+ * initial health is 4
+ * enemy reduces it by 1
+ * power increases by 2
+ * game over if health is zero
  * 
- * @author Ambika Bohra
- * @version 10/31/17
  */
-public class HealthScreen extends ConcreteObserver
+public class HealthScreen extends Actor implements HealthObserver
 {
-    /**
-     * Act - do whatever the HealthScreen wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-  private int health;
-  public HealthScreen() 
-  {
-     super();
-     GreenfootImage im1 = new GreenfootImage("health4.png");
-     setImage(im1);   
-     health = 4;
-  }
+    private int health;
+    public HealthScreen() 
+    {
+        super();
+        GreenfootImage im1 = new GreenfootImage("health4.png");
+        setImage(im1);  
+        health = 4;   //set initial health to 4 (100%)
+    }
 
- 
-  public void updatePoints(int score)
-  {
-    health += score;
-    
-    if(health > 4)
-        health = 4;
-    
-    if (health <= 0)
+    public void updateHealth(String state)
     {
-        setImage("health0.png");
-        ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().stop();
-        ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
-        Greenfoot.setWorld(new GameOverState()); //go to new World "game Over State"
+            if(state.equals("enemy"))
+                --health;
+            if(state.equals("power"))
+                health += 2;
+        checkHealth();  
+        
     }
-    else
+    
+    public void checkHealth()
     {
-      setImage("health"+health+".png");
+        if(getHealth() > 4) //max health is 4
+            health = 4;
+        
+        if (getHealth() <= 0) //game over if health is zero
+        {
+            setImage("health0.png");
+            ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().stop();
+            ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
+            Greenfoot.setWorld(new GameOverState()); 
+        }
+        else
+            setImage("health"+health+".png");
     }
- 
-  }  
+
+    public void updateHealth(int damage)
+    {
+        health += damage;
+        
+        if(getHealth() > 4) //max health is 4
+            health = 4;
+        
+        if (getHealth() <= 0) //game over if health is zero
+        {
+            setImage("health0.png");
+            ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().stop();
+            ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
+            Greenfoot.setWorld(new GameOverState()); 
+        }
+        else
+            setImage("health"+health+".png");
+    }  
+    public int getHealth()
+    {
+        return health;
+    }
+
 }
+

@@ -17,7 +17,8 @@ public class PlayButton extends Button
 
         if (Greenfoot.mouseClicked(this))
         {
-            Greenfoot.setWorld(new MyWorld());
+            GameManager gm = new GameManager();
+            gm.start();
         }
         // Add your action code here.
     }    

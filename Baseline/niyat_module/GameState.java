@@ -1,6 +1,23 @@
-public class GameState implements IGameState {
- 
-	GameManager game_manager;
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class GameState here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class GameState extends Actor implements IGameState
+{
+    /**
+     * Act - do whatever the GameState wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        // Add your action code here.
+    }    
+    
+    GameManager game_manager;
 	 
 	public GameState(GameManager gm) {
         game_manager = gm ;

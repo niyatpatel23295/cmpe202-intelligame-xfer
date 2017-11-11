@@ -97,8 +97,18 @@ Questions:
 
 Answers:
 
-1. In the past week, we worked on creating different modules which included new functionalities like new levels, Power ups, Menu screen, user login and score screen. We discussed about the dependencies between each of these modules and made sure that development tasks are not affected by these dependencies. We created saperate folders are started working on individual assigned modules on respective folder.
+1. In the past week, we worked on creating different modules which included new functionalities like new levels, Power ups, Menu screen, user login and score screen. We discussed about the dependencies between each of these modules and made sure that development tasks are not affected by these dependencies. We created separate folders and started working on individual assigned modules on respective folder.
 
 2. In the next week, we are planning to finalize the development of different modules using appropriate design patterns and to work on integration of different modules.
 
 3. Current blocker is to manage the integration of all modules and refactoring code to implement design patterns. We have to ensure it doesn't create any bugs. Similarly we will make new enhancement as the project requires to keep the integration smooth. 
+
+
+## Week #7:
+Questions: 
+1.  What did the team do the past week?
+2.  What is the team going to do next week?
+3.  What are the current blockers/challenges the team is facing?
+
+Answers:
+1. Our team implemented various design patterns in their modules. We integrated our pattern in the baseline code ensuring the code quality.

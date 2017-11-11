@@ -89,3 +89,10 @@ Fix bug of backward movement of monkey.
 Added smooth connection between two level.
 Added new screens for Game over state and made the game running (even after game is over) and directed to new instance of MyWorld class.
 Added observer pattern for Healthscreen.
+
+Week #7
+--------------------------------------------------------------------------------------------------------------------
+
+Added observer design pattern for the score(score screen as an observer and monkey as a subject).
+Added design pattern for health(health screen as an observer and cactus, trash, power as subjects).
+Fixed the bug of repeating bananas.

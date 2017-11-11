@@ -18,7 +18,7 @@ public class Level2Button extends Button
     	// Add your action code here.
     	 if (Greenfoot.mouseClicked(this))
          {
-    		 Greenfoot.setWorld(new Level2World());
+    		 //Greenfoot.setWorld(new Level2World());
          }
     }    
 }

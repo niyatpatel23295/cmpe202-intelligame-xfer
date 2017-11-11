@@ -82,3 +82,5 @@ In Week#4, we discussed the different parts of the game UI and wireframe thoroug
 In week #5, we as team showed respect for every team members' time by meeting online using Zoom, and agreed upon a time frame that would work for all team members. We discussed different options and chandeg the architecture of the game slightly.
 
 In week #6, IntelliGame team members continued developing the modules assigned to them while communicating any discrepancies faced in the classes shared between two or more team members while recognizing and respecting others' efforts and trying to reach to a common ground rather than insisting on their own point of view.
+
+In week #7, our team members finalized the implementation of their assigned design patterns first independently and then taking into account the parts of their modules that affect other team members' modules, and any inter-modul classes that had any kind of dependency to another modul's class(es). Each of us discussed the effects of other team members' code on our own, and resolved issues while remaining respectfull to each others' opinions and acknowledging their efforts. 

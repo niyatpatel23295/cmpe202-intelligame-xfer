@@ -14,7 +14,7 @@ public class GameRunningState extends GameState {
 
     @Override
     public void setStatePaused() {
-       Greenfoot.pause()
+       Greenfoot.stop();
     }
 
 }

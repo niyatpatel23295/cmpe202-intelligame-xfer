@@ -88,9 +88,11 @@ https://github.com/lkandukuri/Factory-Pattern
 5. Working on state of levels-showing lock and open based on eligibility for a particular level.
 6. Started working on strategy design pattern for different levels.
 
-#Week #7:
+# Week #7:
 
 1. Integrated with other module(GameOverState.java and LevelCompletedState.java) for connection between levels.
 2. Implementing Strategy design pattern for levels.
+3. Worked on 50(completed) and 51(in progress).
+4. Implemented Factory Pattern for obstacles Trash and Cactus.
 
 

@@ -90,3 +90,12 @@ Week #6
 2. Implement State design pattern for Game Start, Running, Stopped, Paused, LevelCompleted and GameOver states
    
 3. Other minor bug Fixes.
+
+Week #7
+--------------------------------------------------------------------------------------------------------------------
+
+Modified state design pattrn for changing code accomodation.
+
+Created new files for implementing state design pattern of game flow.
+
+Fixed other bugs and improvements.

@@ -112,8 +112,8 @@ Questions:
 
 Answers:
 
-1. Our team implemented various design patterns in their modules. We integrated our pattern in the baseline code ensuring the code quality.
+1. Our team implemented various design patterns in their modules. We integrated our pattern in the baseline code ensuring the code quality. While some design patterns have not yet been integrated fully, We will continue working on it.
 
-2. The next step would be to finalize the integration of modules, and then take care of any bugs that may appear as a result of integration. We will also add some final touches to the GUI. Apart from this, we'll work on the final integration of class diagram of the game.
+2. The next step would be to finalize the integration of modules, and then take care of any bugs that may appear as a result of integration. We will also add some final touches to the GUI (Graphical User Interface). Apart from this, we'll star working on the final integration of class diagram of the game.
 
-3. Some design pattern implementations are not completely correct, so we are going to discuss that, and make sure everything makes sense in our code.
+3. Some design pattern implementations are not completely imtegrated, so we are going to discuss that, and make sure everything makes sense in our code.

@@ -13,18 +13,15 @@ public class GameState implements IGameState {
         gameWorld = gw ;
 	}
 
-	public void goReadyToStart() {
-		// no implementation
-	}
-
-  	public void goLevel1Running() {}
-  	public void goLevel1Finished() {}
-  	public void goLevel2Running() {}
-  	public void goLevel2Finished() {}
-  	public void goLevel3Running() {}
-  	public void goLevel3Finished() {}
-  	public void goPaused() {}
-  	public void goGameOver() {}
-  	public void goExited() {}
+	public void goReadyToStart() {}
+	public void goLevel1Running() {}
+	public void goLevel1Finished() {}
+	public void goLevel2Running() {}
+	public void goLevel2Finished() {}
+	public void goLevel3Running() {}
+	public void goLevel3Finished() {}
+	public void goPaused() {}
+	public void goGameOver() {}
+	public void goExited() {}
 	 
 }

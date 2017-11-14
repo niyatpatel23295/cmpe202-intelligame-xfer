@@ -18,7 +18,7 @@ import java.util.List;
 public class HealthScreen extends Actor
 {
     private int health;
-
+    GameManager gm = GameManager.getInstance();
     public HealthScreen() 
     {
         super();
@@ -39,7 +39,7 @@ public class HealthScreen extends Actor
             setImage("health0.png");
             ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().stop();
             ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
-            Greenfoot.setWorld(new GameOverState()); 
+            gm.gameOver();
         }
         else
             setImage("health"+health+".png");

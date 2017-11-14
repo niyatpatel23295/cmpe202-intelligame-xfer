@@ -70,6 +70,8 @@ In week #5, Everyone started creating prototype for individual assigned modules.
 
 In week #6, Everyone has worked on assigned design pattern. It seems tought to wire in the new designed code into existing baseline code. Even though it is diffult, We are trying hard to get it done. 
 
+In week #7, Everyone had spend significant times to implement the assiged design patterns but some of us includingme finding it hard to be integrate it with baseline code. We will now start working on creating class diagram of the code.
+
 **Respect**
 In week #1, The IntelliGame team were respectful to each others' points of views and knowledge as a valued team member. Every team member evaluated a different game engine, and presented their results to the team, discussing all the cons and pros. Every one respected opposite opinions, and made their best effort to leverage our diverse perspectives and reasoning.  As a development team, we accepted responsibility and received authority over our work.
 

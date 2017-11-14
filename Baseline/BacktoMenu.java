@@ -8,9 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class BacktoMenu extends Button
 {
-	public void act() 
-	{
-		if (Greenfoot.mouseClicked(this))
-			Greenfoot.setWorld(new HomeWorld());    
-	}
+    GameManager gm = GameManager.getInstance();
+    public void act() 
+    {
+        if (Greenfoot.mouseClicked(this)){
+           gm.start();
+        }
+    }
 }

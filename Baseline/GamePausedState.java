@@ -1,8 +1,8 @@
 import greenfoot.Greenfoot;
 
-public class GameOverState extends GameState {
+public class GamePausedState extends GameState {
 
-    public GameOverState( GameManager gm )
+    public GamePausedState( GameManager gm )
     {
         super( gm ) ;
     }
@@ -12,10 +12,10 @@ public class GameOverState extends GameState {
        Greenfoot.setWorld(new HomeWorld());
        game_manager.setState(GameStates.START);
     }
-    
+
     @Override
-    public void setStateRunning() {
-       Greenfoot.setWorld(new MyWorld());
-       game_manager.setState(GameStates.RUNNING);
+    public void setStateRunning(){
+    	Greenfoot.start();
+    	game_manager.setState(GameStates.RUNNING);
     }
 }

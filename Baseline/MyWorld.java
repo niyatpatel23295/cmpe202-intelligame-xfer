@@ -23,7 +23,9 @@ public class MyWorld extends World
   private PowerUp power;
   private HealthScreen health;
   private ScoreScreen score; 
-
+  
+  GameManager gm = GameManager.getInstance();
+  
  public MyWorld()
   {
     super(800, 600, 1);
@@ -51,6 +53,8 @@ public class MyWorld extends World
     
     //score observer pattern
     monkey.attach(score);//attaching observer to subject
+    
+    
     
   }
  
@@ -101,7 +105,7 @@ public class MyWorld extends World
         ((Monkey)getObjects(Monkey.class).get(0)).getMusic().stop();
         new GreenfootSound("the-end.wav").play(); 
         stage = 1; //for removing error of background
-        Greenfoot.setWorld(new LevelCompletedState(score));  //directs to level completed world with parameter score   
+        //Greenfoot.setWorld(new LevelCompletedState(score));  //directs to level completed world with parameter score   
       }  
        setBackground(new GreenfootImage("background" + stage + ".png"));
        ((Monkey)getObjects(Monkey.class).get(0)).setLocation(0, 480); //set location after each stage

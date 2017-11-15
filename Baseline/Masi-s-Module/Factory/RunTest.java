@@ -4,17 +4,17 @@ public class RunTest {
     
     public static void main( String [] args )
     {
-        System.out.println( "Testing Prius Factory...") ;
-        PriusFactory pf = new PriusFactory() ;
-        pf.buildOrder() ;
+        System.out.println( "Testing Level1Factory...") ;
+        Level1Factory l1 = new Level1Factory() ;
+        l1.buildOrder() ;
         
-        System.out.println( "Testing Volvo Factory...") ;
-        VolvoFactory vf = new VolvoFactory() ;
-        vf.buildOrder() ;
+        System.out.println( "Testing Level2Factory...") ;
+        Level2Factory l2 = new Level2Factory() ;
+        l2.buildOrder() ;
 
-        System.out.println( "Testing Tesla Factory...") ;
-        TeslaFactory tf = new TeslaFactory() ;
-        tf.buildOrder() ;
+        System.out.println( "Testing Level3Factory...") ;
+        Level3Factory l3 = new Level3Factory() ;
+        l3.buildOrder() ;
         
     }
 

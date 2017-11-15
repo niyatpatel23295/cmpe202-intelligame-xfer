@@ -95,4 +95,8 @@ https://github.com/lkandukuri/Factory-Pattern
 3. Worked on 50(completed) and 51(in progress).
 4. Implemented Factory Pattern for obstacles Trash and Cactus.
 
+# Week #8:
+
+1. Started integrating with other modules and implementing final changes.
+2. Implemented Strategy design pattern for levels.
 

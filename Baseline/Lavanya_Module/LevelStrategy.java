@@ -1,3 +1,4 @@
 public interface LevelStrategy {
-	public void act();
+	public void getSpeed();
+	public void setLevelBackground(int stage);
 }

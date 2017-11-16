@@ -21,8 +21,8 @@ public abstract class Creator {
 
 	public ISnack[] generateRandomSnacks(int timeseed, ISnack extraSnack) {
         ISnack extra = getExtraSnack();
-        System.out.println( "Building Order: " + this.gameLevel );
-        System.out.println( "Extra Snack..." + extra.getClass().getName() );
+        // System.out.println( "Building Order: " + this.gameLevel );
+        // System.out.println( "Extra Snack..." + extra.getClass().getName() );
 
         ISnack snacks[] = new ISnack(4);
 

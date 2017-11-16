@@ -77,9 +77,4 @@ https://github.com/dgaonkar17/cmpe202/tree/master/DesignPatterns/Chain%20of%20Re
 1. Integrated with other modules for authentication of user.
 2. Implementing proxy design pattern for authentication screen.
 
-# Week #8:
-
-1.Started integrating with other modules and implementing final changes.
-2. Implemented Command design pattern for menu buttons.
-
 

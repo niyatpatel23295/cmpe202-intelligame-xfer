@@ -1,9 +1,10 @@
+
 import greenfoot.GreenfootSound;
 import greenfoot.Actor;
 import greenfoot.World;
 import java.util.List;
 
-public class Coin extends Actor{
+public class Coin extends Actor implements ISnack{
 
 	GreenfootSound sound = new GreenfootSound("banana.wav");
 	  

@@ -1,4 +1,3 @@
-
 import greenfoot.Actor;
 import greenfoot.Greenfoot;
 import greenfoot.GreenfootImage;
@@ -6,8 +5,12 @@ import greenfoot.GreenfootSound;
 import greenfoot.World;
 import java.util.List;
 
+/*
+Fcatory Design Pattern
+Cactus.java :: Default snack
+*/
 
-public class Cactus extends Actor
+public class Cactus extends Actor implements ISnack // extends ConcreteSubjectObserverPattern
 {
 	private boolean flag = false;
 

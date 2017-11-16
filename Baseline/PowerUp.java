@@ -8,7 +8,7 @@ import java.util.List;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class PowerUp extends Actor
+public class PowerUp extends Actor implements ISnack
 {
 	GreenfootSound sound = new GreenfootSound("power-up.wav");
 
@@ -25,4 +25,3 @@ public class PowerUp extends Actor
 		}
 	}
 }  
-

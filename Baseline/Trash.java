@@ -1,4 +1,3 @@
-
 import greenfoot.Actor;
 import greenfoot.Greenfoot;
 import greenfoot.GreenfootImage;
@@ -7,7 +6,7 @@ import greenfoot.World;
 import java.util.List;
 
 
-public class Trash extends Actor
+public class Trash extends Actor implements ISnack
 {
   private boolean flag = false;
   

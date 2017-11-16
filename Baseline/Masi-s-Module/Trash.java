@@ -6,9 +6,13 @@ import greenfoot.GreenfootSound;
 import greenfoot.World;
 import java.util.List;
 
+/*
+Fcatory Design Pattern
+Trash.java :: Default snack
+*/
 
-public class Trash extends Actor
-{
+public class Trash extends Actor implements ISnack { // extends ConcreteSubjectObserverPattern
+ 
   private boolean flag = false;
   
   public Trash() {

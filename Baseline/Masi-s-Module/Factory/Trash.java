@@ -13,7 +13,7 @@ Created by: Masi Nazarian
 Date: 11/10/2017
 */
 
-public class Trash extends ConcreteSubjectObserverPattern implements ISnack {
+public class Trash extends Actor implements ISnack { // extends ConcreteSubjectObserverPattern
 	public void act()
 	{
 		if (isTouching(Monkey.class) && (flag == false)) {

@@ -13,7 +13,7 @@ import greenfoot.GreenfootSound;
 import greenfoot.World;
 import java.util.List;
 
-public class Cactus extends ConcreteSubjectObserverPattern implements ISnack 
+public class Cactus extends Actor implements ISnack // extends ConcreteSubjectObserverPattern
 {
   public Cactus() {
    

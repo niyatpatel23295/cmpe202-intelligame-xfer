@@ -41,7 +41,7 @@ public class MyWorld extends World
     setBackground(img);
     
     //objects for play screen
-    score = new ScoreScreen(); //records point collected
+    score = ScoreScreen.getInstance(); //records point collected
     health = new HealthScreen(); //dispalys health level of player
     trash = new Trash();
     monkey = new Monkey();

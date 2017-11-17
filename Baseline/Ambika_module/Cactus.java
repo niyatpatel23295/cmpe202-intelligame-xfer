@@ -6,13 +6,11 @@ import greenfoot.GreenfootSound;
 import greenfoot.World;
 import java.util.List;
 
-
+//Subject class for cactus , trash and power up
 public class Cactus extends ConcreteSubject
 {
-
 	public void act()
 	{
-
 		if (isTouching(Monkey.class) && (flag == false)) {
 			((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
 			setState("enemy");

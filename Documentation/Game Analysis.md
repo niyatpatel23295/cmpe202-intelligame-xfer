@@ -16,29 +16,20 @@
 6. Monkey should not be killed, once he touches prop. His health status should be decreased by X%. [fixed]
 7. Left button is not working, monkey should go back when left button is pressed. [fixed]
 8. Decrease the jump width (x parameter).[fixed]
-9. Once game is over, it should redirect to "Try again" or "Quit". [in process]
-10. Change the background and props to make it visually attractive(make a scrolling background).
-11. Even after the game is over, monkey moves till it reaches ground if the run button is pressed without reset.
-12. There are a total of 41 bananas in the game. Even if we miss collecting one banana, the final score is still 41. Score should be adjusted depending on the number of bananas collected.
-13. Music should stop if the game is paused for easy identification.
+9. Once game is over, it should redirect to "Try again" or "Quit". [fixed]
+10. Change the background and props to make it visually attractive. [fixed]
+11. Even after the game is over, monkey moves till it reaches ground if the run button is pressed without reset. [fixed]
+12. There are a total of 41 bananas in the game. Even if we miss collecting one banana, the final score is still 41. Score should be adjusted depending on the number of bananas collected. [fixed]
+13. Music should stop if the game is paused for easy identification. 
 
 ## New features planned to be implemented:
 
 1. Adding health status and showing monkey's health status in a different bar. [done]
-2. Making the actor immune for sometime/power up after collecting a heart.
-3. Adding more levels into the game (levels to be called "Saga" in our game i.e. The Adventur Saga, The War Saga, The Power Saga, The Marathon Saga, and so on). [in process]
-4. Actor meeting a princess or defining the end of the game.
-5. Giving more lifes and improve score board for displaying life and score both. [in process]
-6. Adding payment option to purchase energy points or unlock a new level. [discarded]
-7. Adding option to player to pick from a pool of fruit / snack options with variety of energy contents and hence various levels of difficulty in grasping them. [discarded ]
-8. Adding the option for user to share his/her scores on social media. 
-9. Add a help screen to display the arrow key operations of the game. 
-10. Add a timer to the game. [timer for immunity functionality only]
-11. Sharing score with friends on social media.
-12. Invite friends to play the game (share the link).
-13. As the levels progress, increase the difficuly of the game by placing more dustbins/cactus. 
-14. Change the background/ look and feel of every level. [in process]
-15. Adding different fun voices for whenever the monkey eats different kinds of items i.e. banana, other regular fruits, heart (immunity), spark (power), rotten fruits (weakness).  [in process]
+2. Adding more levels into the game (levels to be called "Saga" in our game i.e. The Adventur Saga, The War Saga, The Power Saga, The Marathon Saga, and so on). [in process]
+3. Giving more lifes and improve score board for displaying life and score both. [done]
+4. As the levels progress, increase the difficuly of the game by placing more dustbins/cactus. 
+5. Change the background/ look and feel of every level. [done]
+6. Adding different fun voices for whenever the monkey eats different kinds of items i.e. banana, other regular fruits, heart (immunity), spark (power), rotten fruits (weakness).  [done]
 
 
 

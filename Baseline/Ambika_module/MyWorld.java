@@ -16,7 +16,7 @@ public class MyWorld extends World
   
   GreenfootSound music; 
   private GreenfootImage img;
-  
+  //objects for MyWorld
   private Monkey monkey;
   private Cactus cactus;
   private Trash trash;
@@ -38,7 +38,7 @@ public class MyWorld extends World
     monkey = new Monkey();
     cactus = new Cactus();
     power = new PowerUp();
-    
+    //place the object at screen
     addObject(score, 700, 40); //score scrren at top right
     addObject(health, 100, 40); //health scrren at top left
     addObject(new Sound(), 740, 570); //quit button at bottom left

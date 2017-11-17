@@ -11,14 +11,10 @@ Description/Normal Flow:
 1. As the game starts menu screen appears.
      
 2. Player clicks on **Play**. Check **Play Level** use Case.
-     
-3. Player clicks on **ScoreBoard**. Check **ScoreBoard** use Case.
-     
-4. Player clicks on **Select Level**. Check **Select Level** use Case.
+      
+3. Player clicks on **Select Level**. Check **Select Level** use Case.
 
-5. Player clicks on **purchase**. Check **Purchase Screen** use case.
-     
-6. Player clicks on **Quit**. Exit from the game.
+4. Player clicks on **Quit**. Exit from the game.
 
 Alternate Flow: Exception in executing the game.
 
@@ -122,32 +118,8 @@ Description: Game stops running.
 Alternate Flow: Game doesn’t stop running.
 
 
-## **Use Case 1.5: View ScoreBoard**
 
-Primary Actors: Player
-
-Goal: To check the highest score of player
-
-PreCondition: Click on ScoreBoard button from Main Menu. 
-
-Triggers: ScoreBoard on Main Menu or Game finish/Game Over.
-
-Description:
-
-1. Check top 5 scores of player.
-
-2. Share Score with friends using **Share** button.
-
-3. Exit from Share Screen by clicking on the **Main menu** button.
-
-Alternate Flow : 
-
-* The scoreboard doesn’t appear.
-
-* Share button doesn't work.
-
-
-## **Use Case 1.6: Select level** 
+## **Use Case 1.5: Select level** 
 
 Primary Actors: Player
 
@@ -170,21 +142,5 @@ Alternate Flow :
 * Not able to buy level.
 * Select level button redirects to another screen.
 
-## **Use Case 1.7: Purchase Screen** 
-
-Primary Actors: Player
-
-Goal: To purchase additional features for game.
-
-Triggers: Click Purchase button from Home Screen.
-
-Description : 
-
-1. The Player selects one thing from pool of features and purchase it. 
-
-3. Player click on **Home Screen** button and goes back to Menu.
-
-
-Alternate Flow : Purchase option doesn't redirect to payment page.
 
 

@@ -124,5 +124,11 @@ Questions:
 2.  What is the team going to do next week?
 3.  What are the current blockers/challenges the team is facing?
 
+Answers:
+
+1. Our team worked on integration of different modules this week. We fixed all the bugs generated due to integration. All the assigned design patterns were implemented. We worked on generating the final class diagram of the game showing all the design patterns.
+
+2. The team is going to generate a document including all UML diagrams and the class diagram and we'll start working on the presentation and demo.
+
 3. We don't have any blocker or challenge , as we have created our final product with integration of design patterns.
 

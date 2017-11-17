@@ -1,9 +1,12 @@
 
 import greenfoot.Greenfoot;
+import greenfoot.Actor;
 import greenfoot.GreenfootImage;
 import greenfoot.GreenfootSound;
 import greenfoot.World;
+import java.util.Collection;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.Random;
 
 
@@ -13,6 +16,10 @@ public class MyWorld extends World
   private static final int HEIGHT_SCREEN = 600;
   private static final int ACTOR_FLOOR = 480;
   private int stage = 2;
+  
+  private Creator snackFactory;
+  private static final int NUM_STAGES = 6;
+  private static final int NUM_SNACKS_PER_STAGE = 6;
   
   GreenfootSound music; 
   private GreenfootImage img;
@@ -44,12 +51,21 @@ public class MyWorld extends World
     addObject(score, 700, 40); //score scrren at top right
     addObject(health, 100, 40); //health scrren at top left
     addObject(new Sound(), 740, 570); //quit button at bottom left
-    addObject(new Menu(), 50, 570); //sound button at bottom left
+    addObject(new Menu(), 50, 570);
+    //addObject(new BacktoMenu(), 200, 570); //BacktoMenu button at top left
     
     //stage 1 construction
     addObject(monkey, 40, 480);
     addObject(trash, 570, 510);
     putBanana(60, 300, 5);
+    
+    /*
+    System.out.println( "Testing Level1Factory...") ;
+    snackFactory = new Level1Factory() ;
+    ArrayList<ISnack> snacks = snackFactory.generateRandomSnacks() ;
+    putSnacks(snacks, 1);
+    */
+ 
     
     //score observer pattern
     monkey.attach(score);//attaching observer to subject
@@ -119,6 +135,33 @@ public class MyWorld extends World
       x += 60;
       addObject(new Banana(), x, y);
     }
+  }
+  
+  public void putSnacks(ArrayList<ISnack> snacks, int StageNumber) {
+      
+      if (StageNumber > 1) { // remove previous stage's objects from screen
+          int StartIndex = NUM_SNACKS_PER_STAGE * StageNumber;
+          int endIndex = StartIndex + NUM_SNACKS_PER_STAGE;
+          int x = StageNumber * 150;
+          int y = 300;
+          for (int i = StartIndex-NUM_SNACKS_PER_STAGE; i < StartIndex; i++) {
+              removeObject((Actor)snacks.get(i));
+          }
+          this.removeObjects((Collection)snacks.subList(StartIndex-NUM_SNACKS_PER_STAGE, NUM_SNACKS_PER_STAGE));
+          for (int i = StartIndex; i < endIndex; i++) {
+              x += 60;
+              addObject((Actor)snacks.get(i), x, y);
+          }
+      }  
+      
+  }
+  
+  public static int getNumSnacksPerStage() {
+      return NUM_SNACKS_PER_STAGE;
+  }
+  
+  public static int getNumStages() {
+      return NUM_STAGES;
   }
   
 }

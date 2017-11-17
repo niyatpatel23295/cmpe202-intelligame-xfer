@@ -3,6 +3,7 @@ import greenfoot.GreenfootSound;
 import greenfoot.World;
 import java.util.ArrayList;
 import java.util.Random;
+import greenfoot.*;
 
 /*
 Created by: Masi Nazarian
@@ -20,7 +21,7 @@ public abstract class Creator {
         this.gameLevel = l ;
 	}
 
-	public ArrayList<ISnack> generateRandomSnacks(int timeseed, ISnack extraSnack) {
+	public ArrayList<ISnack> generateRandomSnacks() {
         ISnack extra = getExtraSnack();
         // System.out.println( "Building Order: " + this.gameLevel );
         // System.out.println( "Extra Snack..." + extra.getClass().getName() );
@@ -36,10 +37,13 @@ public abstract class Creator {
         // 40% bananna 25% Trash 25% Cactus 10% Extra
         Random rand = new Random();
         int  n;
-        for (int i = 0; i < 100; i++) {
-            n = rand.nextInt(100) + 1; //100 is the maximum and the 1 is our minimum 
+        final int SPS = MyWorld.getNumSnacksPerStage();
+        final int STAGES = MyWorld.getNumStages();
+        final int TOTAL_SNACKS = SPS * STAGES;
+        for (int i = 0; i < TOTAL_SNACKS; i++) {
+            n = rand.nextInt(TOTAL_SNACKS) + 1; //100 is the maximum and the 1 is our minimum 
             
-            int index = (n/40) + (n/65) + (n/90) + (n/100);
+            int index = (int)(n/(TOTAL_SNACKS*0.5)) + (int)(n/(TOTAL_SNACKS*0.65)) + (int)(n/(TOTAL_SNACKS*0.9)) + (int)(n/(TOTAL_SNACKS*1));
             snacks.add(snackTypes.get(index));
         }
         

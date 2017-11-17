@@ -12,14 +12,17 @@ public class Trash extends Actor implements ISnack
   
   public Trash() {
      
-    }
+  }
+  
   public void setFlag(boolean value)
-    {
+  {
         flag = value;
-    }
+  }
     
   public void act()
   {
+    if ( !isTouching(Monkey.class) ) { setFlag(false); }
+    
     if (isTouching(Monkey.class) && (flag == false)) {
       ((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
       ((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updateHealth(-1);

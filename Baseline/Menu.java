@@ -8,6 +8,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Menu extends Button
 {
+    GameManager gm = GameManager.getInstance();
+    
 	/**
 	 * Act - do whatever the Menu wants to do. This method is called whenever
 	 * the 'Act' or 'Run' button gets pressed in the environment.
@@ -19,7 +21,7 @@ public class Menu extends Button
 		if (Greenfoot.mouseClicked(this))
 		{
 			//Greenfoot.setWorld(new HomeWorld());
-			GameManager.start();
+			gm.start();
 			((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().pause();
 		}
 	}    

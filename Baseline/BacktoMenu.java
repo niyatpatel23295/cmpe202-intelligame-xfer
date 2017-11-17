@@ -13,6 +13,7 @@ public class BacktoMenu extends Button
     {
         if (Greenfoot.mouseClicked(this)){
            gm.start();
+           ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().pause();
         }
     }
 }

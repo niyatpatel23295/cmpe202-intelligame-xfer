@@ -101,3 +101,12 @@ Added observer design pattern for the score(score screen as an observer and monk
 Added design pattern for health(health screen as an observer and cactus, trash, power as subjects).
 
 Fixed the bug of repeating bananas.
+
+Week #8
+--------------------------------------------------------------------------------------------------------------------
+
+Implemented and integrated all patterns(state, observer, command, strategy, factory) in the game.
+
+Removed the unnecessary files and functionality.
+
+Made a final game design.

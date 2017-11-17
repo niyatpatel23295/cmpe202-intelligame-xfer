@@ -66,6 +66,13 @@ public class GameManager
         System.out.println( "Game Overing...");
         currentState.setStateGameOver();
     }
+    
+    /*
+    public static void levelCompleted() {
+        System.out.println( "Game Level Completed...");
+        currentState.setStateLevelCompleted();
+    }
+    */
 
     /* public void nextLevel() {
         System.out.println( "Going to next level vm...");
@@ -79,7 +86,7 @@ public class GameManager
             //case PAUSED:     currentState = paused ; break ;
             case STOPPED :          currentState = stopped ; break ;
             case GAMEOVER :           currentState = gameover ; break ;
-            //case LEVELCOMPLETE:     currentState = levelcompleted ; break ;
+            //case LEVELCOMPLETED:     currentState = levelcompleted ; break ;
 
         }
 

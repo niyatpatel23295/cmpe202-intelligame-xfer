@@ -6,6 +6,6 @@ public interface IGameState
 	// public abstract void setStatePaused();
 	public abstract void setStateStopped();
 	public abstract void setStateGameOver();
-	//public abstract void setStateLevelComplete();
+	//public abstract void setStateLevelCompleted();
 
 }

@@ -6,14 +6,27 @@ import java.util.List;
 
 public class Coin extends Actor implements ISnack {
 
-	GreenfootSound sound = new GreenfootSound("banana.wav");
-	  
-	  public Coin() {}
-	  
-	  public void act() { if (isTouching(Monkey.class)) {
-	      sound.play();
-	      //((ScoreScreen)getWorld().getObjects(ScoreScreen.class).get(0)).updatePoints(1);
-	      getWorld().removeObject(this);
-	    }
-	  }
+    GreenfootSound sound = new GreenfootSound("banana.wav");
+    private boolean flag = false; 
+    
+    public Coin() {}
+      
+    public void setFlag(boolean value)
+    {
+        flag = value;
+    }
+    
+    public void act()
+    {
+        if ( !isTouching(Monkey.class) ) { setFlag(false); }
+            
+
+        if ( isTouching(Monkey.class) && (flag == false) ) {
+            //((Monkey)getWorld().getObjects(Monkey.class).get(0)).setImage(new GreenfootImage("monkey_dead.png"));
+            ((HealthScreen)getWorld().getObjects(HealthScreen.class).get(0)).updateHealth(-1);
+            new GreenfootSound("coin.wav").play();
+            setFlag(true);
+        }
+        
+    }
 }

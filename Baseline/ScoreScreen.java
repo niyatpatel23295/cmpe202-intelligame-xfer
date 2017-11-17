@@ -35,6 +35,8 @@ public class ScoreScreen extends Actor implements ScoreObserver
 		Monkey monkeySubject = (Monkey)getWorld().getObjects(Monkey.class).get(0); //adds subject Monkey to observer class 
 		if (((Monkey)getWorld().getObjects(Monkey.class).get(0)).getState().equals("banana collected"))
 			scoreInitial++;
+	    if (((Monkey)getWorld().getObjects(Monkey.class).get(0)).getState().equals("coin collected"))
+			scoreInitial += 3;
 		setNewScore();
 	}
 

@@ -120,12 +120,18 @@ public class MyWorld extends World
       if (stage == 6) {
         ((Monkey)getObjects(Monkey.class).get(0)).getMusic().stop();
         new GreenfootSound("the-end.wav").play(); 
-        stage = 1; //for removing error of background
-        //Greenfoot.setWorld(new LevelCompletedState(score));  //directs to level completed world with parameter score   
+        //stage = 1; //for removing error of background
+        Greenfoot.setWorld(new LevelCompletedState(score));  //directs to level completed world with parameter score   
       }  
-       setBackground(new GreenfootImage("background" + stage + ".png"));
        ((Monkey)getObjects(Monkey.class).get(0)).setLocation(0, 480); //set location after each stage
-       stage++;
+       if (stage == 6) 
+       {
+         stage = 1;
+         //gm.start();
+       } 
+       if (stage < 6) setBackground(new GreenfootImage("background" + stage + ".png"));
+
+       if (stage > 1) stage++;
     }
   } 
   

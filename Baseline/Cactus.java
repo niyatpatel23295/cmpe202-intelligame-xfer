@@ -12,7 +12,7 @@ Cactus.java :: Default snack
 
 public class Cactus extends Actor implements ISnack // extends ConcreteSubjectObserverPattern
 {
-    private boolean flag = false; // true means monley is going forward, false means backward
+    private boolean flag = false; 
 
     public void setFlag(boolean value)
     {

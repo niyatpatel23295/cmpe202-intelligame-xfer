@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Fri Nov 17 00:37:20 PST 2017
+#Fri Nov 17 00:43:58 PST 2017
 target49.type=ClassTarget
 target24.type=ClassTarget
 target16.name=BacktoMenu
@@ -332,7 +332,7 @@ target4.type=ClassTarget
 dependency62.from=MyWorld
 dependency38.type=UsesDependency
 dependency54.to=Trash
-editor.fx.0.height=722
+editor.fx.0.height=0
 class.Heart.superclass=greenfoot.Actor
 target28.type=ClassTarget
 dependency127.to=GameManager
@@ -785,7 +785,7 @@ dependency109.to=Level
 dependency84.type=UsesDependency
 target36.typeParameters=
 target47.type=ClassTarget
-editor.fx.0.width=800
+editor.fx.0.width=0
 dependency83.to=Monkey
 target39.name=Menu
 target22.type=ClassTarget
@@ -854,8 +854,8 @@ target11.x=0
 dependency19.to=GameStates
 dependency9.type=UsesDependency
 dependency72.to=Creator
-editor.fx.0.y=59
-editor.fx.0.x=320
+editor.fx.0.y=0
+editor.fx.0.x=0
 dependency8.to=GameStartState
 target44.typeParameters=
 target26.showInterface=false

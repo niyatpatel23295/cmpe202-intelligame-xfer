@@ -2,6 +2,9 @@
 
 In week #7, Our aim for this week was to eliminate wrong features, backlog items, unnecessarily complex solutions. Partially done worka and defects. We analysed all the exisiting waste available in our development and waste removel is done iteratively until even seemingly essential processes and procedures are liquidated. 
 
+**Build Integrity**
+
+In week 8, We focused on building integrity ,one of the principles in Lean Software Development. We build the game so that it is free from flaw, defects and decay. We tried to maintain integrity, both perceived and conceptual, by focusing on projects requirement i.e. keeping things simple and eliminating waste wherever we find it.
 
 **Communication**
 
@@ -86,3 +89,4 @@ In week #5, we as team showed respect for every team members' time by meeting on
 In week #6, IntelliGame team members continued developing the modules assigned to them while communicating any discrepancies faced in the classes shared between two or more team members while recognizing and respecting others' efforts and trying to reach to a common ground rather than insisting on their own point of view.
 
 In week #7, our team members finalized the implementation of their assigned design patterns and together integrated the modules, first independently, and then together,taking into account the parts of their modules that affect other team members' modules, and any inter-modul classes that had any kind of dependency to another modul's class(es). Each of us discussed the effects of other team members' code on our own, and resolved issues while remaining respectfull to each others' opinions and acknowledging their efforts. 
+

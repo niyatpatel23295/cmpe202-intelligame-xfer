@@ -9,7 +9,7 @@ public class GameStoppedState extends GameState {
 
     @Override
     public void setStateStart() {
-       Greenfoot.setWorld(new HomeWorld());
+       game_manager.setWorld(new HomeWorld());
        game_manager.setState(GameStates.START);
     }
 }

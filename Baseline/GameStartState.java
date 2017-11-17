@@ -9,13 +9,14 @@ public class GameStartState extends GameState {
 
     @Override
     public void setStateRunning() {
-       Greenfoot.setWorld(new MyWorld());
+       game_manager.setWorld(new MyWorld());
        game_manager.setState(GameStates.RUNNING);
     }
 
     @Override
     public void setStateStopped() {
-       Greenfoot.stop();
+       //Greenfoot.stop();
+       game_manager.setWorld(new HomeWorld());
        game_manager.setState(GameStates.STOPPED);
     }
 }

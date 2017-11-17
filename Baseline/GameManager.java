@@ -9,10 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class GameManager
 
 {
-    /**
-     * Act - do whatever the GameManager wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    
     static GameState start ;
     static GameState running ;
     static GameState paused ;
@@ -22,6 +19,8 @@ public class GameManager
     static GameState currentState;
     
     private static GameManager gm;
+    
+    private static World currentWorld;
     
     private GameManager()
     {
@@ -40,6 +39,15 @@ public class GameManager
             gm = new GameManager();
         }
         return gm;
+    }
+    
+    public static void setWorld(World w) {
+        currentWorld = w;
+        Greenfoot.setWorld(w);
+    }
+    
+    public static World getCurrentWorld() {
+        return currentWorld;
     }
   
    	public static void start() {
@@ -67,12 +75,11 @@ public class GameManager
         currentState.setStateGameOver();
     }
     
-    /*
+    
     public static void levelCompleted() {
         System.out.println( "Game Level Completed...");
         currentState.setStateLevelCompleted();
     }
-    */
 
     /* public void nextLevel() {
         System.out.println( "Going to next level vm...");

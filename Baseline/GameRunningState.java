@@ -9,19 +9,26 @@ public class GameRunningState extends GameState {
 
     @Override
     public void setStateStopped() {
-      Greenfoot.stop();
+      //Greenfoot.stop();
+      game_manager.setWorld(new HomeWorld());
       game_manager.setState(GameStates.STOPPED);
     }
 
     @Override
     public void setStateGameOver() {
-       Greenfoot.setWorld(new GameOverStage());
+       game_manager.setWorld(new GameOverStage());
        game_manager.setState(GameStates.GAMEOVER);
     }
     
     @Override
     public void setStateStart() {
-       Greenfoot.setWorld(new HomeWorld());
+       game_manager.setWorld(new HomeWorld());
+       game_manager.setState(GameStates.START);
+    }
+    
+    @Override
+    public void setStateLevelCompleted() {
+       game_manager.setWorld(new LevelCompletedWorld(((MyWorld)(game_manager.getCurrentWorld())).getScoreScreen()));
        game_manager.setState(GameStates.START);
     }
 

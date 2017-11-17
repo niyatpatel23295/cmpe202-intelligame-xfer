@@ -19,11 +19,11 @@ public class GameLevelCompletedState extends GameState {
        game_manager.setState(GameStates.STOPPED);
     }
     
-    /*
+    
     @Override
-    public void setStateLevelCompleted(ScoreScreen score) {
-       Greenfoot.setWorld(new HomeWorld());
-       game_manager.setState(GameStates.STOPPED);
+    public void setStateRunning() { 
+       Greenfoot.setWorld(new MyWorld());
+       game_manager.setState(GameStates.RUNNING);
     }
-    */
+    
 }

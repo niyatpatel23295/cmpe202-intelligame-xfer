@@ -35,7 +35,7 @@ public class GameState implements IGameState
         System.out.println( "Game Over is not valid in " + this.getClass().getName() + " state." );
 	}
 
-	public void setStateLevelCompleted(ScoreScreen score) {
+	public void setStateLevelCompleted() { // ScoreScreen score
         System.out.println( "Level Complete is not valid in " + this.getClass().getName() + " state." );
 	}
 	 

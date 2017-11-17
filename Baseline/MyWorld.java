@@ -69,9 +69,6 @@ public class MyWorld extends World
     
     //score observer pattern
     monkey.attach(score);//attaching observer to subject
-    
-    
-    
   }
  
 
@@ -120,15 +117,11 @@ public class MyWorld extends World
       if (stage == 6) {
         ((Monkey)getObjects(Monkey.class).get(0)).getMusic().stop();
         new GreenfootSound("the-end.wav").play(); 
-        Greenfoot.setWorld(new LevelCompletedState(score));  //directs to level completed world with parameter score   
+        //Greenfoot.setWorld(new LevelCompletedWorld(score));  //directs to level completed world with parameter score   
+        gm.levelCompleted();
         stage = 1; //for removing error of background
       }  
        ((Monkey)getObjects(Monkey.class).get(0)).setLocation(0, 480); //set location after each stage
-       // if (stage == 6) 
-       // {
-       //   stage = 1;
-       //   //gm.start();
-       // } 
        setBackground(new GreenfootImage("background" + stage + ".png"));
 
        if (stage > 1) stage++;
@@ -143,6 +136,10 @@ public class MyWorld extends World
     }
   }
   
+  public ScoreScreen getScoreScreen() {
+    return score; 
+  }
+  
   public void putSnacks(ArrayList<ISnack> snacks, int StageNumber) {
       
       if (StageNumber > 1) { // remove previous stage's objects from screen
@@ -150,10 +147,12 @@ public class MyWorld extends World
           int endIndex = StartIndex + NUM_SNACKS_PER_STAGE;
           int x = StageNumber * 150;
           int y = 300;
-          for (int i = StartIndex-NUM_SNACKS_PER_STAGE; i < StartIndex; i++) {
-              removeObject((Actor)snacks.get(i));
-          }
-          this.removeObjects((Collection)snacks.subList(StartIndex-NUM_SNACKS_PER_STAGE, NUM_SNACKS_PER_STAGE));
+          // for (int i = StartIndex-NUM_SNACKS_PER_STAGE; i < StartIndex; i++) {
+          //     removeObject((Actor)snacks.get(i));
+          // }
+          //this.removeObjects((Collection)snacks.subList(StartIndex-NUM_SNACKS_PER_STAGE, NUM_SNACKS_PER_STAGE));
+          
+
           for (int i = StartIndex; i < endIndex; i++) {
               x += 60;
               addObject((Actor)snacks.get(i), x, y);

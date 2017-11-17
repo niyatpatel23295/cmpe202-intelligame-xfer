@@ -9,13 +9,15 @@ public class GamePausedState extends GameState {
 
     @Override
     public void setStateStart() {
-       Greenfoot.setWorld(new HomeWorld());
+       //Greenfoot.setWorld(new HomeWorld());
+       game_manager.setWorld(new HomeWorld());
        game_manager.setState(GameStates.START);
     }
 
     @Override
     public void setStateRunning(){
-    	Greenfoot.start();
+    	//Greenfoot.start();
     	game_manager.setState(GameStates.RUNNING);
+    	game_manager.setWorld(new MyWorld());
     }
 }

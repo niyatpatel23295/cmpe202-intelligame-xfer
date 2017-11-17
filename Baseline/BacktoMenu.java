@@ -12,8 +12,9 @@ public class BacktoMenu extends Button
     public void act() 
     {
         if (Greenfoot.mouseClicked(this)){
+        	gm.showSate();
            gm.start();
-           ((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().pause();
+           //((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().pause();
         }
     }
 }

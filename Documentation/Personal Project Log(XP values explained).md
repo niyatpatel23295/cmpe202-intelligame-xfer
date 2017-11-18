@@ -1,12 +1,12 @@
-**Eliminate Waste**
+## Eliminate Waste
 
 In week #7, Our aim for this week was to eliminate wrong features, backlog items, unnecessarily complex solutions. Partially done worka and defects. We analysed all the exisiting waste available in our development and waste removel is done iteratively until even seemingly essential processes and procedures are liquidated. 
 
-**Build Integrity**
+## Build Integrity
 
 In week 8, We focused on building integrity ,one of the principles in Lean Software Development. We build the game so that it is free from flaw, defects and decay. We tried to maintain integrity, both perceived and conceptual, by focusing on projects requirement i.e. keeping things simple and eliminating waste wherever we find it.
 
-**Communication**
+## Communication
 
 In Week #1, our team had discussed on what the requirements are and divided the tasks individually. Each of us had planned to explore different game engines and to come up with ideas that could be integrated later. At the end of the week, we've evaluated different game engines based on their complexity, technology stack used and supported platforms. Finally, we've shared our ideas and views about each game engine. We're working together on creating the best solution possible.
 
@@ -61,7 +61,7 @@ In week #6, We have gathered various ideas to make the new enhancement in our Pr
 
 In week #7, With every new use case/story being created, the team immediately reverted with timeline estimation, firming up requirements as they arose.
 
-**Courage**
+## Courage
 In week #1, We learned about many game engines and tried to implement simple example games. We came to know that each game engine have its pros and cons. We implemented many simple example games to understand the architecture and working of different engines but we were not afraid to discard the effort and code as many game engines didn't provide what we were looking for. 
 
 In week #2, We implemented many design patterns and tried to solve some example problems with them. We also searched for many existing games to work upon. As being in reasearch phase, We invested much of our time and effort in these. But as its required, We kept doing it and finally decided which game to develop and which design patterns to use in developmet.
@@ -77,7 +77,7 @@ In week #6, Everyone has worked on assigned design pattern. It seems tought to w
 
 In week #7, Everyone had spend significant times to implement the assiged design patterns but some of us includingme finding it hard to be integrate it with baseline code. We will now start working on creating class diagram of the code.
 
-**Respect**
+## Respect
 In week #1, The IntelliGame team were respectful to each others' points of views and knowledge as a valued team member. Every team member evaluated a different game engine, and presented their results to the team, discussing all the cons and pros. Every one respected opposite opinions, and made their best effort to leverage our diverse perspectives and reasoning.  As a development team, we accepted responsibility and received authority over our work.
 
 In Week #2, our team had finalized the game engine (Greenfoot) to be used, as well as the game itself (Monkey Adventure) to be implemented. We discussed possible features of the game, and tried to understand and test the baseline code, and functionalities. We have taken the baseline code and tried to understand the same by testing it. All the above were done by several discussions among the team members, and we all listened and respected each others' points of view.

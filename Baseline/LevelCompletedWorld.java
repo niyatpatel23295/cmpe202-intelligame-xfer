@@ -18,6 +18,7 @@ public class LevelCompletedWorld extends World
 		GreenfootImage im = new GreenfootImage("background1.png");
 		setBackground(im);
 
+		/*
 		//sets screen for displaying score
         GreenfootImage imscore = new GreenfootImage(140, 55);
         Font font = new Font("Comics Sans MS", true, false, 40);
@@ -30,6 +31,7 @@ public class LevelCompletedWorld extends World
         imscore.setFont(font);
         imscore.drawString(score+"", 30, 45);
         setImage(imscore);
+        */
 		// addObject(new Level(), 400, 300);
 		// addObject(new ScoreButton(), 430, 260);	
 		addObject(new BacktoMenu(), 400, 300);

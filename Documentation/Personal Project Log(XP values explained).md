@@ -34,7 +34,7 @@ In week #7, we continued working on modules assigned to each of us and started m
 
 In week #8, we've worked on integration of all the design patterns. There were many bugs created due to integration which we cleared by discussing in detail. We've created a final class diagram for the game and updated UML diagrams as required. We've successfully implemented a fully working game with design patterns by effectively discussing the requirements and implementing them with coordination.
 
-**Simplicity**
+## Simplicity
 
 In week #1, each team member did a PoC to test out the functionalties of the Game engine. This code might not be used in the actual product but it helped the other team members to understand the game engine in a better way.
 
@@ -44,7 +44,7 @@ It’s important that as developers we understand that models are critical for s
 In week #6
 We brought about simplicity in our integration methoddology by creating modules. So that there is less dependency and more isolated tasks.
 
-**Feedback** 
+## Feedback
 In week #1, Our team has worked on finding suitable game as our project. We have evaluated scope of several game engines, with the mutual feedback on gathered ideas considering design and implementation, we came up with one game engine on which we will develop our game. Through constant feedback, we are continuously planning to improve, revise our practices and adjust our project going forward.
 
 In week #2, Every team member came up with different ideas on game based on greenfoot. After gathering their individual ideas, we finalized one game Monkey Adventure. We are improving our practices, this week we have improved collaboration among team memebers. Also, we have discussed improvement needed in game baseline code, which team will implement as the project goes forward. 

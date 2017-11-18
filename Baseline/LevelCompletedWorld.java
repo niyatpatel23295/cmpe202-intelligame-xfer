@@ -32,7 +32,7 @@ public class LevelCompletedWorld extends World
         setImage(imscore);
 		// addObject(new Level(), 400, 300);
 		// addObject(new ScoreButton(), 430, 260);	
-		addObject(new Menu(), 400, 300);
+		addObject(new BacktoMenu(), 400, 300);
 		addObject(new TryAgain(), 380, 350);
 		addObject(new QuitButton(), 380, 420);
 	}

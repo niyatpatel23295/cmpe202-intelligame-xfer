@@ -31,7 +31,7 @@ public class MyWorld extends World
   private HealthScreen health;
   private ScoreScreen score; 
 
-  Private ArrayList<ISnack> bagOfSnacks;
+  private ArrayList<ISnack> bagOfSnacks;
   
   GameManager gm = GameManager.getInstance();
   
@@ -53,9 +53,9 @@ public class MyWorld extends World
     health = new HealthScreen(); //dispalys health level of player
     monkey = new Monkey();
     
-    trash = bagOfSnacks.get(1); //new Trash();
-    cactus = bagOfSnacks.get(2); //new Cactus();
-    power = bagOfSnacks.get(3); //new PowerUp();
+    trash = (Trash)bagOfSnacks.get(1); //new Trash();
+    cactus = (Cactus)bagOfSnacks.get(2); //new Cactus();
+    power = (PowerUp)bagOfSnacks.get(3); //new PowerUp();
 
     addObject(score, 700, 40); //score scrren at top right
     addObject(health, 100, 40); //health scrren at top left
@@ -133,7 +133,7 @@ public class MyWorld extends World
    
     for (int i = 0; i < qtd; i++) {
       x += 60;
-      addObject(bagOfSnacks.get(0), x, y);
+      addObject((Banana)bagOfSnacks.get(0), x, y);
     }
   }
   

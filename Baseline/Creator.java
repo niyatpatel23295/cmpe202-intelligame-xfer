@@ -61,6 +61,8 @@ public abstract class Creator {
         snackTypes.add(new Trash());
         snackTypes.add(new Cactus());
         snackTypes.add(extra);
+        
+        return snackTypes;
     }
 
 }

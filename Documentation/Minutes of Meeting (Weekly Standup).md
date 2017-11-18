@@ -116,7 +116,7 @@ Answers:
 
 2. The next step would be to finalize the integration of modules, and then take care of any bugs that may appear as a result of integration. We will also add some final touches to the GUI (Graphical User Interface). Apart from this, we'll star working on the final integration of class diagram of the game.
 
-3. Some design pattern implementations are not completely imtegrated, so we are going to discuss that, and make sure everything makes sense in our code.
+3. Some design pattern implementations are not completely imtegrated, so we are going to discuss that, and make sure everything works fine.
 
 ## Week #8:
 Questions: 
@@ -128,7 +128,7 @@ Answers:
 
 1. Our team worked on integration of different modules this week. We fixed all the bugs generated due to integration. All the assigned design patterns were implemented. We worked on generating the final class diagram of the game showing all the design patterns.
 
-2. The team is going to generate a document including all UML diagrams and the class diagram and we'll start working on the presentation and demo.
+2. The team is going to generate a document having all the UML diagrams and we shall start working on the presentation and demonstration.
 
-3. We don't have any blocker or challenge , as we have created our final product with integration of design patterns.
+3. We don't have any blocker or challenge for this week.
 

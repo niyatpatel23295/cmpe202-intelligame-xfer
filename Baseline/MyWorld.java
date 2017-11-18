@@ -53,9 +53,9 @@ public class MyWorld extends World
     health = new HealthScreen(); //dispalys health level of player
     monkey = new Monkey();
     
-    trash = (Trash)bagOfSnacks.get(1); //new Trash();
-    cactus = (Cactus)bagOfSnacks.get(2); //new Cactus();
-    power = (PowerUp)bagOfSnacks.get(3); //new PowerUp();
+    trash = new Trash(); //(Trash)bagOfSnacks.get(1); //new Trash();
+    cactus = new Cactus(); // (Cactus)bagOfSnacks.get(2); //new Cactus();
+    power = new PowerUp(); //(PowerUp)bagOfSnacks.get(3); //new PowerUp();
 
     addObject(score, 700, 40); //score scrren at top right
     addObject(health, 100, 40); //health scrren at top left
@@ -133,7 +133,8 @@ public class MyWorld extends World
    
     for (int i = 0; i < qtd; i++) {
       x += 60;
-      addObject((Banana)bagOfSnacks.get(0), x, y);
+      Banana bnbn = (Banana)bagOfSnacks.get(0);
+      addObject(new Banana(), x, y);
     }
   }
   

@@ -20,7 +20,7 @@ public class GameManager
     
     private static GameManager gm;
     
-    //private static World currentWorld;
+    private static World currentWorld;
     
     private GameManager()
     {
@@ -42,13 +42,13 @@ public class GameManager
     }
     
     public static void setWorld(World w) {
-        //currentWorld = w;
+        currentWorld = w;
         Greenfoot.setWorld(w);
     }
     
-    // public static World getCurrentWorld() {
-    //     return currentWorld;
-    // }
+    public static World getCurrentWorld() {
+        return currentWorld;
+    }
   
    	public static void start() {
         System.out.println( "starting on...");
@@ -93,7 +93,7 @@ public class GameManager
             //case PAUSED:     currentState = paused ; break ;
             case STOPPED :          currentState = stopped ; break ;
             case GAMEOVER :           currentState = gameover ; break ;
-            case LEVELCOMPLETED:     currentState = levelcompleted ; break ;
+            //case LEVELCOMPLETED:     currentState = levelcompleted ; break ;
 
         }
 

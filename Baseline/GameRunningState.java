@@ -10,7 +10,7 @@ public class GameRunningState extends GameState {
     @Override
     public void setStateStopped() {
       //Greenfoot.stop();
-      Greenfoot.stop();
+      game_manager.setWorld(new HomeWorld());
       game_manager.setState(GameStates.STOPPED);
     }
 
@@ -28,10 +28,8 @@ public class GameRunningState extends GameState {
     
     @Override
     public void setStateLevelCompleted() {
-      System.out.println("Hit here");
-       // game_manager.setWorld(new LevelCompletedWorld(((MyWorld)(game_manager.getCurrentWorld())).getScoreScreen()));
-      game_manager.setWorld(new LevelCompletedWorld(ScoreScreen.getInstance()));
-      game_manager.setState(GameStates.START);
+       game_manager.setWorld(new LevelCompletedWorld(((MyWorld)(game_manager.getCurrentWorld())).getScoreScreen()));
+       game_manager.setState(GameStates.START);
     }
 
 }

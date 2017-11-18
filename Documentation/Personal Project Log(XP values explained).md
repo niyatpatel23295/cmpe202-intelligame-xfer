@@ -32,6 +32,8 @@ In week #6, each of us worked on different modules assigned. We coordinated when
 
 In week #7, we continued working on modules assigned to each of us and started making the final changes. We started integrating the code and correcting errors if any. We are working on integrating class diagrams of different modules into a single project class diagram. We're working together on creating the best solution possible.
 
+In week #8, we've worked on integration of all the design patterns. There were many bugs created due to integration which we cleared by discussing in detail. We've created a final class diagram for the game and updated UML diagrams as required. We've successfully implemented a fully working game with design patterns by effectively discussing the requirements and implementing them with coordination.
+
 **Simplicity**
 
 In week #1, each team member did a PoC to test out the functionalties of the Game engine. This code might not be used in the actual product but it helped the other team members to understand the game engine in a better way.

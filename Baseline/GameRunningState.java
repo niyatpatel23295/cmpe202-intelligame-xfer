@@ -28,7 +28,7 @@ public class GameRunningState extends GameState {
     
     @Override
     public void setStateLevelCompleted() {
-       game_manager.setWorld(new LevelCompletedWorld(((MyWorld)(game_manager.getCurrentWorld())).getScoreScreen()));
+       game_manager.setWorld(new LevelCompletedWorld());
        game_manager.setState(GameStates.START);
     }
 

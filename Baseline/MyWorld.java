@@ -30,6 +30,8 @@ public class MyWorld extends World
   private PowerUp power;
   private HealthScreen health;
   private ScoreScreen score; 
+
+  private ArrayList<ISnack> bagOfSnacks;
   
   GameManager gm = GameManager.getInstance();
   
@@ -39,15 +41,22 @@ public class MyWorld extends World
     
     img = new GreenfootImage("background1.png");
     setBackground(img);
+
+    // Factory Design Pattern :: generate bag of snacks for level 1
+    System.out.println( "Testing Level1Factory...") ;
+    snackFactory = new Level1Factory() ;
+    bagOfSnacks = snackFactory.getBagOfSnacks(); // banana, trash, cactus, extra
+    //ArrayList<ISnack> snacks = snackFactory.generateRandomSnacks();
     
     //objects for play screen
-    score = ScoreScreen.getInstance(); //records point collected
+    score = new ScoreScreen(); //records point collected
     health = new HealthScreen(); //dispalys health level of player
-    trash = new Trash();
     monkey = new Monkey();
-    cactus = new Cactus();
-    power = new PowerUp();
     
+    trash = (Trash)bagOfSnacks.get(1); //new Trash();
+    cactus = (Cactus)bagOfSnacks.get(2); //new Cactus();
+    power = (PowerUp)bagOfSnacks.get(3); //new PowerUp();
+
     addObject(score, 700, 40); //score scrren at top right
     addObject(health, 100, 40); //health scrren at top left
     addObject(new Sound(), 740, 570); //quit button at bottom left
@@ -58,15 +67,7 @@ public class MyWorld extends World
     addObject(monkey, 40, 480);
     addObject(trash, 570, 510);
     putBanana(60, 300, 5);
-    
-    /*
-    System.out.println( "Testing Level1Factory...") ;
-    snackFactory = new Level1Factory() ;
-    ArrayList<ISnack> snacks = snackFactory.generateRandomSnacks() ;
-    putSnacks(snacks, 1);
-    */
  
-    
     //score observer pattern
     monkey.attach(score);//attaching observer to subject
   }
@@ -132,7 +133,7 @@ public class MyWorld extends World
    
     for (int i = 0; i < qtd; i++) {
       x += 60;
-      addObject(new Banana(), x, y);
+      addObject((Banana)bagOfSnacks.get(0), x, y);
     }
   }
   
@@ -168,5 +169,7 @@ public class MyWorld extends World
   public static int getNumStages() {
       return NUM_STAGES;
   }
+
+
   
 }

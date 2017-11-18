@@ -11,9 +11,9 @@ import greenfoot.GreenfootImage;
 public class ScoreScreen extends Actor implements ScoreObserver
 {
     private int scoreInitial;
-    public static ScoreScreen ss;
+    //public static ScoreScreen ss;
 
-    private ScoreScreen()  
+    public ScoreScreen()  
     {
         scoreInitial = 0;
         
@@ -31,11 +31,15 @@ public class ScoreScreen extends Actor implements ScoreObserver
         setImage(im);
     }
 
-    public static ScoreScreen getInstance() {
-        if (ss == null) {
-            ss = new ScoreScreen();
-        }
-        return ss;
+    // public static ScoreScreen getInstance() {
+    //     if (ss == null) {
+    //         ss = new ScoreScreen();
+    //     }
+    //     return ss;
+    // }
+
+    public int getScore() {
+        return scoreInitial;
     }
     
     

@@ -50,6 +50,19 @@ public abstract class Creator {
         return snacks;
     }
 
+    public ArrayList<ISnack> getBagOfSnacks() {
+        ISnack extra = getExtraSnack();
+        // System.out.println( "Building Order: " + this.gameLevel );
+        // System.out.println( "Extra Snack..." + extra.getClass().getName() );
+
+        ArrayList<ISnack> snackTypes = new ArrayList<ISnack>();;
+
+        snackTypes.add(new Banana());
+        snackTypes.add(new Trash());
+        snackTypes.add(new Cactus());
+        snackTypes.add(extra);
+    }
+
 }
 
 

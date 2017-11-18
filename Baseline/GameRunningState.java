@@ -30,7 +30,7 @@ public class GameRunningState extends GameState {
     public void setStateLevelCompleted() {
       System.out.println("Hit here");
        // game_manager.setWorld(new LevelCompletedWorld(((MyWorld)(game_manager.getCurrentWorld())).getScoreScreen()));
-      game_manager.setWorld(new LevelCompletedWorld(ScoreScreen.getInstance()));
+      game_manager.setWorld(new LevelCompletedWorld());
       game_manager.setState(GameStates.START);
     }
 

@@ -17,6 +17,7 @@ public class GameOverState extends GameState {
     @Override
     public void setStateRunning() {
        //Greenfoot.setWorld(new MyWorld());
+      
        game_manager.setWorld(new MyWorld());
        game_manager.setState(GameStates.RUNNING);
     }

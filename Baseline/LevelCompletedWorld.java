@@ -11,7 +11,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class LevelCompletedWorld extends World
 {
 	//Constructor with reference to score from previous level
-	public LevelCompletedWorld(int score)
+	public LevelCompletedWorld()
 	{    
 		super(800, 600, 1); 
 		// ScoreScreen ss = (ScoreScreen)getObjects(ScoreScreen.class).get(0);

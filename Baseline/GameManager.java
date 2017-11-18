@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class GameManager here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Niyat Patel
+ * @version 1.0
  */
 public class GameManager
 
@@ -12,7 +12,6 @@ public class GameManager
     
     static GameState start ;
     static GameState running ;
-    static GameState paused ;
     static GameState stopped ;
     static GameState gameover ;
     static GameState levelcompleted ;
@@ -20,13 +19,11 @@ public class GameManager
     
     private static GameManager gm;
     
-    private static World currentWorld;
-    
+
     private GameManager()
     {
         start = new GameStartState(this);
         running = new GameRunningState(this);
-        paused = new GamePausedState(this);
         stopped = new GameStoppedState(this);
         gameover = new GameOverState(this);  
         levelcompleted = new GameLevelCompletedState(this);      
@@ -40,15 +37,6 @@ public class GameManager
         }
         return gm;
     }
-    
-    public static void setWorld(World w) {
-        currentWorld = w;
-        Greenfoot.setWorld(w);
-    }
-    
-    public static World getCurrentWorld() {
-        return currentWorld;
-    }
   
    	public static void start() {
         System.out.println( "starting on...");
@@ -59,11 +47,6 @@ public class GameManager
         System.out.println( "running off...");
 	    currentState.setStateRunning();
 	}
-	 
-	/*public void pause() {
-        System.out.println( "pausing...");
-	    currentState.setStatePaused();
-	}*/
 	 
 	public static void stop() {
         System.out.println( "stopping...");
@@ -77,23 +60,19 @@ public class GameManager
     
     
     public static void levelCompleted() {
-        System.out.println( "Game Level Completed...");
+        
+        System.out.println( "Completing Level...");
         currentState.setStateLevelCompleted();
+       
     }
-
-    /* public void nextLevel() {
-        System.out.println( "Going to next level vm...");
-        currentState.setStateLevelComplete();
-    }*/
 
 	void setState(GameStates nextState) {
         switch( nextState ) {
             case START :          currentState = start ; break ;
             case RUNNING :           currentState = running ; break ;
-            //case PAUSED:     currentState = paused ; break ;
             case STOPPED :          currentState = stopped ; break ;
             case GAMEOVER :           currentState = gameover ; break ;
-            //case LEVELCOMPLETED:     currentState = levelcompleted ; break ;
+            case LEVELCOMPLETED:     currentState = levelcompleted ; break ;
 
         }
 

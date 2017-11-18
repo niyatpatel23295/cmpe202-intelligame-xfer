@@ -15,7 +15,7 @@ public class GameLevelCompletedState extends GameState {
     
     @Override
     public void setStateStopped() {
-       Greenfoot.setWorld(new HomeWorld());
+       System.exit(1);
        game_manager.setState(GameStates.STOPPED);
     }
     

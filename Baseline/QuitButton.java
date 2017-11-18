@@ -9,7 +9,7 @@ public class QuitButton extends Button
 		if (Greenfoot.mouseClicked(this))
 		{
 		    System.out.println("Stop button clicked");
-			gm.start();
+			gm.stop();
 		}
 	}    
 }

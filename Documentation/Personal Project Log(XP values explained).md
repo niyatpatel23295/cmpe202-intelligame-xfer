@@ -63,6 +63,9 @@ In week #6, We have gathered various ideas to make the new enhancement in our Pr
 
 In week #7, With every new use case/story being created, the team immediately reverted with timeline estimation, firming up requirements as they arose.
 
+In week #8, After integrating individual's work and assigned designed patterns, We got so many bugs and other integration problems. Everybody has reported on the correctness of each other's design patterns and eveyone got feedback of their 8 Weeks work. As the end final deadline aproaching, Everyone helped each other and resolved all integration bugs successfully.  
+
+
 ## Courage
 In week #1, We learned about many game engines and tried to implement simple example games. We came to know that each game engine have its pros and cons. We implemented many simple example games to understand the architecture and working of different engines but we were not afraid to discard the effort and code as many game engines didn't provide what we were looking for. 
 

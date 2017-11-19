@@ -2,6 +2,8 @@
 
 In week #7, Our aim for this week was to eliminate wrong features, backlog items, unnecessarily complex solutions. Partially done worka and defects. We analysed all the exisiting waste available in our development and waste removel is done iteratively until even seemingly essential processes and procedures are liquidated. 
 
+In week #8, As we had been integrating our code step by step every week, we were successful in eliminating waste during our integration phase.
+
 ## Build Integrity
 
 In week 8, We focused on building integrity ,one of the principles in Lean Software Development. We build the game so that it is free from flaw, defects and decay. We tried to maintain integrity, both perceived and conceptual, by focusing on projects requirement i.e. keeping things simple and eliminating waste wherever we find it.

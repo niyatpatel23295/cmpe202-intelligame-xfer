@@ -11,22 +11,28 @@ import greenfoot.Greenfoot;
 
 public class ScoreScreen extends Actor implements ScoreObserver
 {
-    private static int scoreInitial = 0;
+    private static int score = 0;
+    private static ScoreScreen scoreInstance;
     private static GameStrategy strategy;
     
     public void setStrategy(GameStrategy strategy){
         this.strategy = strategy;
     }
     public int getScore(){
-        return scoreInitial;
+        return score;
     }
     
-    public void setScore()
-    {
-        scoreInitial = 0;
+    public static ScoreScreen getInstance(){
+        if(scoreInstance == null){
+            scoreInstance = new ScoreScreen();
+        }
+        return scoreInstance;
     }
+    
+    
+    
 
-    public ScoreScreen()  
+    private ScoreScreen()  
     {
        // scoreInitial = 0;
         
@@ -53,9 +59,24 @@ public class ScoreScreen extends Actor implements ScoreObserver
             GameStrategyContext ctx = new GameStrategyContext(strategy);
             int speed = ctx.executeStrategy();
             Greenfoot.setSpeed(speed);
-            scoreInitial++;
+            score++;
 }
         setNewScore();
+    }
+    
+     public void resetSpeed(){
+        Greenfoot.setSpeed(35);
+    }
+   
+    
+    public void resetScore(){
+        score = 0;
+    }
+    
+    public void reset(){
+        scoreInstance = null;
+        resetScore();
+        resetSpeed();
     }
 
     public void setNewScore()
@@ -70,7 +91,7 @@ public class ScoreScreen extends Actor implements ScoreObserver
 
         gim.setColor(Color.WHITE);
         gim.setFont(font);
-        gim.drawString(String.valueOf(scoreInitial), 30, 45);
+        gim.drawString(String.valueOf(score), 30, 45);
         setImage(gim);
     }
 }

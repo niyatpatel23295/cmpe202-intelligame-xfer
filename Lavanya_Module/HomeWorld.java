@@ -28,7 +28,7 @@ public class HomeWorld extends World
 
         //addObject(new PlayButton(), 400, 250); //takes to play screen
         //addObject(new LevelButton(), 400, 330); //takes to levels screen
-        addObject(new ExitButton(), 400, 410); //stops game
+        //addObject(new ExitButton(), 400, 410); //stops game
         //addObject(new ScoreButton(), 250, 550); // score board
         //addObject(new ShareFriends(),400, 550); //sharing options
         //addObject(new Help(), 550, 550); //info page for various key operations
@@ -48,14 +48,20 @@ public class HomeWorld extends World
         PlayEasyMode pem = new PlayEasyMode();
         addObject(pem, 400, 250);
         
+        ExitButton eb = new ExitButton();
+        addObject(eb, 400, 410); //stops game
+        
         Command commandSlow = new ConcreteCommand();
         Command commandFast = new ConcreteCommand();
+        Command commandExit = new ConcreteCommand();
         
         commandSlow.setReceiver(new ReceiverSlow());
         commandFast.setReceiver(new ReceiverFast());
+        commandExit.setReceiver(new ReceiverExit());
         
         pdm.setCommand(commandFast);
         pem.setCommand(commandSlow);
+        eb.setCommand(commandExit);
         
     }
 }

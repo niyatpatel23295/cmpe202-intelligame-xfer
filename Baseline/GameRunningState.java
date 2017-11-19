@@ -1,5 +1,14 @@
 import greenfoot.Greenfoot;
 
+/**
+ * Subclass that handles RUNNING state
+ * 
+ * 
+ * @author Niyat Patel
+ * @version 1.0
+ */
+
+
 public class GameRunningState extends GameState {
 
     public GameRunningState( GameManager gm )

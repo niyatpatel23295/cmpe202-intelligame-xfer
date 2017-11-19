@@ -94,8 +94,17 @@ Week #6
 Week #7
 --------------------------------------------------------------------------------------------------------------------
 
-Modified state design pattrn for changing code accomodation.
+1. Modified state design pattern for changing code accomodation.
 
-Created new files for implementing state design pattern of game flow.
+2. Created new files for implementing state design pattern of game flow.
 
-Fixed other bugs and improvements.
+3. Fixed other bugs and improvements.
+
+4. Other minor bug Fixes.
+
+Week #8
+--------------------------------------------------------------------------------------------------------------------
+
+1. Worked on final integration of state design pattern.
+2. Resolved BUGs after integrating other design patterns
+3. Created Final Class Diagram.

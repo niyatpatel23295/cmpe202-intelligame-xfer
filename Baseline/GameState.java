@@ -1,10 +1,13 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class GameState here.
+ * Game state will work as a middleware between IGameState and its 
+ * implementor in a way that each subclass will have to implement methods
+ * which are relevant and give default implmentation to other irrelavent methods. 
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * 
+ * @author Niyat Patel
+ * @version 1.0
  */
 public class GameState implements IGameState
 {

@@ -2,6 +2,8 @@
 
 In week #7, Our aim for this week was to eliminate wrong features, backlog items, unnecessarily complex solutions. Partially done worka and defects. We analysed all the exisiting waste available in our development and waste removel is done iteratively until even seemingly essential processes and procedures are liquidated. 
 
+In week #8, As we had been integrating our code step by step every week, we were successful in eliminating waste during our integration phase.
+
 ## Build Integrity
 
 In week 8, We focused on building integrity ,one of the principles in Lean Software Development. We build the game so that it is free from flaw, defects and decay. We tried to maintain integrity, both perceived and conceptual, by focusing on projects requirement i.e. keeping things simple and eliminating waste wherever we find it.
@@ -61,6 +63,9 @@ In week #6, We have gathered various ideas to make the new enhancement in our Pr
 
 In week #7, With every new use case/story being created, the team immediately reverted with timeline estimation, firming up requirements as they arose.
 
+In week #8, After integrating individual's work and assigned designed patterns, We got so many bugs and other integration problems. Everybody has reported on the correctness of each other's design patterns and eveyone got feedback of their 8 Weeks work. As the end final deadline aproaching, Everyone helped each other and resolved all integration bugs successfully.  
+
+
 ## Courage
 In week #1, We learned about many game engines and tried to implement simple example games. We came to know that each game engine have its pros and cons. We implemented many simple example games to understand the architecture and working of different engines but we were not afraid to discard the effort and code as many game engines didn't provide what we were looking for. 
 
@@ -92,3 +97,4 @@ In week #6, IntelliGame team members continued developing the modules assigned t
 
 In week #7, our team members finalized the implementation of their assigned design patterns and together integrated the modules, first independently, and then together,taking into account the parts of their modules that affect other team members' modules, and any inter-modul classes that had any kind of dependency to another modul's class(es). Each of us discussed the effects of other team members' code on our own, and resolved issues while remaining respectfull to each others' opinions and acknowledging their efforts. 
 
+In week #8, we worked on integrating the modules and their respective design patterns into the game. After integrating each of design patterns, several bugs introduced to the the code, and all of team members worked on resolving those bugs. Considering that ithose discussions often involved changing the work done by one of team members, we all tried to make sure that we respect each other and avoid arguments that would focus on anything other than effectively resolving the development problems. We listened to each other and had several constructive arguments.

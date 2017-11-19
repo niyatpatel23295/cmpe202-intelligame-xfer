@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class GameManager here.
+ * Game Manager is the main program that will manage the flow of the entire Game. 
  * 
  * @author Niyat Patel
  * @version 1.0

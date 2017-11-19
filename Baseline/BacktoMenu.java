@@ -12,6 +12,7 @@ public class BacktoMenu extends Button
     public void act() 
     {
         if (Greenfoot.mouseClicked(this)){
+            ScoreScreen.getInstance().reset();
         	gm.showState();
            gm.start();
 

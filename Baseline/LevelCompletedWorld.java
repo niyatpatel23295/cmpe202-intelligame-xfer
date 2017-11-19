@@ -17,6 +17,7 @@ public class LevelCompletedWorld extends World
 		// ScoreScreen ss = (ScoreScreen)getObjects(ScoreScreen.class).get(0);
 		GreenfootImage im = new GreenfootImage("background1.png");
 		setBackground(im);
+		ScoreScreen.getInstance().reset();
 
 		/*
 		//sets screen for displaying score
@@ -35,8 +36,8 @@ public class LevelCompletedWorld extends World
 		// addObject(new Level(), 400, 300);
 		// addObject(new ScoreButton(), 430, 260);	
 		addObject(new BacktoMenu(), 400, 300);
-		addObject(new TryAgain(), 380, 350);
-		addObject(new QuitButton(), 380, 420);
+		//addObject(new TryAgain(), 380, 350);
+		addObject(new QuitButton(), 400, 390);
 	}
 	
 	public void act() {}

@@ -21,6 +21,7 @@ public class Menu extends Button
 		if (Greenfoot.mouseClicked(this))
 		{
 			//Greenfoot.setWorld(new HomeWorld());
+			ScoreScreen.getInstance().reset();
 			gm.start();
 			((Monkey)getWorld().getObjects(Monkey.class).get(0)).getMusic().pause();
 		}

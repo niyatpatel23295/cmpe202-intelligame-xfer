@@ -17,14 +17,15 @@ public class GameOverStage extends World
 	{    
 	    
 		super(800, 600, 1); 
+		ScoreScreen.getInstance().reset();
 		
 		(new GreenfootSound("game-over.wav")).play();
 		GreenfootImage im = new GreenfootImage("menubg1.jpg");
 		setBackground(im);
 		//addObject(new GameOver(), 400, 300);
-		addObject(new TryAgain(), 450, 250);
-		addObject(new BacktoMenu(), 450, 320);
-		addObject(new QuitButton(), 450, 390);
+		//addObject(new TryAgain(), 450, 250);
+		addObject(new BacktoMenu(), 400, 300);
+		addObject(new QuitButton(), 400, 390);
 		System.out.println("GameOverStage Initialized");
 		
 	}

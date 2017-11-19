@@ -49,7 +49,7 @@ public class MyWorld extends World
     //ArrayList<ISnack> snacks = snackFactory.generateRandomSnacks();
     
     //objects for play screen
-    score = new ScoreScreen(); //records point collected
+    score = ScoreScreen.getInstance(); //records point collected
     health = new HealthScreen(); //dispalys health level of player
     monkey = new Monkey();
     

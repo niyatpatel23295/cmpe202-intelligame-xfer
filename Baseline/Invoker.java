@@ -1,14 +1,13 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class ScoreButton here.
+ * Write a description of class Invoker here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class ScoreButton extends Button
+public interface Invoker 
 {
-	public void act() 
-	{
-	}    
+    public void setCommand(Command c);
+    public void invoke();
 }

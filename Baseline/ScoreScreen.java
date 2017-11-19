@@ -2,6 +2,7 @@ import greenfoot.Actor;
 import greenfoot.Color;
 import greenfoot.Font;
 import greenfoot.GreenfootImage;
+import greenfoot.Greenfoot;
 
 /*
  * Observer for score observer pattern
@@ -10,12 +11,32 @@ import greenfoot.GreenfootImage;
 
 public class ScoreScreen extends Actor implements ScoreObserver
 {
-    private int scoreInitial;
-    //public static ScoreScreen ss;
+    private static int score = 0;
+    private static ScoreScreen scoreInstance;
+    private static GameStrategy strategy;
+    
+    public void setStrategy(GameStrategy strategy){
+        this.strategy = strategy;
+    }
+    public int getScore(){
+        return score;
+    }
+    
+    public static ScoreScreen getInstance(){
+        if(scoreInstance == null){
+            scoreInstance = new ScoreScreen();
+        }
+        return scoreInstance;
+    }
+    
+    
+    
 
-    public ScoreScreen()  
+    private ScoreScreen()  
     {
-        scoreInitial = 0;
+       // scoreInitial = 0;
+        
+        
         
         //sets screen for displaying score
         GreenfootImage im = new GreenfootImage(140, 55);
@@ -31,26 +52,31 @@ public class ScoreScreen extends Actor implements ScoreObserver
         setImage(im);
     }
 
-    // public static ScoreScreen getInstance() {
-    //     if (ss == null) {
-    //         ss = new ScoreScreen();
-    //     }
-    //     return ss;
-    // }
-
-    public int getScore() {
-        return scoreInitial;
-    }
-    
-    
     public void observerUpdate()
     {
         Monkey monkeySubject = (Monkey)getWorld().getObjects(Monkey.class).get(0); //adds subject Monkey to observer class 
-        if (((Monkey)getWorld().getObjects(Monkey.class).get(0)).getState().equals("banana collected"))
-            scoreInitial++;
-        if (((Monkey)getWorld().getObjects(Monkey.class).get(0)).getState().equals("coin collected"))
-            scoreInitial += 3;
+        if (((Monkey)getWorld().getObjects(Monkey.class).get(0)).getState().equals("banana collected")){
+            GameStrategyContext ctx = new GameStrategyContext(strategy);
+            int speed = ctx.executeStrategy();
+            Greenfoot.setSpeed(speed);
+            score++;
+}
         setNewScore();
+    }
+    
+     public void resetSpeed(){
+        Greenfoot.setSpeed(35);
+    }
+   
+    
+    public void resetScore(){
+        score = 0;
+    }
+    
+    public void reset(){
+        scoreInstance = null;
+        resetScore();
+        resetSpeed();
     }
 
     public void setNewScore()
@@ -65,7 +91,7 @@ public class ScoreScreen extends Actor implements ScoreObserver
 
         gim.setColor(Color.WHITE);
         gim.setFont(font);
-        gim.drawString(String.valueOf(scoreInitial), 30, 45);
+        gim.drawString(String.valueOf(score), 30, 45);
         setImage(gim);
     }
 }

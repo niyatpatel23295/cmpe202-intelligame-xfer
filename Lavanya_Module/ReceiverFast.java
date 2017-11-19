@@ -1,15 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class ReceiverFast here.
+ * Write a description of class ConcreteReceiver here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
 public class ReceiverFast implements Receiver
 {    
+    GameManager gm = GameManager.getInstance();
     public void setMode(){
-        new ScoreScreen().setStrategy(new Fast());
-        Greenfoot.setWorld(new MyWorld());
+        ScoreScreen.getInstance().setStrategy(new FastMode());
+         System.out.println("playdifficultbutton clicked");
+        //Greenfoot.setWorld(new MyWorld());
+        gm.run();
     }
 }

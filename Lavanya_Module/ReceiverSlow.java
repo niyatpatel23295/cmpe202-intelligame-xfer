@@ -8,8 +8,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class ReceiverSlow implements Receiver
 {
+    GameManager gm = GameManager.getInstance();
     public void setMode(){
-        new ScoreScreen().setStrategy(new Slow());
-        Greenfoot.setWorld(new MyWorld());
+        ScoreScreen.getInstance().setStrategy(new SlowMode());
+        System.out.println("playeasybutton clicked");
+        gm.run();
+        //Greenfoot.setWorld(new MyWorld());
     }
 }

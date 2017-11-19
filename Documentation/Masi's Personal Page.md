@@ -95,3 +95,10 @@ An example of implementing the menu options using composite design pattern can b
 1. Implemented the first version of code integration between several modules of the game
 2. Fix some bugs that appeared as a result of integration
 3. Applied some final touches to GUI
+
+## Week #8:
+
+1. Integrated design patterns for different modules into the game.
+2. Implemented Factory design pattern for the game.
+3. Fixed bugs generated due to integration.
+4. Worked on the final Class Diagram.

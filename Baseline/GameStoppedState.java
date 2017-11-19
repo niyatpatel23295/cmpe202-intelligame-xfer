@@ -1,5 +1,13 @@
 import greenfoot.Greenfoot;
 
+/**
+ * Subclass that handles STOPPED state
+ * 
+ * 
+ * @author Niyat Patel
+ * @version 1.0
+ */
+
 public class GameStoppedState extends GameState {
 
     public GameStoppedState( GameManager gm )

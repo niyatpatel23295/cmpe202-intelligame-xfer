@@ -1,0 +1,901 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"time",
+				"timeStamp\t: DOMTimeStamp Event"
+			],
+			[
+				"GameS",
+				"GameStates\t(GameStates.java)"
+			],
+			[
+				"GameOver",
+				"GameOverState"
+			],
+			[
+				"GameSta",
+				"GameStartState\t(GameManager.java)"
+			],
+			[
+				"GAme",
+				"GameManager"
+			],
+			[
+				"Game",
+				"GameManager\t(GameManager.java)"
+			],
+			[
+				"nd1_",
+				"nd1_1"
+			],
+			[
+				"respo",
+				"response_kafka"
+			],
+			[
+				"res",
+				"response\t(kafkarpc.js)"
+			],
+			[
+				"handle",
+				"handle_signup_request\t(server.js)"
+			],
+			[
+				"cons",
+				"console.log\t(passport.js)"
+			],
+			[
+				"consu",
+				"consumer_signup"
+			],
+			[
+				"make",
+				"make_request\t(passport.js)"
+			],
+			[
+				"JSON",
+				"JSON_stringify\t( value: any, replacer?: any, space?: any ): string JSON"
+			],
+			[
+				"calss",
+				"className\t: DOMString Element"
+			],
+			[
+				"func",
+				"function\t(app.js)"
+			],
+			[
+				"emal",
+				"email"
+			],
+			[
+				"user",
+				"userdata"
+			],
+			[
+				"alignContent",
+				"alignContent\t = 'center' Style CSS"
+			],
+			[
+				"align",
+				"alignContent\t Style CSS"
+			],
+			[
+				"alig",
+				"alignSelf\t = 'flex-start' Style CSS"
+			],
+			[
+				"margin",
+				"marginLeft\t Style CSS"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"Re",
+				"Redirect\t(Welcome.js)"
+			],
+			[
+				"remove",
+				"removeItem\t( key: DOMString ): void Storage"
+			],
+			[
+				"rea",
+				"react"
+			],
+			[
+				"find",
+				"findOne"
+			],
+			[
+				"Add",
+				"AddItem"
+			],
+			[
+				"create",
+				"createClass"
+			],
+			[
+				"getEleme",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"Jso",
+				"JSON_stringify\t( value: any, replacer?: any, space?: any ): string JSON"
+			],
+			[
+				"JS",
+				"JSON_stringify\t( value: any, replacer?: any, space?: any ): string JSON"
+			],
+			[
+				"parse",
+				"JSON_parse\t( json: string ): any JSON"
+			],
+			[
+				"this",
+				"this.state"
+			],
+			[
+				"nu",
+				"num_2"
+			],
+			[
+				"number",
+				"number1"
+			],
+			[
+				"do",
+				"doSum\t(API.js)"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"forEach",
+				"forEach\t( callbackfn: Function, thisArg?: any ): Array Array"
+			],
+			[
+				"files",
+				"filesList"
+			],
+			[
+				"stringify",
+				"stringify\t( value: any, replacer?: any, space?: any ): string JSON"
+			],
+			[
+				"toLo",
+				"toLowerCase\t(): string String"
+			],
+			[
+				"passw",
+				"password_hash"
+			],
+			[
+				"exists",
+				"fs.existsSync(path);"
+			],
+			[
+				"readFile",
+				"fs.readFileSync"
+			],
+			[
+				"writeFil",
+				"fs.writeFileSync(path, data, options);"
+			],
+			[
+				"pass",
+				"password_hash"
+			],
+			[
+				"sign",
+				"signup_SQL"
+			],
+			[
+				"createHmac",
+				"crypto.createHmac"
+			],
+			[
+				"crea",
+				"crypto.createHmac"
+			],
+			[
+				"en",
+				"env\t(app.js)"
+			],
+			[
+				"sinl",
+				"singleton_2"
+			],
+			[
+				"sin",
+				"singleton"
+			],
+			[
+				"arr",
+				"arr_1"
+			],
+			[
+				"merge",
+				"mergeSort"
+			],
+			[
+				"Data",
+				"DataSet"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"sorted",
+				"sortedList"
+			],
+			[
+				"sor",
+				"sortedList"
+			],
+			[
+				"functi",
+				"function"
+			],
+			[
+				"current",
+				"currentState"
+			],
+			[
+				"power",
+				"poweredOffState"
+			],
+			[
+				"vm",
+				"vm_manager"
+			],
+			[
+				"Vm",
+				"VmSuspended"
+			],
+			[
+				"setSta",
+				"setState"
+			],
+			[
+				"VmPo",
+				"VmPoweredOff"
+			],
+			[
+				"Virtua",
+				"VirtualMachineState"
+			],
+			[
+				"VmS",
+				"VmState"
+			],
+			[
+				"suse",
+				"suspendedState"
+			],
+			[
+				"VirtualMa",
+				"VirtulMachineManager"
+			],
+			[
+				"console",
+				"console_log"
+			],
+			[
+				"Virtu",
+				"VirtulMachineManager"
+			],
+			[
+				"doPower",
+				"doPowerOn"
+			],
+			[
+				"doPo",
+				"doPowerOn"
+			],
+			[
+				"consol",
+				"console_log"
+			],
+			[
+				"con",
+				"concreateHandler3"
+			],
+			[
+				"setS",
+				"setSuccessor"
+			],
+			[
+				"handl",
+				"handleRequest"
+			],
+			[
+				"su",
+				"successor"
+			],
+			[
+				"Conc",
+				"ConcreateHandler1"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"Concreate",
+				"description-createProcessingInstruction\tDocument"
+			],
+			[
+				"num",
+				"num_1"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"cal",
+				"calculatsum"
+			],
+			[
+				"order",
+				"orders_arr"
+			],
+			[
+				"justify",
+				"textJustify\t Style CSS"
+			],
+			[
+				"just",
+				"justifyContent\t = 'center' Style CSS"
+			],
+			[
+				"style",
+				"style\t Style CSS"
+			],
+			[
+				"marginTo",
+				"marginTop\t = '' Style CSS"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"jumbo",
+				"jumbotron:fluid\tfluid_jumbotron"
+			],
+			[
+				"offset",
+				"startOffset\t: unsigned long Range"
+			],
+			[
+				"va",
+				"validateUser"
+			],
+			[
+				"get",
+				"getLoginPage"
+			],
+			[
+				"form",
+				"form-control \tBootstrap 4 Class"
+			],
+			[
+				"cls",
+				"cards:content_type:list\tcontent-type_list"
+			],
+			[
+				"off",
+				"offset-6 \tBootstrap 4 Class"
+			],
+			[
+				"mb-",
+				"mb-3 \tBootstrap 4 Class"
+			],
+			[
+				"mb",
+				"mb-3 \tBootstrap 4 Class"
+			],
+			[
+				"col-m",
+				"col-md-3 \tBootstrap 4 Class"
+			],
+			[
+				"md",
+				"col-md-3 \tBootstrap 4 Class"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/niyatpatel/Downloads/amazingrace/Camera.java",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/niyatpatel/Downloads/amazingrace/Guard.java",
+			"settings":
+			{
+				"buffer_size": 558,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/niyatpatel/Downloads/amazingrace/Watcher.java",
+			"settings":
+			{
+				"buffer_size": 128,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "in",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"termn",
+				"Terminal: Open in project folder"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rmeo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 592.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+			"node",
+			"`node"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/decorator",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/factory_method",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/observer",
+		"/Users/niyatpatel/Downloads/amazingrace"
+	],
+	"file_history":
+	[
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/observer/ConcreteObserver.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/observer/ConcreteSubject.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/observer/Observer.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/observer/ObserverTest.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/observer/Optimist.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/observer/Pessimist.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/observer/Subject.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/project.greenfoot",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/BacktoMenu.java",
+		"/Users/niyatpatel/Desktop/Hotels_ Find Cheap Hotel Deals & Discounts - KAYAK.html",
+		"/Users/niyatpatel/Documents/Study/Hacking/signature.txt",
+		"/Users/niyatpatel/Downloads/SpringBootDemoCode/SpringBootDemo/src/main/java/com/repository/UserRepository.java",
+		"/Users/niyatpatel/Downloads/SpringBootDemoCode/SpringBootDemo/src/main/java/com/controller/UserController.java",
+		"/Users/niyatpatel/Downloads/SpringBootDemoCode/SpringBootDemo/src/main/resources/application.properties",
+		"/Users/niyatpatel/Downloads/SpringBootDemoCode/SpringBootDemo/src/main/resources/import.sql",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/state/Tester.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/singleton/Client.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/QuitButton.ctxt",
+		"/Users/niyatpatel/Desktop/TOH.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameOver.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameOverState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameLevelCompletedState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameManager.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameStoppedState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/IGameState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameStartState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameRunningState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameStates.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GamePausedState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/GameOverSatte.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/Baseline/niyat_module/Tester.java",
+		"/Users/niyatpatel/Desktop/square_intersect.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo 4/kafka-back-end/kafka/Connection.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo 4/kafka-back-end/server.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo 4/kafka-back-end/services/login.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/Kafka Demo/kafka/back-end/routes/users.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/Kafka Demo/kafka/back-end/app.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/Kafka Demo/kafka/kafka-back-end/services/login.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/Kafka Demo/kafka/kafka-back-end/server.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/Kafka Demo/kafka/back-end/routes/passport.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/Kafka Demo/kafka/back-end/routes/kafka/client.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/Kafka Demo/kafka/kafka-back-end/kafka/Connection.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/back-end/routes/passport.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/front-end/src/App.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/front-end/src/components/LanddingPage.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/front-end/src/components/Message.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/front-end/src/api/API.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/back-end/app.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/front-end/src/components/SignUp.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/front-end/src/components/Welcome.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/front-end/src/components/Login.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/MongoDB/MongoDBDemo/back-end/routes/index.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Demo/ReactJS Demo Codes/LoginAppReactJS/reactlogin/src/components/Login.js",
+		"/Users/niyatpatel/Misc/react-playlist/webpack.config.js",
+		"/Users/niyatpatel/Misc/react-playlist/src/app/AddItem.js",
+		"/Users/niyatpatel/Misc/react-playlist/src/app/ToDoItem.js",
+		"/Users/niyatpatel/Misc/react-playlist/src/app/index.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 272/CMPE 272 Notes",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/dropbox-react-js/src/components/NewerHomePage.js",
+		"/Users/niyatpatel/Desktop/Courses Overview.txt",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/dropbox-react-js/src/components/Message1.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/dropbox-react-js/src/components/HomePage.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/dropbox-react-js/src/components/SignUp.js",
+		"/Users/niyatpatel/Downloads/LatestDropbox/Dropbox/dropbox-react-js/src/api/API.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Calculator/express_calculator/app.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/react_calculator/reacts_calculator/src/api/API.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Calculator/express_calculator/routes/calculator.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Calculator/express_calculator/views/index.ejs",
+		"/Users/niyatpatel/Downloads/LoginAppReactJS/reactlogin/src/App.test.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/react_calculator/reacts_calculator/public/index.html",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/react_calculator/reacts_calculator/src/App.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/react_calculator/reacts_calculator/src/App.css",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/react_calculator/reacts_calculator/src/components/Calculator.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/react_calculator/reacts_calculator/package.json",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/design_patterns_js/strategy.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/design_patterns_js/state.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/dropbox-express-mysql/middleware/untitled.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/dropbox-express-mysql/routes/userfiles.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/strategy/DataSet.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/Makefile",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/strategy/BubbleSort.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/strategy/MergeSort.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/strategy/Tester.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/state/VirtualMachineManager.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/state/VmPoweredOff.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/singleton/Singleton.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/state/VmSuspended.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/state/VmStates.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/state/VmState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/state/VmPoweredOn.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/chain_of_responsibility/ConcreteHandler2.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/state/VirtualMachineState.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/design_patterns_js/chain-of-responsibility.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/chain_of_responsibility/Handler.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/chain_of_responsibility/ConcreteHandler3.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/chain_of_responsibility/ConcreteHandler1.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/patterns/chain_of_responsibility/Client.java",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202/gradle/Makefile",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Calculator/express_calculator/utils/helper.js",
+		"/Users/niyatpatel/Downloads/MySQLConnection/app.js",
+		"/Users/niyatpatel/Downloads/MySQLConnection/routes/home.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Calculator/express_calculator/routes/users.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/cmpe202-intelligame/README.md",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/reactApp/src/components/test.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/reactApp/src/index.css",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/reactApp/src/components/FoodApp.js",
+		"/Users/niyatpatel/Downloads/MySQLConnection 3/views/signin.ejs",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/reactApp/src/App.css",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/reactApp/src/App.test.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/reactApp/src/logo.svg",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/reactApp/src/App.js",
+		"/Users/niyatpatel/Downloads/reduxtodo/react-redux-todo-reduxfinal/src/components/MyToDo.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/getJSON_chrome_sheets_script.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 202/CMPE 202 Notes:",
+		"/Users/niyatpatel/Downloads/MySQLConnection 2/routes/index.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Demo/loginDemo/routes/home.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Demo/loginDemo/package.json",
+		"/Users/niyatpatel/Downloads/MySQLConnection 2/app.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Demo/loginDemo/app.js",
+		"/Users/niyatpatel/Downloads/MySQLConnection 2/package.json",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Demo/logindemo/views/login.ejs",
+		"/Users/niyatpatel/Downloads/MySQLConnection 2/routes/home.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Demo/logindemo/routes/home.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Demo/logindemo/app.js",
+		"/Users/niyatpatel/Downloads/MySQLConnection 2/views/signin.ejs",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Demo/logindemo/routes/users.js",
+		"/Users/niyatpatel/Documents/Study/CMPE 273/Homework/Nodejs_Demo/mysql_demo/routes/home.js"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/niyatpatel/Downloads/amazingrace/Camera.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1511038921.3,
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/niyatpatel/Downloads/amazingrace/Guard.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								556,
+								556
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1511038924.12,
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/niyatpatel/Downloads/amazingrace/Watcher.java",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1511039000.27,
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 65.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 114.0
+	},
+	"pinned_build_system": "",
+	"project": "paul_repo.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"proje",
+				"project.greenfoot"
+			],
+			[
+				"back",
+				"BacktoMenu.java"
+			],
+			[
+				"game",
+				"GameManager.java"
+			],
+			[
+				"qui",
+				"QuitButton.java"
+			],
+			[
+				"quitbu",
+				"QuitButton.ctxt"
+			],
+			[
+				"",
+				"dropbox-express-mysql/app.js"
+			],
+			[
+				"make",
+				"patterns/Makefile"
+			],
+			[
+				"index",
+				"routes/index.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

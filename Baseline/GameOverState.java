@@ -1,5 +1,14 @@
 import greenfoot.Greenfoot;
 
+/**
+ * Subclass that handles GAMEOVER state
+ * 
+ * 
+ * @author Niyat Patel
+ * @version 1.0
+ */
+
+
 public class GameOverState extends GameState {
 
     public GameOverState( GameManager gm )

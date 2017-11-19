@@ -1,5 +1,13 @@
 import greenfoot.Greenfoot;
 
+/**
+ * Subclass that handles GAMELEVELCOMPLETED state
+ * 
+ * 
+ * @author Niyat Patel
+ * @version 1.0
+ */
+
 public class GameLevelCompletedState extends GameState {
 
     public GameLevelCompletedState( GameManager gm )

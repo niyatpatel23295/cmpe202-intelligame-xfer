@@ -1,3 +1,12 @@
+
+/**
+ * The main interface of the State Design Pattern
+ * 
+ * 
+ * @author Niyat Patel
+ * @version 1.0
+ */
+
 public interface IGameState
  {
 	 

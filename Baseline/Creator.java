@@ -57,10 +57,12 @@ public abstract class Creator {
 
         ArrayList<ISnack> snackTypes = new ArrayList<ISnack>();;
 
-        snackTypes.add(new Banana());
         snackTypes.add(new Trash());
         snackTypes.add(new Cactus());
         snackTypes.add(extra);
+        for (int i = 0; i < 5; i++) {
+            snackTypes.add(new Banana());
+        }
         
         return snackTypes;
     }

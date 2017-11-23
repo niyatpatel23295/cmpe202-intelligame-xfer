@@ -134,7 +134,7 @@ public class MyWorld extends World
     for (int i = 0; i < qtd; i++) {
       x += 60;
       Banana bnbn = (Banana)bagOfSnacks.get(i+3);
-      addObject(new Banana(), x, y);
+      addObject(bnbn, x, y);
     }
   }
   

@@ -10,7 +10,7 @@ Fcatory Design Pattern
 Cactus.java :: Default snack
 */
 
-public class Cactus extends Actor implements ISnack // extends ConcreteSubjectObserverPattern
+public class Cactus extends SnackActor implements ISnack // extends ConcreteSubjectObserverPattern
 {
     private boolean flag = false; 
 

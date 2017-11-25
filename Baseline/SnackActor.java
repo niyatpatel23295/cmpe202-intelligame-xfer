@@ -7,21 +7,15 @@ import java.util.List;
 
 
 public class SnackActor extends Actor
-{
-  private boolean flag = false;
-  
+{  
   public SnackActor() {
      super();
   }
   
   public void setFlag(boolean value)
-  {
-        flag = value;
-  }
+  { }
     
   public void act()
-  {
-
-  }
+  { }
   
 }

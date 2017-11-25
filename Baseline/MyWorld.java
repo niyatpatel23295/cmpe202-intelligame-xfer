@@ -17,7 +17,6 @@ public class MyWorld extends World
   private static final int ACTOR_FLOOR = 480;
   private int stage = 2;
   
-  private Creator snackFactory;
   private static final int NUM_STAGES = 6;
   private static final int NUM_SNACKS_PER_STAGE = 6;
   
@@ -31,6 +30,7 @@ public class MyWorld extends World
   private HealthScreen health;
   private ScoreScreen score; 
 
+  private Creator snackFactory;
   private ArrayList<ISnack> bagOfSnacks;
   
   GameManager gm = GameManager.getInstance();

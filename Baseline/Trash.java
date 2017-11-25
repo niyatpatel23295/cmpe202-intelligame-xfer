@@ -6,7 +6,7 @@ import greenfoot.World;
 import java.util.List;
 
 
-public class Trash extends Actor implements ISnack
+public class Trash extends SnackActor implements ISnack
 {
   private boolean flag = false;
   

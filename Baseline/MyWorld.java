@@ -17,7 +17,6 @@ public class MyWorld extends World
   private static final int ACTOR_FLOOR = 480;
   private int stage = 2;
   
-  private Creator snackFactory;
   private static final int NUM_STAGES = 6;
   private static final int NUM_SNACKS_PER_STAGE = 6;
   
@@ -25,12 +24,13 @@ public class MyWorld extends World
   private GreenfootImage img;
   
   private Monkey monkey;
-  private Cactus cactus;
-  private Trash trash;
-  private PowerUp power;
+  private SnackActor cactus;
+  private SnackActor trash;
+  private SnackActor power;
   private HealthScreen health;
   private ScoreScreen score; 
 
+  private Creator snackFactory;
   private ArrayList<ISnack> bagOfSnacks;
   
   GameManager gm = GameManager.getInstance();
@@ -44,7 +44,7 @@ public class MyWorld extends World
 
     // Factory Design Pattern :: generate bag of snacks for level 1
     System.out.println( "Testing Level1Factory...") ;
-    snackFactory = new Level1Factory() ;
+    snackFactory = new BasicModeFactory(); // PaidModeFactory();
     bagOfSnacks = snackFactory.getBagOfSnacks(); // banana, trash, cactus, extra
     //ArrayList<ISnack> snacks = snackFactory.generateRandomSnacks();
     
@@ -53,9 +53,9 @@ public class MyWorld extends World
     health = new HealthScreen(); //dispalys health level of player
     monkey = new Monkey();
     
-    trash = (Trash)bagOfSnacks.get(0); //new Trash();
-    cactus = (Cactus)bagOfSnacks.get(1); //new Cactus();
-    power = (PowerUp)bagOfSnacks.get(2); //new PowerUp();
+    trash = (SnackActor)bagOfSnacks.get(0); //new Trash();
+    cactus = (SnackActor)bagOfSnacks.get(1); //new Cactus();
+    power = (SnackActor)bagOfSnacks.get(2); //new PowerUp();
 
     addObject(score, 700, 40); //score scrren at top right
     addObject(health, 100, 40); //health scrren at top left
@@ -133,7 +133,7 @@ public class MyWorld extends World
    
     for (int i = 0; i < qtd; i++) {
       x += 60;
-      Banana bnbn = (Banana)bagOfSnacks.get(i+3);
+      Actor bnbn = (SnackActor)bagOfSnacks.get(i+3);
       addObject(bnbn, x, y);
     }
   }
@@ -157,7 +157,7 @@ public class MyWorld extends World
 
           for (int i = StartIndex; i < endIndex; i++) {
               x += 60;
-              addObject((Actor)snacks.get(i), x, y);
+              addObject((SnackActor)snacks.get(i), x, y);
           }
       }  
       

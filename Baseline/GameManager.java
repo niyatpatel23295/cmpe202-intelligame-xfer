@@ -19,7 +19,6 @@ public class GameManager
     
     private static GameManager gm;
     
-
     private GameManager()
     {
         start = new GameStartState(this);

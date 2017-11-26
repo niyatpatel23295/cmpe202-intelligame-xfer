@@ -12,13 +12,13 @@ Date: 11/10/2017
 
 public abstract class Creator {
 
-    // String gameLevel = "level1";
+    //String gameMode = "BasicModeFactory";
 	private ArrayList<ISnack> snacks = new ArrayList<ISnack>();
 
 	public abstract ISnack getExtraSnack();
 
-	// public void takeLevel(String l) {
- //        this.gameLevel = l ;
+	// public void setMode(String l) {
+ //        this.gameMode = l ;
 	// }
 
     public ArrayList<ISnack> getBagOfSnacks() {

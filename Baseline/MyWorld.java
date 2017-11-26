@@ -30,7 +30,7 @@ public class MyWorld extends World
   private HealthScreen health;
   private ScoreScreen score; 
 
-  private Creator snackFactory;
+  private static Creator snackFactory;
   private ArrayList<ISnack> bagOfSnacks;
   
   GameManager gm = GameManager.getInstance();
@@ -41,15 +41,17 @@ public class MyWorld extends World
     
     img = new GreenfootImage("background1.png");
     setBackground(img);
-
-    // Factory Design Pattern :: generate bag of snacks for level 1
-    System.out.println( "Testing Level1Factory...") ;
-    snackFactory = new BasicModeFactory(); // PaidModeFactory();
-    bagOfSnacks = snackFactory.getBagOfSnacks(); // banana, trash, cactus, extra
-    //ArrayList<ISnack> snacks = snackFactory.generateRandomSnacks();
     
     //objects for play screen
     score = ScoreScreen.getInstance(); //records point collected
+    
+    // Factory Design Pattern :: generate bag of snacks for level 1
+    System.out.println( "Testing Factory Design Pattern...") ;
+    snackFactory = score.getSnackFactory(); // PaidModeFactory();
+    bagOfSnacks = snackFactory.getBagOfSnacks(); // banana, trash, cactus, extra
+    //ArrayList<ISnack> snacks = snackFactory.generateRandomSnacks();
+    
+    
     health = new HealthScreen(); //dispalys health level of player
     monkey = new Monkey();
     
@@ -170,7 +172,5 @@ public class MyWorld extends World
   public static int getNumStages() {
       return NUM_STAGES;
   }
-
-
   
 }

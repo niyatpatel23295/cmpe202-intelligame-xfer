@@ -11,6 +11,7 @@ public class FastMode implements GameStrategy
     static private int speed = 40;    
         
     public int calculateSpeed(){ 
+        
         if(ScoreScreen.getInstance().getScore() == 0){
             speed = 40;
         }

@@ -14,12 +14,23 @@ public class ScoreScreen extends Actor implements ScoreObserver
     private static int score = 0;
     private static ScoreScreen scoreInstance;
     private static GameStrategy strategy;
+    private static Creator snackFactory;
     
     public void setStrategy(GameStrategy strategy){
         this.strategy = strategy;
+        if (strategy instanceof FastMode) {
+            snackFactory = new PaidModeFactory();
+        }
+        else if (strategy instanceof SlowMode) {
+            snackFactory = new BasicModeFactory();
+        }
     }
     public int getScore(){
         return score;
+    }
+    
+    public Creator getSnackFactory() {
+        return snackFactory;
     }
     
     public static ScoreScreen getInstance(){

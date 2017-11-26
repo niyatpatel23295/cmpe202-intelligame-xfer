@@ -45,8 +45,12 @@ public class HomeWorld extends World
         PlayDifficultMode pdm = new PlayDifficultMode();
         addObject(pdm, 400, 330);
         
+        addObject(new Coin(), 500, 330);
+        
         PlayEasyMode pem = new PlayEasyMode();
         addObject(pem, 400, 250);
+        
+        addObject(new PowerUp(), 500, 250);
         
         ExitButton eb = new ExitButton();
         addObject(eb, 400, 410); //stops game

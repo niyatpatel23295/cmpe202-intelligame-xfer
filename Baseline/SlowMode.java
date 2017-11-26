@@ -11,6 +11,7 @@ public class SlowMode  implements GameStrategy
     static private int speed = 35;    
         
     public int calculateSpeed(){
+        
         if( (ScoreScreen.getInstance().getScore() == 0)){
             speed = 35;
         }

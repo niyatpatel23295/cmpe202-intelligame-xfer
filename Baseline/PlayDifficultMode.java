@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class PlayDifficultMode extends Button
+public class PlayDifficultMode extends Button implements Invoker
 {
     private Command command;
     //private GreenfootSound music;

@@ -1,6 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class ExitButton extends Button
+public class ExitButton extends Button implements Invoker
 {
     //GameManager gm = GameManager.getInstance();
     

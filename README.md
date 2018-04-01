@@ -20,3 +20,6 @@ IntelliGame is going to be developed within an 8-week plan. Two different agile 
 
 Stay tuned with our exciting project! :)
 
+## Documentation 
+
+For detailed documentation go to [Documentation](/Documentation)

@@ -11,32 +11,12 @@ IntelliGame is a web-based fun and interactive game that is currently under deve
 IntelliGame is going to be developed within an 8-week plan. Two different agile methodologies are going to be practiced during this project: Kanban for the first half, and Scrum for the second half. 
 
 **Meet IntelliGame Team:**
+* [Niyat Patel](https://github.com/niyatpatel23295)
 * [Masi Nazarian](https://github.com/Masea)
 * [Dhanashree Goankar](https://github.com/dgaonkar17)
 * [Ambika Bohra](https://github.com/ambikabohra)
 * [Lavanya Kandukuri](https://github.com/lkandukuri)
-* [Niyat Patel](https://github.com/niyatpatel23295)
+
 
 Stay tuned with our exciting project! :)
-
-## Download and Installation 
-
-* Existing Game: [Mr.Monkey](http://www.greenfoot.org/scenarios/19921)
-
-## Usage
-
-
-
-## Project Deliverables
-
-
-
-## Link to Project Website
-
-
-
-## Copyright and Licence
-
-
-
 

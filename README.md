@@ -22,7 +22,7 @@ Stay tuned with our exciting project! :)
 
 ## Documentation 
 
-For detailed documentation go to [Documentation](/Documentation)
+For detailed documentation go to [Documentation](/Documentation) and [Presentation](https://docs.google.com/presentation/d/1hr2QsRz1jWoiiEijMMzYTL_2kigXGd1ZSww9GGx6gT4/edit#slide=id.g2a5157d878_0_0)
 
 
 ## Existing features:
